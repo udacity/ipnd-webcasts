@@ -169,7 +169,7 @@ following steps to transition from [CodePen][cp]:
 2. Open a new tab in Sublime Text and copy CSS into it, if you have any. Save
    that file in the same folder as the HTML file and remember its name.
 3. Ensure that a `link` element exists in the `head` of the HTML file that
-   points to any CSS files that you have:  
+   points to any CSS files that you have:
    `<link rel="stylesheet" href="main.css">`
 4. Open HTML file in your favorite browser.
 
@@ -177,7 +177,7 @@ You'll have to refresh your browser and save your HTML and CSS file
 periodically, but other than that, it's a pretty nice way to get some
 programming done!
 
-[hangout]: https://www.youtube.com/watch?v=Au0ro1nqOq4
+[hangout]: https://plus.google.com/events/cpuimfqjau4fv3nra5a98dnving
 [discourse]: http://discussions.udacity.com
 [ws1]: http://discussions.udacity.com/t/sharing-work-session-1-notes/2597
 [ws2]: http://discussions.udacity.com/t/sharing-work-session-2-notes/2695
