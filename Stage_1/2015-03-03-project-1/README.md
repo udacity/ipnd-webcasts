@@ -1,7 +1,7 @@
 OH: The Nanodegree as a Whole and Stage 1
 ==========================================
 
-Andy worked with Liz on her Stage 1 project. Watch Andy help Liz fix her Stage 1 project.
+Andy worked with Liz on her Stage 1 project. Watch Andy help Liz fix her Stage 1 project. [OH video](https://plus.google.com/events/cmtb5ijlk7s3jerqhq7op7jnfjo?authkey=COzZjMbU_baxrwE)
 
 Liz is a project manager at Udacity and is working on completing the Intro to Programming Nanodegree curriculum! Like many of you, Liz does not have any prior programming experience and she's excited to learn with everyone!
 
@@ -35,7 +35,6 @@ Problems Liz wants to Address
 
 ###2. HTML Validator
   * You don't have to use the link from the course to access the HTML Validator. You can just search for it on the internet.
-  * 
  
 ###3. CSS
   * **Questions:** What does the dot mean in CSS? (Don't hesitate to search the internet for the answer. You'll be surprised how easy it can be to find the answer)
