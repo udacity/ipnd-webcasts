@@ -1,7 +1,7 @@
 OH: The Nanodegree as a Whole and Stage 1
 ==========================================
 
-Andy hosted this office hour session to answer student questions! Join us to hear his and Surajit's insights and advice for students. They answered questions related to the Nanodegree progrom, the tools used, and possible next steps Intro to Programming Nanodegree students can do after graduating.  
+Andy hosted this office hour session to answer student questions! Join us to hear his and Surajit's insights and advice for students. They answered questions related to the Nanodegree progrom, the tools used, and possible next steps Intro to Programming Nanodegree students can do after graduating. [OH video](https://plus.google.com/events/cp7hehv43iefmdlcfcbe03uuf34?authkey=CJTHgqavyYPfTw) 
 
 Question & Answer
 -----------------
