@@ -20,9 +20,9 @@ Problems Liz wants to Address
   * **Question:** What's the difference between ```<p>``` and ```<div>```?
    * ```<div>``` is a structural element that helps organize the browser
    * The ```<p>``` tag is specifically for paragraphs, it lets us organize large bodies of text in HTML.
-  * **TIP:** If you need to fix the intentation of a section in your HTML code, you can select  the section and hit "tab" the required number of times. To remove indentation, just press "tab" + "shift"
+  * **TIP:** If you need to fix the indentation of a section in your HTML code, you can select  the section and hit "tab" the required number of times. To remove indentation, just press "tab" + "shift"
   * Correctly formatted HTML code will have a smooth indentation wave. (ie. no sudden changes  in indentation)
-  * **TIP:** Add margins, boarders, and background color to help visualize the structure of the  HTML code. This can be easily removed once the code is complete. 
+  * **TIP:** Add margins, borders, and background color to help visualize the structure of the  HTML code. This can be easily removed once the code is complete. 
 ```
 <style>
   *{
@@ -76,7 +76,7 @@ Problems Liz wants to Address
 ```
 
 ###4. How to code/style things efficiently
-  * If you find yourself styling many different things the same way, you can the style the shared  outter level of the HTML code.
+  * If you find yourself styling many different things the same way, you can the style the shared  outer level of the HTML code.
 
 ###5. Easy ways to add content/how to fix the shrinking box problem
   * Make sure that the content is nested in a consistent way, the deeper an item is nested, the smaller the box.
@@ -90,4 +90,4 @@ A ```<div>``` is a place to put stuff. We can change properties of a ```<div>```
 
 >**Question:** It seems like the DOM tree is the same as HTML code, but in our lesson we were  taught it is different. Which is right?
 
-**Answer:** They are similar in some ways but they are different. One difference is that people  usually say they are "manipulating the DOM." When people manipulate the DOM tree, it's like they're trimming the branches,  removing branches, or even grafting new branches to the tree. This analogy refers to the elements instead of  the HTML code that genereates the website. 
+**Answer:** They are similar in some ways but they are different. One difference is that people  usually say they are "manipulating the DOM." When people manipulate the DOM tree, it's like they're trimming the branches,  removing branches, or even grafting new branches to the tree. This analogy refers to the elements instead of  the HTML code that generates the website. 
