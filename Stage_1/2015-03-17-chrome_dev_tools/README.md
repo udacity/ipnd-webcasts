@@ -107,5 +107,5 @@ Below is a questions and answer from the Live Office Hour session that involve C
 
 [chrome_download]: https://www.google.com/chrome/browser/desktop/
 [andys]: http://codepen.io/AndyAtUdacity/pen/KweNKa?editors=110
-[OH]: https://plus.google.com/events/clkm4umamn5he1bvna6dptqsvco
+[OH]: https://plus.google.com/events/clkm4umamn5he1bvna6dptqsvco?authkey=CO7I8p62gt3y9gE
 [devtool]: https://developer.chrome.com/devtools#dom-and-styles
