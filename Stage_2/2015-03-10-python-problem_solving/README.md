@@ -135,5 +135,5 @@ This procedural thinking is key to mastering programming: we break the problem d
 
 Outlining our code or writing pseudocode will enable us to organize our code in a high-level way so we can keep track of the bigger picture of our program.
 
-[recording]: https://plus.google.com/events/cvd7n15lqrmf267jfb4b978bo7c
+[recording]: https://plus.google.com/events/cvd7n15lqrmf267jfb4b978bo7c?authkey=CNiLyr-Q-t_I2AE
 [code]: sudoku.py
