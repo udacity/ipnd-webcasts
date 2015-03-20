@@ -16,7 +16,7 @@ which happen every Tuesday at 4pm Pacific Time.
 - [T 3/10][5]: Andy and Mark step through how to write a Python program to check whether a Sudoku grid is valid or not.
 - [T 3/17][6]: Mark and Luke answers Stage 0/1 questions and walks everyone through using Chrome's Development Tools to explore HTML and CSS code for any website.
 
-[1]: https://plus.google.com/events/cpehpd7ehd414g5vkpc0g4ojkq8
+[1]: https://plus.google.com/events/cpehpd7ehd414g5vkpc0g4ojkq8?authkey=CO262J255Kf2Iw
 [2]: Stage_1/2015-02-17-project-1/README.md
 [3]: General/2015-02-24-general/README.md
 [4]: Stage_1/2015-03-03-project-1/README.md
