@@ -33,15 +33,25 @@ It is also possible for a traceback to give you the line *after* the error in th
 Traceback also can give you where in the program the problem line is called from:
 
 Traceback (most recent call last):
+
   File "debugging_demo.py", line 172, in <module>
+  
     test()
+    
   File "debugging_demo.py", line 166, in test
+  
     if is_identity_matrix(matrix) != is_identity_matrix_actual(matrix):
+    
   File "debugging_demo.py", line 85, in is_identity_matrix
+  
     if not is_square(matrix):
+    
   File "debugging_demo.py", line 66, in is_square
+  
     if len(row) != len(column):
+    
 TypeError: object of type 'int' has no len()
+
 
 Line 66 is the problem line here, in the function is_square.  This is from the time is_square() was called from is_identity_matrix() in line 85.  That function was called from function test() in line 166, which itself was called from line 172.  
 
