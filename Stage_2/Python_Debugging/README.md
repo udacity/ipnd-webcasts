@@ -20,6 +20,7 @@ When a Python program crashes, Python will tell you where your error is.
 For instance, running [debugging_demo.py]() without debugging it at all will produce this:
 
 File "debugging_demo.py", line 67
+
     print ((["This is not a square matrix!")))
                                            ^
 SyntaxError: invalid syntax
