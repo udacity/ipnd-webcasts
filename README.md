@@ -15,6 +15,7 @@ which happen every Tuesday at 4pm Pacific Time.
 - [T 3/3][4]: Andy helps Liz work through problems in her Stage 1 project.
 - [T 3/10][5]: Andy and Mark step through how to write a Python program to check whether a Sudoku grid is valid or not.
 - [T 3/17][6]: Mark and Luke answers Stage 0/1 questions and walks everyone through using Chrome's Development Tools to explore HTML and CSS code for any website.
+- [T 3/24][7]: Luke and Mark go over debugging in Python.
 
 [1]: https://plus.google.com/events/cpehpd7ehd414g5vkpc0g4ojkq8?authkey=CO262J255Kf2Iw
 [2]: Stage_1/2015-02-17-project-1/README.md
@@ -22,3 +23,4 @@ which happen every Tuesday at 4pm Pacific Time.
 [4]: Stage_1/2015-03-03-project-1/README.md
 [5]: Stage_2/2015-03-10-python-problem_solving/README.md
 [6]: Stage_1/2015-03-17-chrome_dev_tools/README.md
+[7]: Stage_2/Python_Debugging/README.md
