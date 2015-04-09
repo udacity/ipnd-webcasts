@@ -1,4 +1,4 @@
-OH: Divs, Spans, Ids, And Classes Oh My!
+Office Hours: Divs, Spans, Ids, And Classes Oh My!
 ==========================================
 
 Here is a link to the [Office Hours Video][OH]
