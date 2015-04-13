@@ -7,13 +7,13 @@ Now, we break down how we are going to attack the problem.
 
 ##Output:  What do we want our output and input to look like?
 
-         Our output should look like a finished HTML page, or, if it turns out that is beyond our capabilities, as close to a finished HTML page as we can imagine
+Our output should look like a finished HTML page, or, if it turns out that is beyond our capabilities, as close to a finished HTML page as we can imagine
 
 ##Input:  What do we want our input to look like?
         
-        This one is less clear, so we should consider what our objectives are:
+This one is less clear, so we should consider what our objectives are:
 
-        Making our objective of taking notes as easy as possible.  One way to accomplish this would be to use a text file, or, barring that, putting our notes in as a single long string.
+Making our objective of taking notes as easy as possible.  One way to accomplish this would be to use a text file, or, barring that, putting our notes in as a single long string.
 
 Ok, now we know what our program should do; it will turn our input of text notes into output of an html!
 
@@ -25,8 +25,8 @@ Before we start, how can we break this into small steps?
 
 We can:
 
-Make the body piece by piece
-Break pieces into individual concepts
+- Make the body piece by piece
+- Break pieces into individual concepts
 
 Look at how we can do this for one concept before doing others
 
@@ -110,6 +110,7 @@ def get_concept_by_number(text, concept_number):
 
 Next, we can use that to write the whole html from our notes:
 
+```python
 def generate_all_html(text):
     current_concept_number = 1  
     concept = get_concept_by_number(text, current_concept_number)
@@ -122,7 +123,7 @@ def generate_all_html(text):
         current_concept_number = current_concept_number + 1
         concept = get_concept_by_number(text, current_concept_number)
     return all_html
-
+```
 Now we can generate some basic html!
 
 There are still some things to do, though.... 
