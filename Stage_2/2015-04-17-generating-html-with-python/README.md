@@ -10,11 +10,11 @@ First, look at what your objective is:
 
 Now, we break down how we are going to attack the problem.
 
-##Output:  What do we want our output and input to look like?
+###Output:  What do we want our output and input to look like?
 
 Our output should look like a finished HTML page, or, if it turns out that is beyond our capabilities, as close to a finished HTML page as we can imagine
 
-##Input:  What do we want our input to look like?
+###Input:  What do we want our input to look like?
         
 This one is less clear, so we should consider what our objectives are:
 
@@ -35,10 +35,10 @@ We can:
 
 Look at how we can do this for one concept before doing others
 
-##Looking at a single concept
+###Looking at a single concept
 
 As we're taking notes, we can break things into what the concept name is called and descritions of the concept, we can do the same thing here.  One way to do this is to literally have our notes designate where the title and descriptions are:  
-
+```python
 """
 TITLE:  Some title
 DESCRIPTION:  Some description
@@ -46,15 +46,17 @@ DESCRIPTION:  Some description
 TITLE:  Some other title
 DESCRIPTION:  Some other description
 """
+```
 The above would be two concepts.
 
 Let's see if we can get the title and concept from a single couple of those, so a single concept would be:
-
+```python
 """
 TITLE:  Some title
 DESCRIPTION:  Some description
 """
-
+```
+Finding a single title from a single concept:
 ```python
 def get_title(concept):
     start_location = concept.find('TITLE:')  #Find the location of the Start of the title
@@ -135,4 +137,4 @@ There are still some things to do, though....
 
 We're going to have to make a desision on our notes; do we want to write some basic html in our notes, or do we want to escape our characters so we can write notes *about* escaped charectars faster?  (If we want to do both, we're going to have to invent our own markup language!)  Do we want to include html headers, designating css and such?  Do we want to get our text from a text file?  All of these are things you can explore if you chose...
 
-[OH](https://plus.google.com/u/0/events/ce4q4b7kbkk7vqdjlg82n9tsgrg?authkey=CMOi96bUucjhrAE)
+[OH]: https://plus.google.com/u/0/events/ce4q4b7kbkk7vqdjlg82n9tsgrg?authkey=CMOi96bUucjhrAE
