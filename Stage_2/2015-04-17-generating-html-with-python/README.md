@@ -6,7 +6,7 @@ Here is a link to the [Office Hours Video][OH]
 ###How to break down a problem:
 
 First, look at what your objective is:
-   1.  Generate your HTML with Python using functions
+ - Generate your HTML with Python using functions
 
 Now, we break down how we are going to attack the problem.
 
