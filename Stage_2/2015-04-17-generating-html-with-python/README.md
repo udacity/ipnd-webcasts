@@ -3,7 +3,7 @@ OH: Generating HTML with Python
 
 Here is a link to the [Office Hours Video][OH]
 
-How to break down a problem:
+###How to break down a problem:
 
 First, look at what your objective is:
    1.  Generate your HTML with Python using functions
