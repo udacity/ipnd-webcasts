@@ -184,7 +184,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 /end
 """
   # Uses loops to extract the information
-concepts = generate_concept_objects(total_concepts)
+  concepts = generate_concept_objects(total_concepts)
 
   # Uses regular expressions to extract the information
   # concepts_from_re = generate_concept_objects_reg(total_concepts_re)
