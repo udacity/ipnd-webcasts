@@ -1,4 +1,4 @@
-OH: Generating HTML with Python
+Office Hours: Generating HTML with Python
 ==========================================
 
 Here is a link to the [Office Hours Video][OH]
@@ -135,6 +135,6 @@ Now we can generate some basic html!
 
 There are still some things to do, though.... 
 
-We're going to have to make a desision on our notes; do we want to write some basic html in our notes, or do we want to escape our characters so we can write notes *about* escaped charectars faster?  (If we want to do both, we're going to have to invent our own markup language!)  Do we want to include html headers, designating css and such?  Do we want to get our text from a text file?  All of these are things you can explore if you chose...
+We're going to have to make a desision on our notes; do we want to write some basic html in our notes, or do we want to escape our characters so we can write notes *about* escaped charectars faster?  (If we want to do both, we're going to have to invent our own markup language!)  Do we want to include html headers, designating css and such?  Do we want to get our text from a text file?  All of these are things you can explore if you choose...
 
 [OH]: https://plus.google.com/u/0/events/ce4q4b7kbkk7vqdjlg82n9tsgrg?authkey=CMOi96bUucjhrAE
