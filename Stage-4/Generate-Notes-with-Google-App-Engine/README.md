@@ -100,8 +100,6 @@ If you deploy your app from GAE launcher, you can now view your notes directly o
 
 ##Summary
 
-Summary goes here
-
 - webapp2 is the main Python module you will be using for Google App engine; it creates a WSGIApplication application which will direct your url paths to the Python code which will handle them.  
 - *args and **kwargs can let you give an indeterminate number of parameters to a function, or pass in lists, tuples, or dictionaries into functions which take multiple specific parameters
 
