@@ -4,14 +4,17 @@
 
 Here is the link to the [Office Hour Recording][recording]
 
-What We Will Learn
+##What We Will Learn
+We will go over 3 main things in this office hours:
+- How to use webapp2
+- How to put your notes up on GAE
+- How *args and **kwargs work as arguments and parameters to functions
 
-webapp2
-https://webapp-improved.appspot.com/api/webapp2.html
+###How to use webapp2
+A few links which will help you learn how webapp2 works:
+- https://webapp-improved.appspot.com/api/webapp2.html
+- https://webapp-improved.appspot.com/guide/handlers.html
 
-https://webapp-improved.appspot.com/guide/handlers.html
-
-How to use webapp2
 
 Every url in your website needs a Handler: A handler will specify what code runs when a user goes to a particular url on your website.
 
@@ -63,6 +66,7 @@ class Handler(webapp2.RequestHandler):
         self.write(self.render_str(template, **kw)) 
 ```
 
+###Putting Your notes online
 
 One thing that you will use GAE for is putting your notes online.  The easiest way to this would be to use the above basic Handler, and use a get function like the below:
 ```python
@@ -98,8 +102,8 @@ If you deploy your app from GAE launcher, you can now view your notes directly o
 
 Summary goes here
 
-- step 1
-- step 2
+- webapp2 is the main Python module you will be using for Google App engine; it creates a WSGIApplication application which will direct your url paths to the Python code which will handle them.  
+- *args and **kwargs can let you give an indeterminate number of parameters to a function, or pass in lists, tuples, or dictionaries into functions which take multiple specific parameters
 
 [recording]: https://plus.google.com/events/c961d2sebb3p5feb3phjunbldmo?authkey=CMTukIqEyNuiIA
 
