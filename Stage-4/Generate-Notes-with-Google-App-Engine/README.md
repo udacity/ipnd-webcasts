@@ -1,3 +1,11 @@
+# Office Hours: Generate Notes with Google App Engine
+
+## Office Hours Recording
+
+Here is the link to the [Office Hour Recording][recording]
+
+What We Will Learn
+
 webapp2
 https://webapp-improved.appspot.com/api/webapp2.html
 
@@ -86,4 +94,12 @@ Or the static files won't be read.  Then put your css files in that folder you c
 If you deploy your app from GAE launcher, you can now view your notes directly online!  
 
 
+##Summary
+
+Summary goes here
+
+- step 1
+- step 2
+
+[recording]: https://plus.google.com/events/c961d2sebb3p5feb3phjunbldmo?authkey=CMTukIqEyNuiIA
 
