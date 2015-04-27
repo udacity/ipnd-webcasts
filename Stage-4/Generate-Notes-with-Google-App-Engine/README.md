@@ -8,7 +8,7 @@ Here is the link to the [Office Hour Recording][recording]
 We will go over 3 main things in this office hours:
 - How to use webapp2
 - How to put your notes up on GAE
-- How **args and ***kwargs work as arguments and parameters to functions
+- How `*`args and `**`kwargs work as arguments and parameters to functions
 
 ###How to use webapp2
 A few links which will help you learn how webapp2 works:
@@ -107,7 +107,7 @@ Python functions can accept both named and unnamed parameters.  Let's show a fun
 def some_function(param1, param2):
     print param1, param2
 ```
-Now, we can pass in 2 named parameters and see what we get:
+Now, we can pass in 2 unnamed parameters and see what we get:
 ```python
 some_function(1,2)
 #>>>1, 2
@@ -118,21 +118,23 @@ some_function(param2 = 1, param1 = 2)
 #>>>2, 1
 ```
 Notice that we specified param2, which is the second parameter in the definition, first.
-####*args
+####`*`args
 Now, moving to passing in function multiple parameters with *args:
 ```python
 some_list = [1,2]
 some_function(*some_list)
 #>>>1,2
 ```
-Here, you see that despite the fact that the function took 2 parameters, it successfully ran with a single unpacked list as input.  The same could be done with named parameters:
+Here, you see that despite the fact that the function took 2 parameters, it successfully ran with a single unpacked list as input.  
+####`**`kwargs
+The same could be done with named parameters:
 ```python
 some_dict = {"param1" : "parameter 1", "param2": "parameter 2"}
 some_function(**some_dict)
 #>>>parameter 1 parameter 2
 ```
 
-This can also be done in reverse; defining a function to take multiple parameters, whether named (**kwargs) or unnamed (*args)
+This can also be done in reverse; defining a function to take multiple parameters, whether named (`**`kwargs) or unnamed (`*`args)
 ```python
 def some_other_function(*args, **kwargs):
     for arg in args:  #args is like a list
@@ -159,7 +161,7 @@ some_other_function(x, y, z, some_dictionary = a_dict, some_tuple = a_tuple)
 ##Summary
 
 - webapp2 is the main Python module you will be using for Google App engine; it creates a WSGIApplication application which will direct your url paths to the Python code which will handle them.  
-- *args and **kwargs can let you give an indeterminate number of parameters to a function, or pass in lists, tuples, or dictionaries into functions which take multiple specific parameters
+- `*`args and `**`kwargs can let you give an indeterminate number of parameters to a function, or pass in lists, tuples, or dictionaries into functions which take multiple specific parameters
 
 [recording]: https://plus.google.com/events/c961d2sebb3p5feb3phjunbldmo?authkey=CMTukIqEyNuiIA
 
