@@ -8,7 +8,7 @@ Here is the link to the [Office Hour Recording][recording]
 We will go over 3 main things in this office hours:
 - How to use webapp2
 - How to put your notes up on GAE
-- How `*`args and `**`kwargs work as arguments and parameters to functions
+- How `*args` and `**kwargs` work as arguments and parameters to functions
 
 ###How to use webapp2
 A few links which will help you learn how webapp2 works:
