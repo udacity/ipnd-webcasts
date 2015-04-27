@@ -8,7 +8,7 @@ Here is the link to the [Office Hour Recording][recording]
 We will go over 3 main things in this office hours:
 - How to use webapp2
 - How to put your notes up on GAE
-- How *args and **kwargs work as arguments and parameters to functions
+- How **args and ***kwargs work as arguments and parameters to functions
 
 ###How to use webapp2
 A few links which will help you learn how webapp2 works:
@@ -97,6 +97,64 @@ Or the static files won't be read.  Then put your css files in that folder you c
 
 If you deploy your app from GAE launcher, you can now view your notes directly online!  
 
+###*args and **kwargs
+A useful link explaining how to use them: http://stackoverflow.com/questions/3394835/args-and-kwargs
+**args can be used to pass multiple parameters into a function, while ***kwargs can pass an undetermined number of named parameters into a function. 
+
+####Named parameters
+Python functions can accept both named and unnamed parameters.  Let's show a function for demonstration:
+```python
+def some_function(param1, param2):
+    print param1, param2
+```
+Now, we can pass in 2 named parameters and see what we get:
+```python
+some_function(1,2)
+#>>>1, 2
+```
+This is the normal way you've been passing in parameters to a function.  Parameters can also be specified by name, instead of position:
+```python
+some_function(param2 = 1, param1 = 2)
+#>>>2, 1
+```
+Notice that we specified param2, which is the second parameter in the definition, first.
+####*args
+Now, moving to passing in function multiple parameters with *args:
+```python
+some_list = [1,2]
+some_function(*some_list)
+#>>>1,2
+```
+Here, you see that despite the fact that the function took 2 parameters, it successfully ran with a single unpacked list as input.  The same could be done with named parameters:
+```python
+some_dict = {"param1" : "parameter 1", "param2": "parameter 2"}
+some_function(**some_dict)
+#>>>parameter 1 parameter 2
+```
+
+This can also be done in reverse; defining a function to take multiple parameters, whether named (**kwargs) or unnamed (*args)
+```python
+def some_other_function(*args, **kwargs):
+    for arg in args:  #args is like a list
+        print arg
+    for kwarg in kwargs:  #kwargs is like a dictionary
+        print kwarg, kwargs[kwarg]
+
+x = 1
+y = 2
+z = ['a', 'b']
+a_dict = {'hello': 'World!'}
+a_tuple = (1,2,3,4,5)
+
+some_other_function(x, y, z, some_dictionary = a_dict, some_tuple = a_tuple)     
+#>>>args:
+#>>>1
+#>>>2
+#>>>['a', 'b']
+#>>>kwargs:
+#>>>some_dictionary  :  {'hello': 'World!'}
+#>>>some_tuple  :  (1, 2, 3, 4, 5)
+```
 
 ##Summary
 
