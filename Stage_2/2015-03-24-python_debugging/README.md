@@ -1,4 +1,4 @@
-OH: Introduction to Python Debugging
+Office Hours: Introduction to Python Debugging
 ==========================================
 
 Here is a link to the [Office Hours Video][OH]
