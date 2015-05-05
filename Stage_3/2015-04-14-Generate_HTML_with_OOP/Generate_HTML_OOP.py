@@ -41,7 +41,6 @@ def get_title(concept):
   """Extracts the title from a concept text"""
   start_location = concept.find(TITLE_KEY)      # Find the location of the Start of the title
   end_location = concept.find(DESCRIPTION_KEY)  # Find the end of the title
-  print start_location,end_location
   title = concept[start_location + len(TITLE_KEY): end_location-1]  # The title will be between them!
   return title
 
