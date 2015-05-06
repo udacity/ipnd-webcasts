@@ -20,6 +20,7 @@ which happen every Tuesday at 4pm Pacific Time.
 - [T 4/07][9]: Luke and Mark go over generating html with Python
 - [T 4/17][10]: Mark and Luke go over implementing an object-oriented version of generating your html with Python
 - [T 4/24][11]: Luke and Mark go over putting your notes up on Google App Engine, webapp2, and `*args` and `**kwargs`
+- [T 5/05][13]: Luke and Mark go over loops in Python
 
 [1]: https://plus.google.com/events/cpehpd7ehd414g5vkpc0g4ojkq8?authkey=CO262J255Kf2Iw
 [2]: Stage_1/2015-02-17-project-1/README.md
@@ -31,4 +32,5 @@ which happen every Tuesday at 4pm Pacific Time.
 [8]: Stage_1/2015-03-31-divs,span,id,class/README.md
 [9]: Stage_2/2015-04-07-generating-html-with-python/README.md
 [10]: Stage_3/2015-04-14-Generate_HTML_with_OOP
-[11]: Stage-4/Generate-Notes-with-Google-App-Engine/README.md
+[11]: Stage_4/2015-04-21-Generate_Notes_with_Google_App_Engine/README.md
+[13]: Stage-2/2015-05-05-loops-in-python/README.md
