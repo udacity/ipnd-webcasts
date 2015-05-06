@@ -33,4 +33,4 @@ which happen every Tuesday at 4pm Pacific Time.
 [9]: Stage_2/2015-04-07-generating-html-with-python/README.md
 [10]: Stage_3/2015-04-14-Generate_HTML_with_OOP
 [11]: Stage_4/2015-04-21-Generate_Notes_with_Google_App_Engine/README.md
-[13]: Stage-2/2015-05-05-loops-in-python/README.md
+[13]: Stage_2/2015-05-05-loops-in-python/README.md
