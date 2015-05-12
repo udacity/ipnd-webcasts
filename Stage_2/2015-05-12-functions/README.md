@@ -226,7 +226,7 @@ def some_function(x, y):
 
 
 
-##Function vs. Procedure vs. Method
+##Function vs. Procedure
 In mathematics, a function is somethig which maps some (unique) input to some output; for example, f(x) = mx + b.  In some programming languages, a function is something similar; it takes input (parameters), it gives output (from what it returns), and it effects nothing beyond taking input and giving output.  In contrast, a procedure would be something which runs code (and alters the program state of things outside of the procedure) but which doesn't return anything.  Python lacks such a distincting; functions and procedures refer to the same thing.  You can see this must be the case given what you know about functions / procedures: mutable variables can be altered in functions that explicitly return something (this is known as the function having *side effects*), and every function / procedure will implicitly return None even if we don't explicitly do it ourselves.  
 
 
