@@ -1,3 +1,16 @@
+Office Hours: All about Functions
+==========================================
+
+Here is a link to the [Office Hours Video][OH]
+
+#What We Will Learn
+
+  - What a function is
+  - How to use parameters, return statements, and print statements
+  - The difference between Mutable and Immutable Objects in Python
+  - The difference between local and global variables
+
+
 ##What a Function / Procedure is in Python
 Functions (which are identical to a procedures in Python) are bits of code which can be called repetatively.  Functions need to be defined before they can be used.
 
