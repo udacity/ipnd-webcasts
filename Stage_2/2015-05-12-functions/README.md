@@ -87,7 +87,7 @@ NameError: name 'a' is not defined
 
 Here, because the local variable a is destroyed as soon as the function finishes, Python doesn't know what 'a' is supposed to be when we access it in the global scope.
 
-##Paramaters
+##Parameters
 A parameter is a value that can be passed into a function.  Any number of parameters can be passed into the function:
 ```python
 def some_function(parameter_1, parameter_2):
