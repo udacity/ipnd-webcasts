@@ -28,7 +28,7 @@ Having a good style helps our future selves to dive back into the code quickly a
 
 ###HTML
 
-The most important aspects to consider for HTMl style is to have:
+The most important aspects to consider for HTML style is to have:
 
 * Consistent Indentations
 * Lower Case Names
@@ -60,9 +60,9 @@ An example of bad indentation:
 </div>
 ```
 
-We cannot really understand how all the `div` tags are structured and it makes it hard to figure out which `</div>` tag goes with which the appropriate `<div>`. This can lead to having missing end tags in the HTML.
+We cannot really understand how all the `div` tags are structured and it makes it hard to figure out which `</div>` tag goes with its corresponding `<div>`. This can lead to having missing end tags in the HTML.
 
-####Lower Case Names
+###Lower Case Names
 
 It's more efficient to code all classes, attributes, and tags with lower case letters because it's faster to read and faster to code:
 
@@ -72,7 +72,7 @@ vs
 
 `<div iD="NUM-1" Class="Article" TABINDEX=4></div>`
 
-####Sparse Comments
+###Sparse Comments
 
 Comments should be used sparingly in HTML and should be used to help outline and organize sections of the HTML code.
 
@@ -109,7 +109,7 @@ The most important aspects to consider for CSS style is to have:
 * One attribute per line
 * Consistent spaces
 
-####Consistent Indentations
+###Consistent Indentations
 
 Below code illustrates consistent indentations in CSS:
 
@@ -151,7 +151,7 @@ font-size: 24px;
 
 Notice how it takes us a little bit more time to understand the flow and structure of the CSS code. It's important to make reading code as easy as possible to help other people understand and implement your code.
 
-####One attribute per line
+###One Attribute per Line
 
 For development code, it's good to have one attribute per line. We should never put more than one attribute per line to make things easier to read.
 
@@ -172,7 +172,7 @@ body {  font-family: Verdana, sans-serif; color: #666; font-size: 18px;
 }
 ```
 
-####Consistent Spaces
+###Consistent Spaces
 
 Spaces between attributes and values should be consistent across your entire CSS file. 
 ```
@@ -220,7 +220,7 @@ Here are some tools that will help clean up HTML and CSS code that you should ch
 
 More information on good Python style can be found [here][PEP8]. 
 
-####Indentations
+###Indentations
 Indentations are critical for Python to work. They also naturally help readers quickly understand the variable and function relationships that exist in the code. The common standard is to indent either with 2 spaces or 4 spaces:
 
 ```
@@ -243,7 +243,7 @@ def my_function():
 
 The For loop line is indented with 1 space while the print "Hello!" line is indented with nine spaces.
 
-####Good Names
+###Good Names
 
 Naming variables in regards to their context is an excellent to have self-documented code. We do not need to add many comments because our variable and function names tell us what exactly they represent. For example take this code:
 
@@ -266,7 +266,7 @@ def count_friends():
 
 Just by reading the names, we have a better picture of what this code is trying to do without having to talk with the person who actually wrote this code.
 
-####Higher Level Comments
+###Higher Level Comments
 
 This transitions into our final style tip: use higher level comments to comment your code. Good programmers will use good variable names and will add in comments to let everyone know "how" and "why" they are coding this section. The "what" is explained by looking at the code, but the "how" and "why" are explained using comments and [Doc Strings][DOCSTRINGS]. Let's put in DOCSTRINGS to tell everyone why this `count_friend` function exists.
 
