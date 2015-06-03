@@ -1,7 +1,7 @@
-Office Hours: Divs, Spans, Ids, And Classes Oh My!
+Divs, Spans, Ids, And Classes Oh My!
 ==========================================
 
-Here is a link to the [Office Hours Video][OH]
+Here is a link to the [Webcast][WB]
 
 #What We Will Learn
 
@@ -86,4 +86,4 @@ HTML is simply made up of a series of rectangles we put on a page. We use certai
 
 `Id`s should be used sparingly and are used to uniquely identify an element. `Class` is recommended over `id` to style similar elements together.
 
-[OH]: https://plus.google.com/events/cb4erijb0rfeen0c95mcutu1mfo?authkey=CM6vuqD859S5NQ
+[WB]: https://plus.google.com/events/cb4erijb0rfeen0c95mcutu1mfo?authkey=CM6vuqD859S5NQ

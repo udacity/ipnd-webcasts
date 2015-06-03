@@ -1,4 +1,4 @@
-OH: The Nanodegree as a Whole and Stage 1
+The Nanodegree as a Whole and Stage 1
 ==========================================
 
 Andy worked with Liz on her Stage 1 project. Watch Andy help Liz fix her Stage 1 project. [OH video](https://plus.google.com/events/cmtb5ijlk7s3jerqhq7op7jnfjo?authkey=COzZjMbU_baxrwE)
@@ -22,7 +22,7 @@ Problems Liz wants to Address
    * The ```<p>``` tag is specifically for paragraphs, it lets us organize large bodies of text in HTML.
   * **TIP:** If you need to fix the indentation of a section in your HTML code, you can select  the section and hit "tab" the required number of times. To remove indentation, just press "tab" + "shift"
   * Correctly formatted HTML code will have a smooth indentation wave. (ie. no sudden changes  in indentation)
-  * **TIP:** Add margins, borders, and background color to help visualize the structure of the  HTML code. This can be easily removed once the code is complete. 
+  * **TIP:** Add margins, borders, and background color to help visualize the structure of the  HTML code. This can be easily removed once the code is complete.
 ```
 <style>
   *{
@@ -35,10 +35,10 @@ Problems Liz wants to Address
 
 ###2. HTML Validator
   * You don't have to use the link from the course to access the HTML Validator. You can just  search for it on the internet.
- 
+
 ###3. CSS
   * **Questions:** What does the dot mean in CSS? (Don't hesitate to search the internet for  the answer. You'll be surprised how easy it can be to find the answer)
-   *  >A ```.``` prefix usually represents a class selector, but if it's immediately followed   by whitespace then it's a syntax error. 
+   *  >A ```.``` prefix usually represents a class selector, but if it's immediately followed   by whitespace then it's a syntax error.
   * Fixing the image:
    * Liz's original HTML (the entire ```<div>``` is being stylized):
 ```
@@ -85,9 +85,9 @@ Problems Liz wants to Address
 ###Questions:
 >**Question:** Why doesn't changing the ```<div>``` change the image that it is contained in?
 
-**Answer:** 
-A ```<div>``` is a place to put stuff. We can change properties of a ```<div>```, for example we  could change the background color. But changing the properties doesn't change the image itself since the image is  an element that sits on top of the ```<div>```. 
+**Answer:**
+A ```<div>``` is a place to put stuff. We can change properties of a ```<div>```, for example we  could change the background color. But changing the properties doesn't change the image itself since the image is  an element that sits on top of the ```<div>```.
 
 >**Question:** It seems like the DOM tree is the same as HTML code, but in our lesson we were  taught it is different. Which is right?
 
-**Answer:** They are similar in some ways but they are different. One difference is that people  usually say they are "manipulating the DOM." When people manipulate the DOM tree, it's like they're trimming the branches,  removing branches, or even grafting new branches to the tree. This analogy refers to the elements instead of  the HTML code that generates the website. 
+**Answer:** They are similar in some ways but they are different. One difference is that people  usually say they are "manipulating the DOM." When people manipulate the DOM tree, it's like they're trimming the branches,  removing branches, or even grafting new branches to the tree. This analogy refers to the elements instead of  the HTML code that generates the website.

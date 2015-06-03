@@ -1,4 +1,4 @@
-Office Hours: Introduction to Google Chrome Development Tools
+Introduction to Google Chrome Development Tools
 ==========================================
 
 Here is a link to the [Office Hours Video][OH]

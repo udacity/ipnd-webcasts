@@ -1,7 +1,7 @@
-Office Hours: Problem Solving Session
+Problem Solving Session
 ==========================================
 
-Here is a link to the [Office Hours Video][OH]
+Here is a link to the [Webcast][WB]
 
 Luke and Jeff will run through two problems and demonstrate how to approach solving the probems in Python.
 
@@ -26,13 +26,13 @@ Here is the problem:
 > print find_last('aaaa', 'a') -> 3
 
 > print find_last('aaaaa', 'aa') -> 3
- 
+
 > print find_last('aaaa', 'b') -> -1
- 
+
 > print find_last("111111111", "1") -> 8
 
 > print find_last("222222222", "") ->  9
- 
+
 > print find_last("", "3") -> -1
 
 > print find_last("", "") -> 0
@@ -40,7 +40,7 @@ Here is the problem:
 ##Starting Off
 Luke started off by going over the problem and recognize what are the inputs and what are the outputs of this function. The inputs are two string variables that contain the string to search in and the string to find in the main string. The output is a number that gives us the index of where the last substring appears in the search string.
 
-He recognized that he needs to use the find() method for strings and recognize that we can tell find() to start at any index. Since find() returns the first substring it sees in the target string, he realized that he needs to continually call find() until it cannot find anymore substrings in the target string. 
+He recognized that he needs to use the find() method for strings and recognize that we can tell find() to start at any index. Since find() returns the first substring it sees in the target string, he realized that he needs to continually call find() until it cannot find anymore substrings in the target string.
 
 In order to do this, he needs to use a while loop.
 
@@ -58,7 +58,7 @@ def find_last(search_string, target_string):
     if search_string.find(target_string) == -1:
         return -1
     current_location = 0
-    # While the current_location is greater than -1 
+    # While the current_location is greater than -1
     while current_location >= 0:
         last_location = current_location
         # Continue to search for the next target string
@@ -204,6 +204,6 @@ print find_total_letters(1000)
 ```
 
 
-[OH]: https://plus.google.com/events/cq3nc5eskr27eiv5uindf1m2olo?authkey=CLiIzMXV5Z32pAE
+[WB]: https://plus.google.com/events/cq3nc5eskr27eiv5uindf1m2olo?authkey=CLiIzMXV5Z32pAE
 [PE]: https://projecteuler.net/
 [dictionary]: http://www.tutorialspoint.com/python/python_dictionary.htm

@@ -1,8 +1,8 @@
-# Intro to Programming Nanodegree Office Hours
+# Intro to Programming Nanodegree Webcasts
 
 ## Description
 
-Summaries and transcripts of Intro to Programming Nanodegree office hours,
+Summaries and transcripts of Intro to Programming Nanodegree Webcasts,
 which happen every Tuesday at 4pm Pacific Time.
 
 ## List
@@ -25,6 +25,7 @@ which happen every Tuesday at 4pm Pacific Time.
 - [T 5/12][14]: Luke and Mark go over functions in Python
 - [T 5/19][15]: Luke and Mark go over best practices in coding style
 - [T 5/26][16]: Jeff and Luke solve some problems in Python
+- [T 6/02][17]: Mark and Jonah go over installing Twilio using PIP.
 
 [1]: https://plus.google.com/events/cpehpd7ehd414g5vkpc0g4ojkq8?authkey=CO262J255Kf2Iw
 [2]: Stage_1/2015-02-17-project-1/README.md
@@ -42,3 +43,4 @@ which happen every Tuesday at 4pm Pacific Time.
 [14]: Stage_2/2015-05-12-functions/README.md
 [15]: General/2015-05-19-coding_style/README.md
 [16]: General/2015-05-26-problem_solving_session/README.md
+[17]: General/2015-06-02-installing_twilio_with_pip/README.md

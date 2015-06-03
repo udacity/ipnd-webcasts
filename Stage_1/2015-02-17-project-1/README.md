@@ -1,8 +1,9 @@
-# OH: Logistics, Project 1, and Text Editors
+#Logistics, Project 1, and Text Editors
+
 
 Hi everyone,
 
-Thanks for attending office hours earlier today (Tuesday, February 17) about a
+Thanks for attending the Webcast earlier today (Tuesday, February 17) about a
 small logistical thing regarding the forums versus the Google+ community, some
 pitfalls to watch out for with respect to project 1 (and HTML in general), and
 how to work with a text editor.

@@ -1,7 +1,7 @@
-Office Hours: Importance of Coding Style
+#Importance of Coding Style
 ==========================================
 
-Here is a link to the [Office Hours Session][OH]
+Here is a link to the [Webcast][WB]
 
 # What We Will Learn
 
@@ -17,8 +17,8 @@ Coding Style is how we write, organize, and present our code. This includes havi
 # Why is Style Important?
 
 Writing clean and organized code allows developers to:
-  
-* Write more efficienty 
+
+* Write more efficienty
 * Understand code more efficiently
 * Communicate in a common style
 
@@ -68,7 +68,7 @@ It's more efficient to code all classes, attributes, and tags with lower case le
 
 `<div id="num-1" class="article" tabindex=4></div>`
 
-vs 
+vs
 
 `<div iD="NUM-1" Class="Article" TABINDEX=4></div>`
 
@@ -168,13 +168,13 @@ vs
 
 ```
 body {  font-family: Verdana, sans-serif; color: #666; font-size: 18px;
-  line-height: 44px; 
+  line-height: 44px;
 }
 ```
 
 ###Consistent Spaces
 
-Spaces between attributes and values should be consistent across your entire CSS file. 
+Spaces between attributes and values should be consistent across your entire CSS file.
 ```
 body {
   font-family: Verdana, sans-serif;
@@ -218,7 +218,7 @@ Here are some tools that will help clean up HTML and CSS code that you should ch
 * Higher Level Comments
 
 
-More information on good Python style can be found [here][PEP8]. 
+More information on good Python style can be found [here][PEP8].
 
 ###Indentations
 Indentations are critical for Python to work. They also naturally help readers quickly understand the variable and function relationships that exist in the code. The common standard is to indent either with 2 spaces or 4 spaces:
@@ -272,8 +272,8 @@ This transitions into our final style tip: use higher level comments to comment 
 
 ```
 def count_friends():
-  """Function that prints out a number of friends to the screen in order to 
-  make sure that we are not missing any friends when calculate the person's popularity. 
+  """Function that prints out a number of friends to the screen in order to
+  make sure that we are not missing any friends when calculate the person's popularity.
   """
   friend_count = 100
   for friend in range(friend_count):
@@ -331,7 +331,7 @@ Below is example code that demonstrates these two answers:
 </html>
 ```
 
-[OH]: https://plus.google.com/events/cfk75tn7au58r8ql8v1o9is5jbo?authkey=CPu2xbOt2aXqGA
+[WB]: https://plus.google.com/events/cfk75tn7au58r8ql8v1o9is5jbo?authkey=CPu2xbOt2aXqGA
 [HTML]: https://css-tricks.com/what-beautiful-html-code-looks-like/
 [PEP8]: https://www.python.org/dev/peps/pep-0008/
 [DOCSTRINGS]: https://www.python.org/dev/peps/pep-0257/
