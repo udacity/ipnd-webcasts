@@ -1,7 +1,7 @@
-Office Hours: Exploring Loops In Python
+Webcast: Exploring Loops In Python
 ==========================================
 
-Here is a link to the [Office Hours Session][OH]
+Here is a link to the [video][OH]
 
 #What We Will Learn
 

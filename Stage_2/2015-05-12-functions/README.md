@@ -1,7 +1,7 @@
-Office Hours: All about Functions
+Webcast: All about Functions
 ==========================================
 
-Here is a link to the [Office Hours Video][OH]
+Here is a link to the [video][OH]
 
 #What We Will Learn
 

@@ -43,4 +43,4 @@ which happen every Tuesday at 4pm Pacific Time.
 [14]: Stage_2/2015-05-12-functions/README.md
 [15]: General/2015-05-19-coding_style/README.md
 [16]: General/2015-05-26-problem_solving_session/README.md
-[17]: General/2015-06-02-installing_twilio_with_pip/README.md
+[17]: Stage_2/2015-06-02-installing_twilio_with_pip/README.md

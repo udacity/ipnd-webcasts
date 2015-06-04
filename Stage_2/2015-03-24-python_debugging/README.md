@@ -1,7 +1,7 @@
-Office Hours: Introduction to Python Debugging
+Webcast: Introduction to Python Debugging
 ==========================================
 
-Here is a link to the [Office Hours Video][OH]
+Here is a link to the [video][OH]
 
 #What We Will Learn
 

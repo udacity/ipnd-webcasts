@@ -1,11 +1,11 @@
-# Office Hours: Generate Notes with Google App Engine
+# Webcast: Generate Notes with Google App Engine
 
-## Office Hours Recording
+## Webcast Recording
 
-Here is the link to the [Office Hour Recording][recording]
+Here is the link to the [video][recording]
 
 ##What We Will Learn
-We will go over 3 main things in this office hours:
+We will go over 3 main things in this Webcast:
 - How to use webapp2
 - How to put your notes up on GAE
 - How `*args` and `**kwargs` work as arguments and parameters to functions

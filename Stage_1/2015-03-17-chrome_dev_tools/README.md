@@ -1,7 +1,7 @@
 Introduction to Google Chrome Development Tools
 ==========================================
 
-Here is a link to the [Office Hours Video][OH]
+Here is a link to the [Video][OH]
 
 #What We Will Learn
 
@@ -96,11 +96,11 @@ Dev Tools is a development tool that let's developers inspect our web page in mo
 
 ##Questions and Answers About Chrome Dev Tools
 
-Below is a questions and answer from the Live Office Hour session that involve Chrome Dev Tools
+Below is a questions and answer from the Live Webcast that involve Chrome DevTools
 
 - "Regarding Chrome Dev tools, are there online tutorials where one can walk through a project to further our learning?"
 
-   Google's Chrome Dev Tools webpage has a comprehensive tutorial on using Chrome Dev Tools [here][devtool]. The tutorial is comprehensive, but a little dense. We also recommend you tune into Office Hours as well and request for more walkthroughs such as this walk through here. Please post on the forum and request for more project walk throughs and ask everyone to like your suggestion and the coach team can prioritize the content that you want. 
+   Google's Chrome Dev Tools webpage has a comprehensive tutorial on using Chrome Dev Tools [here][devtool]. The tutorial is comprehensive, but a little dense. We also recommend you tune into Webcasts as well and request for more walkthroughs such as this walk through here. Please post on the forum and request for more project walk throughs and ask everyone to like your suggestion and the coach team can prioritize the content that you want. 
    
    We also recommend you dive in and explore your own Stage 1 code and play around with inspecting your elements and styles as well as try to change the styling of your favorite websites such as the Instagram website that we presented in this session.
 

@@ -1,9 +1,9 @@
-# Office Hours: General Problem Solving With Python
+# Webcast: General Problem Solving With Python
 
 
-## Office Hours Recording
+## Webcast Recording
 
-Here is the link to the [Office Hour Recording][recording]
+Here is the link to the [video][recording]
 
 ## The Problem
 

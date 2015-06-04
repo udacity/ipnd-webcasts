@@ -1,7 +1,7 @@
-Office Hours: Generating HTML with Python
+Webcast: Generating HTML with Python
 ==========================================
 
-Here is a link to the [Office Hours Video][OH]
+Here is a link to the [video][OH]
 
 ###How to break down a problem:
 

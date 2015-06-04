@@ -1,7 +1,7 @@
 #The Nanodegree as a Whole and Stage 1
 ==========================================
 
-Andy hosted this office hour session to answer student questions! Join us to hear his and Surajit's insights and advice for students. They answered questions related to the Nanodegree progrom, the tools used, and possible next steps Intro to Programming Nanodegree students can do after graduating. [OH video](https://plus.google.com/events/cp7hehv43iefmdlcfcbe03uuf34?authkey=CJTHgqavyYPfTw)
+Andy hosted this Webcast (called Office Hours at the time of the recording) to answer student questions! Join us to hear his and Surajit's insights and advice for students. They answered questions related to the Nanodegree progrom, the tools used, and possible next steps Intro to Programming Nanodegree students can do after graduating. [OH video](https://plus.google.com/events/cp7hehv43iefmdlcfcbe03uuf34?authkey=CJTHgqavyYPfTw)
 
 Question & Answer
 -----------------
@@ -43,7 +43,7 @@ Feel free to post your code on the forums during the intermediate stages! It's a
 
 >**Question:** There seems to be a variety of where comments are posted. (Google circles and discussion forums) The same can be said for project stage submission locations. (Codepen, Google circles, GitHub, etc...) What tool does Udacity want student to use for each media?
 
-**Answer:** For submissions, use the link in the Nanodegree portal. There you'll have the option to submit through GitHub or with a zipped file. You'll need a GitHub account regardless of which method you choose. As for discussions, it's best to post to the Udacity discussion forums. This leads to better discussions since it has the means to post code to the forums. The Google community page is really for announcing and hosting office hours while the discussions forum is the place to interact with Udacity staff and your colleagues.
+**Answer:** For submissions, use the link in the Nanodegree portal. There you'll have the option to submit through GitHub or with a zipped file. You'll need a GitHub account regardless of which method you choose. As for discussions, it's best to post to the Udacity discussion forums. This leads to better discussions since it has the means to post code to the forums. The Google community page is really for announcing and hosting Webcasts while the discussions forum is the place to interact with Udacity staff and your colleagues.
 
 >**Question:** Has the majority of the class completed Stage 1 and met 'all specifications?' I assume we need to start Stage 2 this week.
 

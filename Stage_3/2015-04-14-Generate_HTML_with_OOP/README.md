@@ -1,8 +1,8 @@
-# Office Hours: Generate HTML In Python With Object-Oriented Programming
+# Webcast: Generate HTML In Python With Object-Oriented Programming
 
-## Office Hours Recording
+## Webcast Recording
 
-Here is the link to the [Office Hour Recording][recording]
+Here is the link to the [video][recording]
 
 ## What We Will Learn
 

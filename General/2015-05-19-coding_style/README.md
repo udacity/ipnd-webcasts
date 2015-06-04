@@ -290,7 +290,7 @@ Developing good programming style should be a goal for beginner programmers beca
 Indentations, spaces, and variables names are one of the most important aspects of programming for any language. It helps organize our code efficiently and helps us better communicate with our fellow programmers.
 
 
-# Follow Up Questions for Office Hours
+# Follow Up Questions for Webcast
 
 Two students asked two great questions relating to styling lists and how to deal with a long link tag during the live Webcast. The questions are:
 
