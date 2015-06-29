@@ -20,54 +20,54 @@ Here is a link to the [video][OH]
 
 #####From Stage 2:
   The basics of Python, including:
-    a.  Strings
-    b.  Loops (for and while)
-    c.  Variables
-    d.  If statements
-    e.  Types (like int, str, and bool)
-    f.  Lists
-    g.  Tuples
-    h.  Mutability
-    i.  Functions
-    j.  Return statements
-    k.  Print statements
-    l.  Debugging Python code
-    m.  Problem Solving
+    - a.  Strings
+    - b.  Loops (for and while)
+    - c.  Variables
+    - d.  If statements
+    - e.  Types (like int, str, and bool)
+    - f.  Lists
+    - g.  Tuples
+    - h.  Mutability
+    - i.  Functions
+    - j.  Return statements
+    - k.  Print statements
+    - l.  Debugging Python code
+    - m.  Problem Solving
 
     
 #####From Stage 3:
   Object Oriented Python, including:
-    a.  Classes 
-    b.  Objects
-    c.  Methods
-    d.  Instances
-    e.  Instance variables
-    f.  Inheritance
-    g.  Method Overriding
-    h.  Import Statements
-    i.  The Python Standard Library
-    j.  Importing External Libaries
-    k.  Using documentation
+    - a.  Classes 
+    - b.  Objects
+    - c.  Methods
+    - d.  Instances
+    - e.  Instance variables
+    - f.  Inheritance
+    - g.  Method Overriding
+    - h.  Import Statements
+    - i.  The Python Standard Library
+    - j.  Importing External Libaries
+    - k.  Using documentation
 
 #####From Stage 4:
   Using google App engine, including
-    a.  Installing, running, deploying
-    b.  How to use the .yaml file
-    c.  How to navigate folders appropriately when referencing different files
-    d.  Google Datastore  
-    e.  How to use webapp2
-    f.  How to use jinja2 templates
-    g.  How to ue Python dictionaries
-    f.  How to use the modulus operator in Python
+    - a.  Installing, running, deploying
+    - b.  How to use the .yaml file
+    - c.  How to navigate folders appropriately when referencing different files
+    - d.  Google Datastore  
+    - e.  How to use webapp2
+    - f.  How to use jinja2 templates
+    - g.  How to ue Python dictionaries
+    - f.  How to use the modulus operator in Python
     
 #####From Stage 5:
   Develope awareness of some other concepts in computing, like:
-    a.  Using JavaScript to bring web pages to life.
-    b.  Using APIs to easily access powerful data.
-    c.  Recursion 
-    d.  Parallel computing.
-    e.  How to solve large and long problems. 
-    f.  Responsive Web Design: How to make web pages look good.
+    - a.  Using JavaScript to bring web pages to life.
+    - b.  Using APIs to easily access powerful data.
+    - c.  Recursion 
+    - d.  Parallel computing.
+    - e.  How to solve large and long problems. 
+    - f.  Responsive Web Design: How to make web pages look good.
 
 ####What a student will still need to learn to take the Front-End Web Developer Nanodegree:
 
