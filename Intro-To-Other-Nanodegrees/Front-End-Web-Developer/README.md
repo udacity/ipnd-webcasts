@@ -91,6 +91,7 @@ In the Nanodegree program, you’ll build six portfolio-worthy projects. Dependi
 You’ll host all your projects on GitHub and make regular commits. If you haven’t learned version control yet, use our latest course on the topic: How to Use Git and GitHub
 
 ###Intro to HTML and CSS
+You will already have taken most of the first two lessons of this course in Stage 1 of the Intro to Programming Nanodegree!
 
 ###Responsive Web Design Fundamentals
 
@@ -103,6 +104,7 @@ You will replicate a design mockup in HTML and CSS. You will develop a responsiv
 Prepare for this project with: Intro to HTML and CSS, Responsive Web Design Fundamentals, and Responsive Images
 
 ###JavaScript Basics
+You will already have taken the first lesson of this course in stage 5 of the Intro to Programming Nanodegree!
 
 ###Intro to jQuery
 
@@ -153,7 +155,6 @@ Prepare for this project with: JavaScript Testing
 
 
 ##What would the day to day of a Front-End Web Developer look like?  
-
 
 
 
