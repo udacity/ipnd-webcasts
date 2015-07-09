@@ -67,7 +67,7 @@ The same can be done in reverse, by supplying the asterisk (`*`) to an argument 
 A useful link explaining how to use the reverse, generally refered to as `*args` and `**kwargs`, can be found here: http://stackoverflow.com/questions/3394835/args-and-kwargs
 Basically, `*args` can be used to pass multiple parameters into a function, while `**kwargs` can pass an undetermined number of named parameters into a function. 
 
-####Some final examples 
+####Some more examples or packing and unpacking parameters:
 Python functions can accept both named and unnamed parameters.  Let's show a function for demonstration:
 ```python
 def some_function(param1, param2):
