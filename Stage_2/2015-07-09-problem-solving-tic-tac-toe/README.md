@@ -124,6 +124,168 @@ some_other_function(x, y, z, some_dictionary = a_dict, some_tuple = a_tuple)
 #>>>some_tuple  :  (1, 2, 3, 4, 5)
 ```
 
+
+##Making the Game
+###What do you need to play the game on paper?
+- A background to play on
+- A way to keep track of who has already moved where
+- A way to keep track of the who's turn it is
+- Only allow legal moves
+- End the game once someone wins or it ends in a draw
+
+###Breaking the game into functions
+We can get some of the simpler things out of the way immediately.
+
+We can use a dictionary to keep track of where players have made moves.  A value of " " can represent an empty location; otherwise, the location will have either an 'X' or an 'O'.
+
+```python
+current_positions = {"top left": " ", "top center": " ", "top right": " ",
+             "center left": " ", "center": " ", "center right": " ",
+             "bottom left": " ", "bottom center": " ", "bottom right": " "}
+```
+We'll use another variable to keep track of whose turn it is:
+
+```python
+current_player = "X"
+```
+
+Next, we should see if we can write a function to display the board.
+
+
+Python string formatting is probably the easiest way to do this.
+
+###Python String Formatting
+One easy way to format strings in Python is to use the string.format() method; it takes any number of aruments, named or unnamed, and substitutes them into a given string.  For example:
+
+```python
+some_string = "{0} cannot find {1}, but {0} can find {2}".format("Matthew", "Mark", "Luke")
+print some_string
+#>>>Matthew cannot find Mark, but Matthew can find Luke
+```
+While integers are used for unnamed arguments, variable names can be used for named arguments:
+```python
+some_string = "{name_one} cannot find {name_two}, but {name_one} can find {name_three}".format(name_two = "Mark", name_three = "Luke", name_one = "Matthew")
+print some_string
+#>>>Matthew cannot find Mark, but Matthew can find Luke
+```
+
+If we have a dictionary or a list, we can unpack them to do the same thing:
+Dict:
+```python
+some_dict = {"item_two": 2, "item_one": 1, "item_three" : 3}
+some_string = "{item_one}, {item_two}, {item_three}".format(**some_dict)
+print some_string
+#>>>1, 2, 3
+```
+List:
+```python
+some_list = [2,1,3]
+some_string = "{1}, {0}, {2}".format(*some_list)
+print some_string
+#>>>1, 2, 3
+```
+
+Now, we can display the board using Python formatting!
+```python
+def display_board(current_positions):
+    board = """
+    {top left} | {top center} | {top right}
+    ---------
+    {center left} | {center} | {center right}
+    ---------
+    {bottom left} | {bottom center} | {bottom right}
+    """.format(**current_positions)
+    print board
+```
+
+
+
+
+
+##Final Code:
+```python
+current_positions = {"top left": " ", "top center": " ", "top right": " ",
+             "center left": " ", "center": " ", "center right": " ",
+             "bottom left": " ", "bottom center": " ", "bottom right": " "}
+
+current_player = "X"
+
+def display_board(current_positions):
+    board = """
+    {top left} | {top center} | {top right}
+    ---------
+    {center left} | {center} | {center right}
+    ---------
+    {bottom left} | {bottom center} | {bottom right}
+    """.format(**current_positions)
+    print board
+
+def user_move(current_positions, current_player):
+    possible_moves = []
+    user_prompt = "Please pick your move from the options below!"
+    for position in current_positions:
+        if current_positions[position] == " ":
+            possible_moves.append(position)
+            user_prompt += "\n" + position
+    user_prompt += '\n'
+    user_choice = raw_input(user_prompt).lower()
+    while user_choice not in possible_moves:
+        user_choice = raw_input(user_prompt).lower()
+    current_positions[user_choice] = current_player
+    if current_player == "X":
+        current_player = "O"
+    else:
+        current_player = "X"
+    return current_positions, current_player
+
+
+def is_game_over(current_positions):
+    #Assuming only one winner
+    winners = [["top left", "top center", "top right"],
+               ["center left", "center", "center right"],
+               ["bottom left", "bottom center", "bottom right"],
+               ["top left", "center left", "bottom left"],
+               ["top center", "center", "bottom center"],
+               ["top right", "center right", "bottom right"],
+               ["top left", "center", "bottom right"],
+               ["top right", "center", "bottom left"]]
+    for winning_combo in winners:
+        possible_winner = current_positions[winning_combo[0]]
+        if possible_winner != " ":
+            possibly_won = True
+            for value in winning_combo:
+                if current_positions[value] != possible_winner:
+                    possibly_won = False
+                    break
+            if possibly_won:
+                return possible_winner + " Wins!"
+    is_draw = True
+    for position in current_positions:
+        if current_positions[position] == " ":
+            is_draw = False
+            return False
+    if is_draw:
+        return "Draw!"
+
+def play_game():
+    current_positions = {"top left": " ", "top center": " ", "top right": " ",
+             "center left": " ", "center": " ", "center right": " ",
+             "bottom left": " ", "bottom center": " ", "bottom right": " "}
+    current_player = "X"
+    result = False
+    while not result:
+        display_board(current_positions)
+        current_positions, current_player = user_move(current_positions, current_player)
+        result = is_game_over(current_positions)
+        if result:
+            print "GAME OVER"
+            print "Result: ", result
+
+
+play_game()
+```
+
+
 ##Summary
 
 - 
