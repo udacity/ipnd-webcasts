@@ -129,7 +129,7 @@ some_other_function(x, y, z, some_dictionary = a_dict, some_tuple = a_tuple)
 ###What do you need to play the game on paper?
 - A background to play on
 - A way to keep track of who has already moved where
-- A way to keep track of the who's turn it is
+- A way to keep track of the whose turn it is
 - Only allow legal moves
 - End the game once someone wins or it ends in a draw
 
@@ -198,8 +198,63 @@ def display_board(current_positions):
     print board
 ```
 
+We still need a way to actually *play* anything, though.  Lets' try to make a function which will allow a user to make a move.
+
+This function will need to do several things:
+- It should allow a user to pick where they want to go next
+- It should *only* let a user make a legal move
+- It should switch whose turn it is after a move has been made
+- It should update the board with the user's move
+
+Ok, now we should think; for the above, what are the right inputs and outputs?
+#####Inputs:
+- We'll need the current board; specifically, the dictionary we are storing positions in
+- We'll also need to know whose turn it is
+
+#####Outputs:
+- We'll need to update the dictionary storing positions
+- We'll need to print the current board to be displayed
+- We'll need to update whose turn it is
+
+For user input, we'll need to actually *get* user input; Python has a built in function for this called [raw_input()](https://docs.python.org/2/library/functions.html#raw_input)
+
+We will need to make a loop which takes the user input, and only moves on once that user input represents a legal move.
 
 
+Ok, on to the code:
+
+```python
+def user_move(current_positions, current_player):
+    "Let a human user make a move"
+    #First, find which moves are possible to make
+    possible_moves = []
+    #We also need to prompt the user for what choices they can make
+    user_prompt = "Please pick your move from the options below!"
+    for position in current_positions:
+        #It's only a possible move if the space both exists and is empty
+        if current_positions[position] == " ":  
+            possible_moves.append(position)
+            user_prompt += "\n" + position
+    user_prompt += '\n'
+    #since Python is case sensitive, we'll make sure to convert everything 
+    #the user gives to lower-case to avoid confusion with string.lower()
+    user_choice = raw_input(user_prompt).lower()
+    while user_choice not in possible_moves:
+        user_choice = raw_input(user_prompt).lower()
+    #Once we exit the loop, the user has chosen a legal next move
+    
+    #Time to update the dictionary based on the move just made
+    current_positions[user_choice] = current_player
+    
+    #Now we update whose turn it is
+    if current_player == "X":
+        current_player = "O"
+    else:
+        current_player = "X"
+        
+    #We return the current positions and whose turn it is
+    return current_positions, current_player
+```
 
 
 ##Final Code:
