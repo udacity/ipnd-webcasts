@@ -169,15 +169,16 @@ print some_string
 #>>>Matthew cannot find Mark, but Matthew can find Luke
 ```
 
-If we have a dictionary or a list, we can unpack them to do the same thing:
-Dict:
+If we have a dictionary or a list, we can unpack them to do the same thing.
+
+#####Dict:
 ```python
 some_dict = {"item_two": 2, "item_one": 1, "item_three" : 3}
 some_string = "{item_one}, {item_two}, {item_three}".format(**some_dict)
 print some_string
 #>>>1, 2, 3
 ```
-List:
+#####List:
 ```python
 some_list = [2,1,3]
 some_string = "{1}, {0}, {2}".format(*some_list)
@@ -198,6 +199,26 @@ def display_board(current_positions):
     print board
 ```
 
+Let's test it to make sure it works:
+With current_positions containing all empty spaces:
+```
+      |   |  
+    ---------
+      |   |  
+    ---------
+      |   |  
+```
+With current_positions containing all empty spaces except 'center', which equals 'X':
+```
+      |   |  
+    ---------
+      | X |  
+    ---------
+      |   |  
+```
+Looks like it works!
+
+###Allowing the User to chose a move
 We still need a way to actually *play* anything, though.  Lets' try to make a function which will allow a user to make a move.
 
 This function will need to do several things:
@@ -255,6 +276,104 @@ def user_move(current_positions, current_player):
     #We return the current positions and whose turn it is
     return current_positions, current_player
 ```
+
+###Checking to see if anyone has won
+Now we can move on to test if the game is over; either someone has won, the game has ended in a draw, or the game continues.
+We'll make a function to do this.  As always, we'll think of needed inputs and outpus:
+#####Inputs
+- The current board; what are the current positions?
+
+That's all we'll need as input for this function; we can pass in current_positions as its only parameter.
+
+#####Outputs
+- What is the status of the game?
+    - Has someone won?  Who was it, if so?
+    - Has the game ended in a draw?
+    - Should the game continue?
+
+We could return multiple outputs here, but it is probably easier to return a single thing which contains the information from the above choices.
+
+We'll return a string saying what the outcome of the game is if it is over, and False if the game continues.
+
+Seeing if the game is either a draw or should continue should be easy if we know someone hasn't won yet; we just need to see if all of the positions haven't been filled.  
+
+Seeing if someone has won will be trickier.  We'll need to check that each of the possible winning combinations to see if they have been fulfilled!
+
+Luckily, Tic-Tac-Toe only has 8 possible winning combinations.  You can fill any of the 3 rows horizontally with the same letter, any of the 3 columns vertically with the same letter, or one of the 2 diagonals with the same letter.  Since there are so few combinations, we can simply list them all out.
+
+We'll then search through each winning combination to see if it contains all of one letter; if we see either an empty space (" ") or a letter not matching a previous letter ("X" where the first was "O" or vice-versa), then we know that combination hasn't been reached.  If *none* of the combinations have been reached, we know nobody has won yet.
+
+Let's get into the code:
+```python
+def is_game_over(current_positions):
+    #Assuming only one winner
+    winners = [["top left", "top center", "top right"],
+               ["center left", "center", "center right"],
+               ["bottom left", "bottom center", "bottom right"],
+               ["top left", "center left", "bottom left"],
+               ["top center", "center", "bottom center"],
+               ["top right", "center right", "bottom right"],
+               ["top left", "center", "bottom right"],
+               ["top right", "center", "bottom left"]]
+    #Going through all of the winning combinations
+    for winning_combo in winners:
+        #Someone will only have possibly won if every entry is the same as the first
+        possible_winner = current_positions[winning_combo[0]]
+        
+        #Nobody has won if any entry is " ", including the first
+        if possible_winner != " ":
+            possibly_won = True
+            for value in winning_combo:
+                if current_positions[value] != possible_winner:
+                    possibly_won = False
+                    break
+            if possibly_won:
+                return possible_winner + " Wins!"
+    
+    #If we get this far, that means that nobody has won
+    #Test for a draw; are any spaces still " "?
+    is_draw = True
+    for position in current_positions:
+        if current_positions[position] == " ":
+            is_draw = False
+            #Looks like we should continue the game!
+            return False
+            
+    #Note; if we get this far, there is definately a draw
+    if is_draw:
+        return "Draw!"
+```
+
+
+
+###Playing the Game
+
+Now we have all the pieces of the game, but the game isn't continuous yet.  We need to make is so that once the game starts, it plays until it is finished.  We'll do that with our main function, play_game().  
+
+```python
+def play_game():
+    #Start by defining our variables so that we don't need to rely on globals
+    current_positions = {"top left": " ", "top center": " ", "top right": " ",
+             "center left": " ", "center": " ", "center right": " ",
+             "bottom left": " ", "bottom center": " ", "bottom right": " "}
+    current_player = "X"
+    #Play while our is_game_over() function tells us the game isn't over
+    result = False
+    while not result:
+        #Display the current board after every turn
+        display_board(current_positions)
+        #always update our positions and turns
+        current_positions, current_player = user_move(current_positions, current_player)
+        #always check to see if the game is over
+        result = is_game_over(current_positions)
+        if result:
+            print "GAME OVER"
+            print "Result: ", result
+
+
+play_game()
+```
+Now we have a working Tic-Tac-Toe game!
 
 
 ##Final Code:
@@ -339,11 +458,6 @@ def play_game():
 
 play_game()
 ```
-
-
-##Summary
-
-- 
 
 [recording]: https://plus.google.com/u/0/events/cciortcifbg5qttjrmg533f78c4?authkey=CMj07bft-ovZPg
 
