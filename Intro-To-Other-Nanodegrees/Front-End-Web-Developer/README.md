@@ -4,11 +4,12 @@ Webcast: About the Front End Web Developer Nanodegree
 Here is a link to the [video][OH]
 
 #What is Front-End Web Development?
+Front-End Web Development is the creation of everything you see on the web.  Every website you go to, all the suff you are seeing is made with Front-End Web Development.  
 
+The main technologies being used are HTML (Hyper-Text Markup Language), which creates the content and basic structure of web pages, CSS (cascading style sheets), which creates the styles, animations and transitions of webpages, and Javascript, which is the actual programming language used by the web.  Javascript is used for everything from running scripts, to running animations, or basically do anything you really want to do in a browser.  Front-End web development is the combination of these three things to make content that is presentable to a user or a client.
 
 #What is the Front-End Web Developer Nanodegree about?
-
-
+The Front-End Web Developer Nanodegree will take students from a basic understanding of the web.  It will introduce those web technoknoledgies (HTML, CSS, and Javascript), which, if you've gone through the Intro to Programming Nanodegree, you will already have some understanding and comfort level with before you start.  On top of getting comfortable with those technologies, FEND will also go over how browsers work and how to optimize a webpage for performance, so that it runs quickly for users.  FEND will also dive into common design patterns used on the web to make your work more organized and make it easier to work with larger teams and on larger web projects.  Aside from that, it's all about getting started and getting up and running on the web.  Getting the ability to make amazing web apps with the tools that are out there.  
 
 
 #What is expected pre-requisite knowledge?  
@@ -71,11 +72,18 @@ Here is a link to the [video][OH]
    5.  How to solve large and long problems. 
    6.  Responsive Web Design: How to make web pages look good.
 
-####What a student needs to know before taking the Front-End Web Developer Nanodegree:
+####Going into FEND from IPND
+Since you already learn a little bit of HTML and CSS, as well as a little bit of Javascript and Responsive Web design, so you will be well set up to join the Front-End Web Developer Nanodegree.  Because of the afore mentioned experience in IPND, you'll be set up for success with FEND with that skill set.  You'll probably even think the first one or two projects are easy, since some of it will be review; after that, it will ramp up.  Beyond what you've learned, there isn't much you need to brush up on; you'll be prepaired to enter the Nanodegree right out of the gate.
 
+####What a student needs to know before taking the Front-End Web Developer Nanodegree:
+- You'll need a good basic idea of how to use a computer
+    - How to create files
+    - How to use a text editor (not like Microsoft Office, but rather like Text-Edit on Mac or Notepad on Windows, or preferably Sublime Text or Atom)
+- A basic understanding of how to code
+- Knowledge of web termanology; what is a url, a browser, etc.
 
 ####What to learn after IPND but before taking the Front-End Web Developer Nanodegree:
-
+Nothing!  You should be ready to jump right into FEND after you finish IPND.
 
 #What will students learn in the Front-End Web Developer Nanodegree?  
 
