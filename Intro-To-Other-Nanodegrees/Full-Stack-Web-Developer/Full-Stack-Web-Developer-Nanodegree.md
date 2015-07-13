@@ -1,4 +1,4 @@
-Webcast: About the Front End Web Developer Nanodegree
+Webcast: About the Full-Stack Web Developer Nanodegree
 ==========================================
 
 Here is a link to the [video][OH]
