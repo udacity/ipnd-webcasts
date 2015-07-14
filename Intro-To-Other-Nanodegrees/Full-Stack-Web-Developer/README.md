@@ -4,16 +4,42 @@ Webcast: About the Full-Stack Web Developer Nanodegree
 Here is a link to the [video][OH]
 
 #What is Full-Stack Web Development?
+-what is front-end?
+-what is back-end?
+-full-stack is the combination of those
+-you know all aspects of making a web application
 
 
 #What is the Full-Stack Web Developer Nanodegree about?
+- work with a lot of different tools and technologies
+    - databases
+    - Google App Engine
+    - Flask, a Python web framework (like webapp2)
+    - OAuth - think facebook or google sign-in with your app
+    - virtual machines (what are these?)
+- build web applications and host them
+- learn a lot of new things
+- will set you up well for future projects
 
 
 
 
 #What is expected pre-requisite knowledge?  
+- Front-End experience
+    - you will be designing web applications
+    - not a whole lot of JS is required
+- Basic Python experience
+    - functions
+    - classes
+    - loops
+    - that’s pretty much all you need to start. we teach you the rest
+
 
 ###What gaps may need to be filled in from IPND (the Intro to Programming Nanodegree)?
+- you’re ready!
+- Full-Stack IF you like Python
+- Front-End IF you like working with HTML/CSS more
+
 
 ####What a student will know after finishing the Intro to Programming Nanodegree:
 
@@ -71,7 +97,7 @@ Here is a link to the [video][OH]
    5.  How to solve large and long problems. 
    6.  Responsive Web Design: How to make web pages look good.
 
-####What a student needs to know before taking the Full-Stack Web Developer Nanodegree:
+####What any student needs to know before taking the Full-Stack Web Developer Nanodegree:
 
 
 ####What to learn after IPND but before taking the Full-Stack Web Developer Nanodegree:
@@ -119,9 +145,7 @@ You will take a baseline installation of a Linux distribution on a virtual machi
 
 ###Course: Linux Basics for Web Developers
 
-
-
-
+###How will skills learned in IPND transfer to FSND?
 
 
 
@@ -130,8 +154,25 @@ You will take a baseline installation of a Linux distribution on a virtual machi
 #What kind of career does the Full-Stack Web Developer Nanodegree prepare you for?  
 
 
-##What would the day to day of a Full-Stack Web Developer look like?  
+###From Engineers you've talked to, what do they like the most about being a full stack developer?
 
+####What about you two?
+
+###What does planning for a project look like for a Full-Stack Web Developer?
+
+###What backgrounds do Full-Stack Web Developers tend to have?
+
+###What would the day to day of a Full-Stack Web Developer look like?  
+
+
+
+
+###How do you learn best? Any tips for the students on how to approach projects and learn new things?
+
+
+###What other tools languages might a Full-Stack Web Developer use on the job?
+
+###How useful is Full-Stack knowledge/experience for engineering in general
 
 
 
