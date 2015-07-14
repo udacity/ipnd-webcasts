@@ -82,6 +82,8 @@ Since you already learn a little bit of HTML and CSS, as well as a little bit of
 - A basic understanding of how to code
 - Knowledge of web termanology; what is a url, a browser, etc.
 
+Most everything beyond that will be taught in the Nanodegree
+
 ####What to learn after IPND but before taking the Front-End Web Developer Nanodegree:
 Nothing!  You should be ready to jump right into FEND after you finish IPND.
 
@@ -90,22 +92,26 @@ Nothing!  You should be ready to jump right into FEND after you finish IPND.
 ##What is the structure of the Front-End Web Developer Nanodegree?  
 Nanodegree Structure
 
-In the Nanodegree program, you’ll build six portfolio-worthy projects. Depending on your knowledge and skill level, you can either learn the necessary skills through our supporting courses, or jump into the projects directly. A summary of each of these projects, as well as links to their supporting courses are included in the sections below.
+In the Nanodegree program, you’ll build six portfolio-worthy projects. (7 total projects; the first is very basic).  Each project has one or more supporting classes. 
+
+
 
 ##What classes is the Front-End Web Developer Nanodegree composed of?  
 
-###How to Use Git and GitHub
 
-You’ll host all your projects on GitHub and make regular commits. If you haven’t learned version control yet, use our latest course on the topic: How to Use Git and GitHub
 
 ###Intro to HTML and CSS
-You will already have taken most of the first two lessons of this course in Stage 1 of the Intro to Programming Nanodegree!
+You will already have taken most of the first two lessons of this course in Stage 1 of the Intro to Programming Nanodegree!  This course will show you some of the tools not only to create a website with HTML and CSS, but also tools to organize and make laying out your website easier.  An example here would be Bootstrap, which is a CSS framework.
 
 ###Responsive Web Design Fundamentals
+This course will go very in-depth (far beyond what you touch in stage 5); you'll learn the ins and outs of things like Flexbox and Media Queries.
 
 ###Responsive Images
+This course will help students to get ready to provide images that are optimized and adjusted in size.  One thing that is really important on a web page is making sure that you send as little data across a network as possible, so its very important to make sure you are giving users images that aren't huge so that they load really quickly.
 
 ###Project: Build a Portfolio Site
+
+This is your first real project; you'll build a portfolio site.  You can use this to show off your projects, identity, and your work.  
 
 You will replicate a design mockup in HTML and CSS. You will develop a responsive website that will display images, descriptions and links to each of the portfolio projects you will complete throughout the course of the Front-End Web Developer Nanodegree.
 
@@ -118,39 +124,58 @@ You will already have taken the first lesson of this course in stage 5 of the In
 
 ###Project: Interactive Resume
 
+Your second project; you will be able to present yourself to a prosprective employer.  You'll learn Javascript and JQuery to prepare for this.  It should be a smooth tranisition for someone in IPND, as you will have seen Javascript and will have experience with another programming language already in Python.  JQuery is something new; it's a very powerful extension of Javascript; some programmers use it for everything for web development without even ever learning Javascript, and get along just fine even without knowing nitty gritty details about Javascript.
+
 You will develop an interactive resume application that reads your resume content from a JSON file and dynamically displays that content within a provided template. You will use objects, functions, conditionals, and control structures to compose the content that will display on the resume.
 
 Prepare for this project with: JavaScript Basics and Intro to jQuery
 
 ###Object Oriented Javascript
+Object Oriented Javascript is quite a bit different than most object oriented languages, since technically Javascript is a prototype language and not necessarily an object based language.  You'll learn the differences between those.
 
 ###HTML5 Canvas
+This is a new tag in the world of web development.  A lot of people use the canvas to draw patterns or designs on webpages; here, we'll use it to make a game on a webpage.
 
 ###Project: Classic Arcade Game Clone
 
 You will be provided with visual assets and a game loop engine; using these tools you must add a number of entities to the game including the player characters and enemies to recreate the classic arcade game Frogger.
 
+If you've never played Frogger, it is a game where you, as a frog, try to cross a busy street without being hit by a passing enemy / car.  
+
 Prepare for this project with: Object-Oriented JavaScript and HTML5 Canvas
 
 ###Website Performance Optimization
+In this course, we teach you how to improve your website, how to optimize your code in such a way that the browser renders very quickly, hopefully hitting 60 frames per second.  
+
+###Browser Preformance Optimization
 
 ###Project: Website Optimization
+
+This is something most programs ignore, but is crutial for web development.  You'll be handed a completed website that is very slow.  Most of you have gone to a website where you are sitting there, scrolling through the page and waiting for something to load as the website chugs along.  
+
+This is one of the most important projects you'll do.  Especially considering how large and bloated webpages are getting, it's important to make sure you render webpages as fast as possible.
+
+You learn about development tools and how to measure your webpages.
 
 You will optimize a provided website with a number of optimization- and performance-related issues so that it achieves a target PageSpeed score and runs at 60 frames per second.
 
 Prepare for this project with: Website Performance Optimization
 
 ###Intro to AJAX
-
+Go indepth with AJAX calls and making calls to APIs.
 ###JavaScript Design Patterns
 
 ###Project: Neighborhood Map
 
+This is a project where you'll get a chance to get creative.  You develop a map of your neighborhood using the Google Maps API and using a Javascript framework and following a Model View Controller Pattern.  
 You will develop a single-page application featuring a map of your neighborhood or a neighborhood you would like to visit. You will then add additional functionality to this application, including: map markers to identify popular locations or places you’d like to visit, a search function to easily discover these locations, and a listview to support simple browsing of all locations. You will then research and implement third-party APIs that provide additional information about each of these locations (such as StreetView images, Wikipedia articles, Yelp reviews, etc).
 
 Prepare for this project with: Intro to AJAX and JavaScript Design Patterns
 
 ###JavaScript Testing
+You'll learn Javascript testing; how to write unit tests, how to add code without breaking previous functionality, etc. 
+
+If an application has some part has some basic functionality, like a login form, a unit test would be a test written to make sure that small bit of functionality always works.
 
 ###Project:  Feed Reader Testing
 
@@ -159,12 +184,22 @@ In this project you are given a web-based application that reads RSS feeds. The 
 Prepare for this project with: JavaScript Testing
 
 
-#What kind of career does the Front-End Web Developer Nanodegree prepare you for?  
+###How to Use Git and GitHub
 
+You’ll host all your projects on GitHub and make regular commits. If you haven’t learned version control yet, use our latest course on the topic: How to Use Git and GitHub
+
+#What kind of career does the Front-End Web Developer Nanodegree prepare you for?  
+It will prepare you for quite a few different fields, depending on what you have previous experience in.  If you are someone that is design oriented, and can make your own art, and you have a creative mind, you can be a designer for a web-development team or be a free lancer who creates designs for clients, whether local businesses, or for blogs, etc.
+
+Another avenue would be 
 
 ##What would the day to day of a Front-End Web Developer look like?  
 
 
+#How to apply coding skills from IPND into FEND
+HTML and CSS will apply directly; you will use both extensively in FEND.  While you won't be using Python, there are a large number of commonalities between any programming languages, so although you'll need to learn a new syntax, you'll still be able to transfer most of the skills you learned to Javascript.  The first language you learn is always the hardest!
+
+Javascript, like Python, will demand comfort with abstraction, procedural thinking, and being able to develop an algorithm.  Loops, lists / arrays, variables, if statements, etc. are all common between programming languages, and although syntax may differ, concepts will be similar.  Learning Python will help with learning any other language, whether it's Javascript, Ruby, Java, or C++.   
 
 
 [OH]: https://plus.google.com
