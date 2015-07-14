@@ -188,11 +188,33 @@ Prepare for this project with: JavaScript Testing
 
 You’ll host all your projects on GitHub and make regular commits. If you haven’t learned version control yet, use our latest course on the topic: How to Use Git and GitHub
 
+
+###Curriculum Length
+Someone who really dives into it (and doesn't do much else) could probably normally finish in about 4 months; we recommend 6 to 9 months of 10 to 20 hours a week.  
+
+
 #What kind of career does the Front-End Web Developer Nanodegree prepare you for?  
 It will prepare you for quite a few different fields, depending on what you have previous experience in.  If you are someone that is design oriented, and can make your own art, and you have a creative mind, you can be a designer for a web-development team or be a free lancer who creates designs for clients, whether local businesses, or for blogs, etc.
 
-Another avenue would be 
+Another avenue would be industry, where you step into a role as a web-designer on a web development team.  You work with a handful of people, working on the layout of a website.  You work on the content presented to a user.  If you think of companies that have websites, every one of those has some sort of front-end web developer or web engineer working on those websites.
 
+A third direction you can go is working with the tooling side of things, where you work on Open Source projects, like JQuery or Codepen, working on things by web developers for web developers.  It's a harder track to get into, since you are working with really strong people in that field, but it's a fun one to get into, as you'll be on the bleeding edge of front-end web development.
+
+Those are the three main ways to go, but with that said, it's the web; anything is possible, opportunities can be endless.
+
+###Front-End as preperation for Full-Stack
+Most Front-End engineers know at leasta little back end
+
+
+####Full-Stack Web Developer Nanodegree prep
+FEND goes much deaper into the front-end, like preformance optimization and OO Javascript.  
+
+
+###Technical vs. Creative
+
+###Front End as preperation for DAND
+
+###Using user-readiness assessments from other Nanodegrees to check to see if you are ready jump in
 ##What would the day to day of a Front-End Web Developer look like?  
 
 
