@@ -4,10 +4,10 @@ Webcast: About the Full-Stack Web Developer Nanodegree
 Here is a link to the [video][OH]
 
 #What is Full-Stack Web Development?
--what is front-end?
--what is back-end?
--full-stack is the combination of those
--you know all aspects of making a web application
+- what is front-end?
+- what is back-end?
+- full-stack is the combination of those
+- you know all aspects of making a web application
 
 
 #What is the Full-Stack Web Developer Nanodegree about?
