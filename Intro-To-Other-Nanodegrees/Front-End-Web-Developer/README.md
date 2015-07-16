@@ -107,7 +107,7 @@ You will already have taken most of the first two lessons of this course in Stag
 This course will go very in-depth (far beyond what you touch in stage 5); you'll learn the ins and outs of things like Flexbox and Media Queries.
 
 ####Responsive Images
-This course will help students to get ready to provide images that are optimized and adjusted in size.  One thing that is really important on a web page is making sure that you send as little data across a network as possible, so its very important to make sure you are giving users images that aren't huge so that they load really quickly.
+This course will help students to get ready to provide images that are optimized and adjusted in size.  One thing that is really important on a web page is making sure that you send as little data across a network as possible, so its very important to make sure you are giving users images that are properly sized so that they load quickly.
 
 ####Project: Build a Portfolio Site
 
@@ -124,14 +124,14 @@ You will already have taken the first lesson of this course in stage 5 of the In
 
 ####Project: Interactive Resume
 
-Your second project; you will be able to present yourself to a prosprective employer.  You'll learn Javascript and JQuery to prepare for this.  It should be a smooth tranisition for someone in IPND, as you will have seen Javascript and will have experience with another programming language already in Python.  JQuery is something new; it's a very powerful extension of Javascript; some programmers use it for everything for web development without even ever learning Javascript, and get along just fine even without knowing nitty gritty details about Javascript.
+Your second project; you will be able to present yourself to a prosprective employer.  You'll learn Javascript and JQuery to prepare for this.  It should be a smooth tranisition for someone in the Intro to Programming Nanodegree, as you will have seen Javascript and will have experience with another programming language already in Python.  JQuery is something new; it's a very powerful extension of Javascript.  Some programmers use it for everything for web development without even ever learning basic Javascript, and get along just fine without knowing the nitty gritty details about Javascript.
 
 You will develop an interactive resume application that reads your resume content from a JSON file and dynamically displays that content within a provided template. You will use objects, functions, conditionals, and control structures to compose the content that will display on the resume.
 
 Prepare for this project with: JavaScript Basics and Intro to jQuery
 
 ####Object Oriented Javascript
-Object Oriented Javascript is quite a bit different than most object oriented languages, since technically Javascript is a prototype language and not necessarily an object based language.  You'll learn the differences between those.
+Object Oriented Javascript is quite a bit different than most object oriented languages, since technically Javascript is a prototype language and not necessarily an object based language.  You'll learn the differences between those here, as well as how to use Javascript in this manner.
 
 ####HTML5 Canvas
 This is a new tag in the world of web development.  A lot of people use the canvas to draw patterns or designs on webpages; here, we'll use it to make a game on a webpage.
@@ -140,7 +140,7 @@ This is a new tag in the world of web development.  A lot of people use the canv
 
 You will be provided with visual assets and a game loop engine; using these tools you must add a number of entities to the game including the player characters and enemies to recreate the classic arcade game Frogger.
 
-If you've never played Frogger, it is a game where you, as a frog, try to cross a busy street without being hit by a passing enemy / car.  
+If you've never played Frogger, it is a game where you, as a frog, try to cross a space (usually a busy street) without being hit by a passing enemy / car.  
 
 Prepare for this project with: Object-Oriented JavaScript and HTML5 Canvas
 
@@ -163,6 +163,7 @@ Prepare for this project with: Website Performance Optimization
 
 ####Intro to AJAX
 Go indepth with AJAX calls and making calls to APIs.
+
 ####JavaScript Design Patterns
 
 ####Project: Neighborhood Map
@@ -202,12 +203,8 @@ A third direction you can go is working with the tooling side of things, where y
 
 Those are the three main ways to go, but with that said, it's the web; anything is possible, opportunities can be endless.
 
-###Front-End as preperation for Full-Stack
-Most Front-End engineers know at leasta little back end
-
-
-####Full-Stack Web Developer Nanodegree prep
-FEND goes much deaper into the front-end, like preformance optimization and OO Javascript.  
+###Front-End Web Developer Nanodegree as preperation for the Full-Stack Web Developer Nanodegree
+Most Front-End engineers know at least a little back-end, and the reverse would hold true as well, as you need to work together to accomplish your goals.  The Front-End Web Developer Nanodegree will prepare you well in learning the Front-End half of Full-Stack developement, so you'll be very well prepared to jump in to the Full-Stack Web Developer Nanodegree.  Our Full-Stack offering is also much heavier on the back end of a being a full stack engineer than it is on the front end, so you will really be prepaired to get into the field as a full-stack web developer after you complete both.  You will go much deaper into the front-end in the Front-End Web Developer Nanodegree than the Full-Stack Web Developer Nanodegree assumes your knowledge base will be before entering it, as you will going into things like preformance optimization and Object Oriented Javascript, which won't be touched on or assumed as pre-requisite knowledge at all in the Full-Stack Web Developer Nanodegree.    
 
 
 ###Technical vs. Creative
