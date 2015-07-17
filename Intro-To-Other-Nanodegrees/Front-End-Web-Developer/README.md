@@ -100,6 +100,10 @@ In the Nanodegree program, you’ll build six portfolio-worthy projects. (7 tota
 
 ###The Front-End Web Developer Nanodegree Projects and Courses:
 
+
+####How to Use Git and GitHub
+This course isn't required for the Nanodegree, but it will help you significantly in submitting your projects (and generally is a very useful skill to learn).  You’ll host all your projects on GitHub and make regular commits for the Front-End Web Developer Nanodegree. Assuming you haven’t learned version control yet, use our latest course on the topic: How to Use Git and GitHub
+
 ####Intro to HTML and CSS
 You will already have taken most of the first two lessons of this course in Stage 1 of the Intro to Programming Nanodegree!  This course will show you some of the tools not only to create a website with HTML and CSS, but also tools to organize and make laying out your website easier.  An example here would be Bootstrap, which is a CSS framework.
 
@@ -121,6 +125,7 @@ Prepare for this project with: Intro to HTML and CSS, Responsive Web Design Fund
 You will already have taken the first lesson of this course in stage 5 of the Intro to Programming Nanodegree!
 
 ####Intro to jQuery
+Here you will learn all about jQuery, a very powerful extension of Javascript.
 
 ####Project: Interactive Resume
 
@@ -185,11 +190,6 @@ In this project you are given a web-based application that reads RSS feeds. The 
 Prepare for this project with: JavaScript Testing
 
 
-####How to Use Git and GitHub
-
-You’ll host all your projects on GitHub and make regular commits. If you haven’t learned version control yet, use our latest course on the topic: How to Use Git and GitHub
-
-
 ####Curriculum Length
 Someone who really dives into it (and doesn't do much else) could probably normally finish in about 4 months; we recommend 6 to 9 months of 10 to 20 hours a week.  
 
@@ -206,13 +206,14 @@ Those are the three main ways to go, but with that said, it's the web; anything 
 ###Front-End Web Developer Nanodegree as preperation for the Full-Stack Web Developer Nanodegree
 Most Front-End engineers know at least a little back-end, and the reverse would hold true as well, as you need to work together to accomplish your goals.  The Front-End Web Developer Nanodegree will prepare you well in learning the Front-End half of Full-Stack developement, so you'll be very well prepared to jump in to the Full-Stack Web Developer Nanodegree.  Our Full-Stack offering is also much heavier on the back end of a being a full stack engineer than it is on the front end, so you will really be prepaired to get into the field as a full-stack web developer after you complete both.  You will go much deaper into the front-end in the Front-End Web Developer Nanodegree than the Full-Stack Web Developer Nanodegree assumes your knowledge base will be before entering it, as you will going into things like preformance optimization and Object Oriented Javascript, which won't be touched on or assumed as pre-requisite knowledge at all in the Full-Stack Web Developer Nanodegree.    
 
-
 ###Technical vs. Creative
+It is sometimes assumed that back-end web development is the technical side of things, while front-end web development is instead creative.  While front-end web development does have a place for visual designers and artists, it also has a technical side.  JavaScript programming and any website optimization is quite technical, and lends itself well to those who are technically competent, even if they aren't very visually creative.  
 
-###Front End as preperation for DAND
+###Front End as preperation for the Data Analysist Nanodegree
+While Front-End Web Development and Data Analysis are quite different fields, some things you learn in the Front-End Web Development Nanodegree will be useful for taking the Data Analysist Nanodegree. Much of what a Data Analysist does is wrangle data (i.e. data munging), as you first have to collect and clean data before you can analize it.  Data wrangling often times requires knowledge of HTML structure and how to usefully apply APIs.  More proficiency with those things will make learning data wrangling easier.
 
 ###Using user-readiness assessments from other Nanodegrees to check to see if you are ready jump in
-##What would the day to day of a Front-End Web Developer look like?  
+Most Nanodegrees have a readiness assessment that you can take to see if you know what is expected of you for prerequisite knowledge.  If you are interested in a Nanodegree, but don't know if you are ready for it, it is usually a good idea to take the readiness assessment to see not only if you are ready, but, if you aren't, what gaps you need to fill in before starting.
 
 
 #How to apply coding skills from IPND into FEND
