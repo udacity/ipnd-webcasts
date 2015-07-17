@@ -9,7 +9,7 @@ Front-End Web Development is the creation of everything you see on the web.  Eve
 The main technologies being used are HTML (Hyper-Text Markup Language), which creates the content and basic structure of web pages, CSS (cascading style sheets), which creates the styles, animations and transitions of webpages, and Javascript, which is the actual programming language used by the web.  Javascript is used fo running scripts, animations, or basically to do anything you really want to do in a browser.  Front-End web development is the combination of these three things to make content that is presentable to a user or a client.
 
 #What is the Front-End Web Developer Nanodegree about?
-The Front-End Web Developer Nanodegree will take students from a basic understanding of the web to an ability to be a Front-End Web Developer.  It will introduce those web technoknoledgies (HTML, CSS, and Javascript), which, if you've gone through the Intro to Programming Nanodegree, you will already have some understanding and comfort level with before you start.  On top of getting comfortable with those technologies, the Front-End Web Developer Nanodegree will also go over how browsers work and how to optimize a webpage for performance, so that it runs quickly for users.  The Front-End Web Developer Nanodegree will also dive into common design patterns used on the web to make your work more organized and make it easier to work with larger teams and on larger web projects.  Aside from that, it's all about getting started and getting up and running on the web, and getting the ability to make amazing web apps with the tools that are out there.  
+The Front-End Web Developer Nanodegree will take students from a basic understanding of the web to an ability to be a Front-End Web Developer.  It will introduce those web technologies (HTML, CSS, and Javascript), which, if you've gone through the Intro to Programming Nanodegree, you will already have some understanding and comfort level with before you start.  On top of getting comfortable with those technologies, the Front-End Web Developer Nanodegree will also go over how browsers work and how to optimize a webpage for performance, so that it runs quickly for users.  The Front-End Web Developer Nanodegree will also dive into common design patterns used on the web to make your work more organized and make it easier to work with larger teams and on larger web projects.  Aside from that, it's all about getting started and getting up and running on the web, and getting the ability to make amazing web apps with the tools that are out there.  
 
 
 #Expected Prerequisite Knowledge  
@@ -21,73 +21,73 @@ First, it's probably useful to go over what you will learn in the Intro to Progr
 #####What you learn in the Intro to Programming Nanodegree
 
 #####From Stage 1:
-  In Stage 1 of the Intro to Programming Nanodegree, you will learn the basics of HTML and CSS, as well as how they fit together.  You'll get practice with developing your own static web pages, building the foundations with HTML and formatting them with CSS.  You'll learn a variety of HTML tags and attributes, as well as how to use them.  
-  
+In Stage 1 of the Intro to Programming Nanodegree, you will learn the basics of HTML and CSS, as well as how they fit together.  You'll get practice with developing your own static web pages, building the foundations with HTML and formatting them with CSS.  You'll learn a variety of HTML tags and attributes, as well as how to use them.  
+
 You will also learn how to use various tools common in programming, like a text editor (we use Sublime Text).
 
 #####From Stage 2:
 In stage 2 you will learn the basics of Python, including:
-  1.  Strings
-  2.  Loops (for and while)
-  3.  Variables
-  4.  If statements
-  5.  Types (like int, str, and bool)
-  6.  Lists
-  7.  Tuples
-  8.  Mutability
-  9.  Functions
-  10.  Return statements
-  11.  Print statements
-  12.  Debugging Python code
-  13.  Problem Solving
+1.  Strings
+2.  Loops (for and while)
+3.  Variables
+4.  If statements
+5.  Types (like int, str, and bool)
+6.  Lists
+7.  Tuples
+8.  Mutability
+9.  Functions
+10.  Return statements
+11.  Print statements
+12.  Debugging Python code
+13.  Problem Solving
 
 This will set you up to be able to build your own programs!
-    
+
 #####From Stage 3:
 In stage 3, you will continue learning Python, this time getting into its object oriented side.  Here you will learn about:
-  1.  Classes 
-  2.  Objects
-  3.  Methods
-  4.  Instances
-  5.  Instance variables
-  6.  Inheritance
-  7.  Method Overriding
-  8.  Import Statements
-  9.  The Python Standard Library
-  10.  Importing External Libaries
-  11.  Using documentation
+1.  Classes 
+2.  Objects
+3.  Methods
+4.  Instances
+5.  Instance variables
+6.  Inheritance
+7.  Method Overriding
+8.  Import Statements
+9.  The Python Standard Library
+10.  Importing External Libraries
+11.  Using documentation
 
 #####From Stage 4:
 In stage 4 of the Intro to Programming Nanodegree, you will build the backend of a website using Python and Google App Engine.  You'll learn:
-  1.  How to install, run, and deploy with Google App Engine
-  2.  How to use the .yaml file with GAE (Google App Engine)
-  3.  How to navigate folders appropriately when referencing different files with GAE
-  4.  Google Datastore  
-  5.  How to use the webapp2 framework
-  6.  How to use jinja2 templates
-  7.  How to use Python dictionaries
-  8.  How to use the modulus operator in Python
-    
+1.  How to install, run, and deploy with Google App Engine
+2.  How to use the .yaml file with GAE (Google App Engine)
+3.  How to navigate folders appropriately when referencing different files with GAE
+4.  Google Datastore  
+5.  How to use the webapp2 framework
+6.  How to use jinja2 templates
+7.  How to use Python dictionaries
+8.  How to use the modulus operator in Python
+
 #####From Stage 5:
-Stage 5 in the Intro to Programming Nanodegree will provide awareness of a variety of things instead of providing a higher level of competency.  Some of the concepts in computing you will develope awareness about will be:
-   1.  Using JavaScript to bring web pages to life.
-   2.  Using APIs to easily access powerful data.
-   3.  Recursion 
-   4.  Parallel computing
-   5.  How to solve large and long problems. 
-   6.  Responsive Web Design: How to make web pages look good.
+Stage 5 in the Intro to Programming Nanodegree will provide awareness of a variety of things instead of providing a higher level of competency.  Some of the concepts in computing you will develop awareness about will be:
+1.  Using JavaScript to bring web pages to life.
+2.  Using APIs to easily access powerful data.
+3.  Recursion 
+4.  Parallel computing
+5.  How to solve large and long problems. 
+6.  Responsive Web Design: How to make web pages look good.
 
 Now we can move into what a student will need to know before taking the Front-End Web Developer Nanodegree.
 
 ####What a student needs to know before taking the Front-End Web Developer Nanodegree:
 - You'll need a good basic idea of how to use a computer
-    - How to create files
-    - How to use a text editor (not like Microsoft Office, but rather like Text-Edit on Mac or Notepad on Windows, or preferably Sublime Text or Atom)
+- How to create files
+- How to use a text editor (not like Microsoft Office, but rather like Text-Edit on Mac or Notepad on Windows, or preferably Sublime Text or Atom)
 - A basic understanding of how to code
-- Knowledge of web termanology; what is a url, a browser, etc.
+- Knowledge of web terminology; what is a url, a browser, etc.
 
 ####Going into the Front-End Web Developer Nanodegree from the Intro to Programming Nanodegree
-Since you already learn some HTML and CSS, as well as a touch on a little bit of Javascript and Responsive Web design, you will be well set up to join the Front-End Web Developer Nanodegree without any further preperation.  Because of the afore mentioned experience in the Intro to Programming Nanodegree, you'll be set up for success with the Front-End Web Developer Nanodegree with the skill set you already have coming out of the Intro to Programming Nanodegree.  You'll probably even think the first one or two projects are easy, since some of it will be review; after that, it will ramp up to become more difficult.  Beyond what you've learned, there isn't much you need to brush up on; you'll be prepaired to enter the Nanodegree right out of the gate.
+Since you already learn some HTML and CSS, as well as a touch on a little bit of Javascript and Responsive Web design, you will be well set up to join the Front-End Web Developer Nanodegree without any further preparation.  Because of the afore mentioned experience in the Intro to Programming Nanodegree, you'll be set up for success with the Front-End Web Developer Nanodegree with the skill set you already have coming out of the Intro to Programming Nanodegree.  You'll probably even think the first one or two projects are easy, since some of it will be review; after that, it will ramp up to become more difficult.  Beyond what you've learned, there isn't much you need to brush up on; you'll be prepared to enter the Nanodegree right out of the gate.
 
 
 ####What to learn after IPND but before taking the Front-End Web Developer Nanodegree
@@ -129,7 +129,7 @@ Here you will learn all about jQuery, a very powerful extension of Javascript.
 
 ####Project: Interactive Resume
 
-Your second project; you will be able to present yourself to a prosprective employer.  You'll learn Javascript and JQuery to prepare for this.  It should be a smooth tranisition for someone in the Intro to Programming Nanodegree, as you will have seen Javascript and will have experience with another programming language already in Python.  JQuery is something new; it's a very powerful extension of Javascript.  Some programmers use it for everything for web development without even ever learning basic Javascript, and get along just fine without knowing the nitty gritty details about Javascript.
+Your second project; you will be able to present yourself to a prospective employer.  You'll learn Javascript and JQuery to prepare for this.  It should be a smooth transition for someone in the Intro to Programming Nanodegree, as you will have seen Javascript and will have experience with another programming language already in Python.  JQuery is something new; it's a very powerful extension of Javascript.  Some programmers use it for everything for web development without even ever learning basic Javascript, and get along just fine without knowing the nitty gritty details about Javascript.
 
 You will develop an interactive resume application that reads your resume content from a JSON file and dynamically displays that content within a provided template. You will use objects, functions, conditionals, and control structures to compose the content that will display on the resume.
 
@@ -152,11 +152,11 @@ Prepare for this project with: Object-Oriented JavaScript and HTML5 Canvas
 ####Website Performance Optimization
 In this course, we teach you how to improve your website, how to optimize your code in such a way that the browser renders very quickly, hopefully hitting 60 frames per second.  
 
-####Browser Preformance Optimization
+####Browser Performance Optimization
 
 ####Project: Website Optimization
 
-This is something most programs ignore, but is crutial for web development.  You'll be handed a completed website that is very slow.  Most of you have gone to a website where you are sitting there, scrolling through the page and waiting for something to load as the website chugs along.  
+This is something most programs ignore, but is crucial for web development.  You'll be handed a completed website that is very slow.  Most of you have gone to a website where you are sitting there, scrolling through the page and waiting for something to load as the website chugs along.  
 
 This is one of the most important projects you'll do.  Especially considering how large and bloated webpages are getting, it's important to make sure you render webpages as fast as possible.
 
@@ -167,14 +167,14 @@ You will optimize a provided website with a number of optimization- and performa
 Prepare for this project with: Website Performance Optimization
 
 ####Intro to AJAX
-Go indepth with AJAX calls and making calls to APIs.
+Go in-depth with AJAX calls and making calls to APIs.
 
 ####JavaScript Design Patterns
 
 ####Project: Neighborhood Map
 
 This is a project where you'll get a chance to get creative.  You develop a map of your neighborhood using the Google Maps API and using a Javascript framework and following a Model View Controller Pattern.  
-You will develop a single-page application featuring a map of your neighborhood or a neighborhood you would like to visit. You will then add additional functionality to this application, including: map markers to identify popular locations or places you’d like to visit, a search function to easily discover these locations, and a listview to support simple browsing of all locations. You will then research and implement third-party APIs that provide additional information about each of these locations (such as StreetView images, Wikipedia articles, Yelp reviews, etc).
+You will develop a single-page application featuring a map of your neighborhood or a neighborhood you would like to visit. You will then add additional functionality to this application, including: map markers to identify popular locations or places you’d like to visit, a search function to easily discover these locations, and a list view to support simple browsing of all locations. You will then research and implement third-party APIs that provide additional information about each of these locations (such as StreetView images, Wikipedia articles, Yelp reviews, etc).
 
 Prepare for this project with: Intro to AJAX and JavaScript Design Patterns
 
@@ -203,14 +203,14 @@ A third direction you can go is working with the tooling side of things, where y
 
 Those are the three main ways to go, but with that said, it's the web; anything is possible, opportunities can be endless.
 
-###Front-End Web Developer Nanodegree as preperation for the Full-Stack Web Developer Nanodegree
-Most Front-End engineers know at least a little back-end, and the reverse would hold true as well, as you need to work together to accomplish your goals.  The Front-End Web Developer Nanodegree will prepare you well in learning the Front-End half of Full-Stack developement, so you'll be very well prepared to jump in to the Full-Stack Web Developer Nanodegree.  Our Full-Stack offering is also much heavier on the back end of a being a full stack engineer than it is on the front end, so you will really be prepaired to get into the field as a full-stack web developer after you complete both.  You will go much deaper into the front-end in the Front-End Web Developer Nanodegree than the Full-Stack Web Developer Nanodegree assumes your knowledge base will be before entering it, as you will going into things like preformance optimization and Object Oriented Javascript, which won't be touched on or assumed as pre-requisite knowledge at all in the Full-Stack Web Developer Nanodegree.    
+###Front-End Web Developer Nanodegree as preparation for the Full-Stack Web Developer Nanodegree
+Most Front-End engineers know at least a little back-end, and the reverse would hold true as well, as you need to work together to accomplish your goals.  The Front-End Web Developer Nanodegree will prepare you well in learning the Front-End half of Full-Stack development, so you'll be very well prepared to jump in to the Full-Stack Web Developer Nanodegree.  Our Full-Stack offering is also much heavier on the back end of a being a full stack engineer than it is on the front end, so you will really be prepared to get into the field as a full-stack web developer after you complete both.  You will go much deeper into the front-end in the Front-End Web Developer Nanodegree than the Full-Stack Web Developer Nanodegree assumes your knowledge base will be before entering it, as you will going into things like performance optimization and Object Oriented Javascript, which won't be touched on or assumed as pre-requisite knowledge at all in the Full-Stack Web Developer Nanodegree.    
 
 ###Technical vs. Creative
 It is sometimes assumed that back-end web development is the technical side of things, while front-end web development is instead creative.  While front-end web development does have a place for visual designers and artists, it also has a technical side.  JavaScript programming and any website optimization is quite technical, and lends itself well to those who are technically competent, even if they aren't very visually creative.  
 
-###Front End as preperation for the Data Analysist Nanodegree
-While Front-End Web Development and Data Analysis are quite different fields, some things you learn in the Front-End Web Development Nanodegree will be useful for taking the Data Analysist Nanodegree. Much of what a Data Analysist does is wrangle data (i.e. data munging), as you first have to collect and clean data before you can analize it.  Data wrangling often times requires knowledge of HTML structure and how to usefully apply APIs.  More proficiency with those things will make learning data wrangling easier.
+###Front End as preparation for the Data Analysts Nanodegree
+While Front-End Web Development and Data Analysis are quite different fields, some things you learn in the Front-End Web Development Nanodegree will be useful for taking the Data Analysts Nanodegree. Much of what a Data Analysts does is wrangle data (i.e. data munging), as you first have to collect and clean data before you can analyze it.  Data wrangling often times requires knowledge of HTML structure and how to usefully apply APIs.  More proficiency with those things will make learning data wrangling easier.
 
 ###Using user-readiness assessments from other Nanodegrees to check to see if you are ready jump in
 Most Nanodegrees have a readiness assessment that you can take to see if you know what is expected of you for prerequisite knowledge.  If you are interested in a Nanodegree, but don't know if you are ready for it, it is usually a good idea to take the readiness assessment to see not only if you are ready, but, if you aren't, what gaps you need to fill in before starting.
@@ -223,4 +223,3 @@ Javascript, like Python, will demand comfort with abstraction, procedural thinki
 
 
 [OH]: https://plus.google.com/u/0/events/cf17uds9cths0g4ic68082tjj10?authkey=COLsyoGqwIPLqwE
-
