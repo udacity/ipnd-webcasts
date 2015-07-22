@@ -57,5 +57,5 @@ which happen every Tuesday at 4pm Pacific Time.
 [21]: Intro-To-Other-Nanodegrees/Front-End-Web-Developer/README.md
 [22]: Stage_2/2015-07-09-problem-solving-tic-tac-toe/README.md
 [23]: Intro-To-Other-Nanodegrees/Full-Stack-Web-Developer/README.md
-[24]: 2015-07-21-planning_website_front_to_back/README.md
+[24]: General/2015-07-21-planning_website_front_to_back/README.md
 

@@ -29,7 +29,7 @@ The list can go on and on and they can be daunting to keep track of. Therefore w
 
 Front-End deals with what the users sees on their web browser. The components we classify as front-end such HTML, CSS, user design, color schemes, page design, and JavaScript fall under front-end. 
 
-Back-End deals with what the users do not see such as server administration and maintenance, API Endpoints, database design, web server and wser account administration.
+Back-End deals with what the users do not see such as server administration and maintenance, API Endpoints, database design, web server and user account administration.
 
 Therefore we can put all of our specifications and components into these two big categories.
 
@@ -81,7 +81,7 @@ Something that we can do is shade our boxes to determine whether we'll end up pu
 
 The wireframing stage is very useful for thinking about colors as well. Most people think that colors do not matter or they can figure it out afterwards, but it is very important to consider color at the beginning of our design because good design makes navigation easier, and use of our website more pleasant, making it more likely for your visitors to come back. 
 
-Visual design is as important as the front-end technologhy.
+Visual design is as important as the front-end technology.
 
 ### Front-End Technology
 
@@ -165,7 +165,7 @@ There are many options for server hosting. Choosing the right server depends on 
 * **Virtual Private Server and Dedicated Hosting Servers**
    * These type of servers give us full access to a whole server or a virtualized server. This is reserved for power users who need dedicated servers to serve thousands of users with dynamic and static content. The programmer is responsible for remotely installing and setting up the required software in order to run the server. A programmer would need to have server administration skills in order to fully set up the server. Companies such as Namecheap, HostGator, Amazon AWS, and Dreamhost provide this type of service.
 * **Platform as a Service (PAAS)**
-   *  The next generation of web hosting involve a combination of Virtual Private Server and Easy Hosting where the company will allow developers to choose what technology and software they want to install on their server and the company will take care of the rest of the details. The developer does not even need to worry abou server and database administration. The PAAS service implies that the developer can focus on coding the back-end with the technology that the developer wants and not have to worry about the details of setting everything up on a server. Examples of PAAS are Google App Engine, Heroku, and Amazon Elastic Beanstalk. Here is a short video highlighting the [features of PAAS](https://youtu.be/SrwxAScdyT0) for Amazon's Elastic Beanstalk.
+   *  The next generation of web hosting involve a combination of Virtual Private Server and Easy Hosting where the company will allow developers to choose what technology and software they want to install on their server and the company will take care of the rest of the details. The developer does not even need to worry about server and database administration. The PAAS service implies that the developer can focus on coding the back-end with the technology that the developer wants and not have to worry about the details of setting everything up on a server. Examples of PAAS are Google App Engine, Heroku, and Amazon Elastic Beanstalk. Here is a short video highlighting the [features of PAAS](https://youtu.be/SrwxAScdyT0) for Amazon's Elastic Beanstalk.
 
 ### Domain Name Service (DNS)
 
@@ -186,7 +186,7 @@ A server can deliver both of these type of dynamic content. It's important to un
 
 This is the final category that we need to consider to plan out the server. What kind of frameworks and programming languages do we want to use? In other words, what is the full list of software that we will use to serve our users?
 
-If the content is 100% static, then we just need to find an easy host and upload our web files. There is no need to consider our Back-End technology. Now if there is a need for dynamic content, then we need to make a choice on choosing the technologies sthat we want to use to help us server our dynamic content to our users.
+If the content is 100% static, then we just need to find an easy host and upload our web files. There is no need to consider our Back-End technology. Now if there is a need for dynamic content, then we need to make a choice on choosing the technologies that we want to use to help us server our dynamic content to our users.
 
 Here is a short list of popular technologies that help us serve dynamic content:
 
