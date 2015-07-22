@@ -31,6 +31,8 @@ which happen every Tuesday at 4pm Pacific Time.
 - [T 6/23][20]: Jonah and Sean break down Google App Engine Applications
 - [T 6/30][21]: Luke and John go over the Front-End Web Developer Nanodegree
 - [T 7/7][22]: Luke and Jonah make a Tic-Tac-Toe game in this Problem Solving Session.
+- [T 7/14][23]: Jeff and Luke go over the Full Stack Web Developer Nanodegree
+- [T 7/22][24]: Mark and Jonah go over the big questions to answer when planning a whole website from the front-end to the back-end
 
 [1]: https://plus.google.com/events/cpehpd7ehd414g5vkpc0g4ojkq8?authkey=CO262J255Kf2Iw
 [2]: Stage_1/2015-02-17-project-1/README.md
@@ -54,3 +56,6 @@ which happen every Tuesday at 4pm Pacific Time.
 [20]: Stage_4/2015-06-23-Breaking_Down_GAE_Applications/README.md
 [21]: Intro-To-Other-Nanodegrees/Front-End-Web-Developer/README.md
 [22]: Stage_2/2015-07-09-problem-solving-tic-tac-toe/README.md
+[23]: Intro-To-Other-Nanodegrees/Full-Stack-Web-Developer/README.md
+[24]: 2015-07-21-planning_website_front_to_back/README.md
+
