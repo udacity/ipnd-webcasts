@@ -169,37 +169,44 @@ With the Full Stack, you'll be using mostly Python, whereas you'll be using most
 
 If you do plan to take both of them, it may make more sense to take the Front-End Web Developer Nanodegree first, as you'll know exactly what the small amount of Javascript you deal with in the Full-Stack Web Developer Nanodegree does.
 
-###How will skills learned in IPND transfer to FSND?
+You can go straight into the Full-Stack Web Developer Nanodegree from IPND, though; there is nothing that you need to know going into FSND that you don't learn in the Intro to Programming Nanodegree.
 
+###How will skills learned in IPND transfer to FSND?
+The skills you learn in IPND will more or less all directly transfer to helping your learning in the Full-Stack Web Developer Nanodegree.  You will be expected to know the HTML and CSS you learn in IPND as you get into FSND, and you will dive even deeper into Python.  You will also be using Google App Engine in FSND, although with a different framework.  The things you touch on in stage 5 of IPND will also be useful, whether it is Javascript, using APIs, or solving long and complicated problems.
 
 
 
 
 #What kind of career does the Full-Stack Web Developer Nanodegree prepare you for?  
-
+The Full-Stack Nanodegree will prepares you to essentially be a entry-level Back-End web developer, and, when combined with the Front-End Web Developer Nanodegree, will prepare you for a Full-Stack position.  
 
 ###From Engineers you've talked to, what do they like the most about being a full stack developer?
+It's very easy to go from having an idea, to being able to make an actual website which can prototype that idea.  
 
-####What about you two?
+There is also a ton of variety in Full-Stack; you'll constantly doing new things, inventing new solutions to any variety of problems. 
+
 
 ###What does planning for a project look like for a Full-Stack Web Developer?
 
-###What backgrounds do Full-Stack Web Developers tend to have?
 
 ###What would the day to day of a Full-Stack Web Developer look like?  
+Full-Stack engineers spend a lot of time designing, meaning that you spend a lot of time planning on *how* you want to model a program, including what features the program will have, what the most effective ways of solving something the problems involved are, etc.  
 
 
+###What other tools and languages not taught in FSND might a Full-Stack Web Developer use on the job?
+The Full-Stack Web Developer Nanodegree uses Python exclusively.  Although Python is used quite a bit in industry, it is not the only language that is frequently used in websevers.  Other programming languages you will frequently encounter on the web include PHP, Ruby on Rails, APS.net, Java, and Node.js.  
 
+There are also many different frameworks, like Django, which are not covered in FSND.
 
-###How do you learn best? Any tips for the students on how to approach projects and learn new things?
-
-
-###What other tools languages might a Full-Stack Web Developer use on the job?
-PHP, Ruby on Rails, APS.net, Java, Node.js
+There are also non-relational databases, which, although less common, are things you may possibly encounter on the job.
 
 
 ###How useful is Full-Stack knowledge/experience for engineering in general
+You'll get better at using Python, which can itself be used for a large variety of things.  More importantly, getting better at one language in an in-depth way helps you learn other programming languages in the future.  
 
+As much of software is becoming cloud based and running on servers, and Back-End Web Development (which is mostly what the Full-Stack Web Developer Nanodegree teaches) is all about using servers.  This means it will be a very useful knowledge base for all types of software engineers.
+
+If you are looking to go into mobile developement, what you learn in Developing Scalable Apps will prepare you for developing the back-end of web-based mobile applications.  
 
 
 [OH]: https://plus.google.com/u/0/events/c74ljle8ub610a0q050l2qd54mo?authkey=CLiG-d2a8ted2wE
