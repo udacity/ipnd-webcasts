@@ -4,50 +4,66 @@ Webcast: About the Full-Stack Web Developer Nanodegree
 Here is a link to the [video][OH]
 
 #What is Full-Stack Web Development?
-- what is front-end?
-- what is back-end?
-- full-stack is the combination of those
-- you know all aspects of making a web application
+Full-Stack Web Development is a combination of front-end and back-end web development; a full-stack web developer is, in essence, a generalist.  
+
+Front-End web development is all about 3 main technologies: HTML, CSS, and JavaScript.  These are rendered and run by a browser after being served to the browser by a server.  
+
+Back-End web development is all about the servers themselves, which access and store data by connecting to the front-end.
+
+Full-Stack Web Development combines the two, essentially doing everything involved with a website.
 
 
 #What is the Full-Stack Web Developer Nanodegree about?
-- work with a lot of different tools and technologies
-    - databases
+The Full-Stack Web Developer Nanodegree (or FSND, for short) is mostly about the back-end of web development.  It assumes that you have a moderate knowledge of HTML, CSS, and JavaScript before you begin the Nanodegree.
+
+In the FSND, you'll work with a lot of different tools and technologies.  In particular, you'll work with:
+    - Databases (Including Relational (SQL) Databases)
     - Google App Engine
-    - Flask, a Python web framework (like webapp2)
-    - OAuth - think facebook or google sign-in with your app
-    - virtual machines (what are these?)
-- build web applications and host them
-- learn a lot of new things
-- will set you up well for future projects
+    - Flask, a Python web framework (much like webapp2)
+    - OAuth - Think Facebook or Google sign-in with your app
+    - Virtual Machines 
+    - Git / Github
+
+You will also build web applications and host them yourselves.  Your Python skills will improve, as will your ability to use documentation.  The FSND will teach you quite a lot, and it will set you up well for future projects you may want to build yourself.  You'll be able to prototype just about any website with what you learn in the Full Stack Web Developer Nanodegree.
+
+The main programming language you'll be using will be Python; you will use some HTML, CSS, and play around with Javascript a bit, but mostly you'll be using Python. You will also learn SQL, allowing you to play around with databases.  
+
+You'll dive into both the Flask framework and virtual machines quite a bit in the Full Stack Web Developer Nanodegree.
+
+######What is a framework?
+The general problem of web development is very broad; it has many kinds of websites, applications, users, and devices, so there is a lot of work to do to make a web application to function.  A framework tries to make that simpler by giving you the tools to build an application.  For instance, a framework will give you a system to handle HTTP requests and turning them into function calls.  It's something that every website will have to do it somehow, and it's an abstract thing, so a framework will do it for you.  The framework you use in the Intro to Programming Nanodegree (i.e. IPND) is webapp2; we'll use Flask with Google App Engine in FSND.  The most popular framework for Python is Django, but Flask is up there as well.  The Full Stack Web Developer Nanodegree doesn't us Django as Django does so much for you that it is more difficult to teach from, so it goes over Flask, a microframework. 
 
 
+Before diving into detail about the Full-Stack Web Developer Nanodegree, we should go over what is expected prerequisite knowledge.
 
 
-#What is expected pre-requisite knowledge?  
-- Front-End experience
-    - you will be designing web applications
-    - not a whole lot of JS is required
+#What is expected pre-requisite knowledge for the Full-Stack Web Developer Nanodegree?
+- Basic Front-End Web Devlopment
+    - You'll need to know basic HTML and CSS, and there will be Javascript provided for you in exerercizes that it will be helpful to be able to read and understand.  Not much Javascript knowledge is required.  
+    - IPND already provides you with this background!
 - Basic Python experience
-    - functions
-    - classes
-    - loops
-    - that’s pretty much all you need to start. we teach you the rest
+    - Writing Functions, loops, using OOP, writing Classes
+    - Stage 3 of IPND will overlap some with the first course in FSND
+    - You will need to be comfortable using documentation and looking up how to use tools
 
 
 ###What gaps may need to be filled in from IPND (the Intro to Programming Nanodegree)?
-- you’re ready!
-- Full-Stack IF you like Python
-- Front-End IF you like working with HTML/CSS more
+- You’re ready to dive right into FSND after you finish IPND!
+For guidence if you are desiding between the Full Stack Web Developer Nanodegree and the Front End Web Developer Nanodegree:
+- Choose the Full-Stack Web Developer Nanodegree if you really like Python and enjoyed the sections of IPND dealing with Python
+- Choose the Front-End Web Developer Nanodegree if you prefer working with HTML and CSS
 
+If you are worried you don't have enough experience to jump right in, we can take a look at what you will (or did) learn in IPND:
 
-####What a student will know after finishing the Intro to Programming Nanodegree:
+#####What you learn in the Intro to Programming Nanodegree
 
-#####From Stage 1:  
-  Comfort using HTML and basic CSS, and a comfort with how CSS and HTML work
+#####From Stage 1:
+  In Stage 1 of the Intro to Programming Nanodegree, you will learn the basics of HTML and CSS, as well as how they fit together.  You'll get practice with developing your own static web pages, building the foundations with HTML and formatting them with CSS.  You'll learn a variety of HTML tags and attributes, as well as how to use them.  
+  
+You will also learn how to use various tools common in programming, like a text editor (we use Sublime Text).
 
 #####From Stage 2:
-  The basics of Python, including:
+In stage 2 you will learn the basics of Python, including:
   1.  Strings
   2.  Loops (for and while)
   3.  Variables
@@ -62,9 +78,10 @@ Here is a link to the [video][OH]
   12.  Debugging Python code
   13.  Problem Solving
 
+This will set you up to be able to build your own programs!
     
 #####From Stage 3:
-  Object Oriented Python, including:
+In stage 3, you will continue learning Python, this time getting into its object oriented side.  Here you will learn about:
   1.  Classes 
   2.  Objects
   3.  Methods
@@ -78,72 +95,79 @@ Here is a link to the [video][OH]
   11.  Using documentation
 
 #####From Stage 4:
-  Using google App engine, including
-  1.  Installing, running, deploying
-  2.  How to use the .yaml file
-  3.  How to navigate folders appropriately when referencing different files
+In stage 4 of the Intro to Programming Nanodegree, you will build the backend of a website using Python and Google App Engine.  You'll learn:
+  1.  How to install, run, and deploy with Google App Engine
+  2.  How to use the .yaml file with GAE (Google App Engine)
+  3.  How to navigate folders appropriately when referencing different files with GAE
   4.  Google Datastore  
-  5.  How to use webapp2
+  5.  How to use the webapp2 framework
   6.  How to use jinja2 templates
-  7.  How to ue Python dictionaries
+  7.  How to use Python dictionaries
   8.  How to use the modulus operator in Python
     
 #####From Stage 5:
-  Develope awareness of some other concepts in computing, like:
+Stage 5 in the Intro to Programming Nanodegree will provide awareness of a variety of things instead of providing a higher level of competency.  Some of the concepts in computing you will develope awareness about will be:
    1.  Using JavaScript to bring web pages to life.
    2.  Using APIs to easily access powerful data.
    3.  Recursion 
-   4.  Parallel computing.
+   4.  Parallel computing
    5.  How to solve large and long problems. 
    6.  Responsive Web Design: How to make web pages look good.
 
-####What any student needs to know before taking the Full-Stack Web Developer Nanodegree:
-
-
-####What to learn after IPND but before taking the Full-Stack Web Developer Nanodegree:
+As you can see, everything you need to know to be prepaired to jump into the FSND is covered in IPND!
 
 
 #What will students learn in the Full-Stack Web Developer Nanodegree?  
 
-##What is the structure of the Full-Stack Web Developer Nanodegree?  
-Nanodegree Structure
+##Full-Stack Web Developer Nanodegree Structure  
 
 These are the projects you'll build and the classes that will prepare you to build each of the projects. You'll have access to all these in the Nanodegree:
 
 ###Project: Movie Trailer Website
 
-You will write server-side code to store a list of your favorite movies, including box art imagery and a movie trailer URL. You will then serve this data as a web page allowing visitors to review their movies and watch the trailers.
+You will write server-side code to store a list of your favorite movies, including box art imagery and a movie trailer URL. You will then serve this data as a web page allowing visitors to review their movies and watch the trailers.  
 
 ###Course: Programming Foundations with Python
 You will already have taken this full course in IPND!
 
 ###Project: Tournament Results
 
-You will develop a database schema to store the game matches between players. You will then write code to query this data and determine the winners of various games.
+You will develop a database schema to store the game matches between players. You will then write code to query this data and determine the winners of various games.  The final product won't be something easy to look at on a webpage, but it will allow you to determine who should play who in a tournament!
 
 ###Course: Intro to Relational Databases
-You'll explore a different kind of database, similar to the Google Datastore you work with in stage 4 of IPND
+You'll explore a different kind of database, similar to the Google Datastore you work with in stage 4 of IPND.  Here, you'll be learning SQL.
 
 ###Project: Item Catalog
 
-You will develop an application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own items.
+This project will let you get very creative.  You will develop an application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own items.  
 
 ###Course:  Full Stack Foundations 
+Here, you learn the foundations of the Full Stack and Web Development in general.  You'll learn Flask and dive deaper into databases.
 
 ###Course:  Authentication and Authorization 
-
+This course will teach you how to have users sign in through something like Google, and you can go to the website you are connecting to and request user data, like a picture.
 
 ###Project: Conference Organization App
 
 You will develop a cloud-based API server to support a provided conference organization application that exists on the web as well as a native Android application. The API supports the following functionality found within the app: user authentication, user profiles, conference information and various manners in which to query the data.
 
 ###Course: Developing Scalable Apps with Python
+Here, we go deaper into Google App Engine.  The course will teach you how to make sure your apps can be quick and responsive even with large amounts of traffic, utilizing the resources of the web.
 
 ###Project: Linux-based Server Configuration
 
-You will take a baseline installation of a Linux distribution on a virtual machine and prepare it to host your web applications, to include installing updates, securing it from a number of attack vectors and installing/configuring web and database servers.
+You will take a baseline installation of a Linux distribution on a virtual machine and prepare it to host your web applications, to include installing updates, securing it from a number of attack vectors and installing/configuring web and database servers.  You'll be using Amazon's AWS cloud.
 
 ###Course: Linux Basics for Web Developers
+
+
+
+##Differences between FSND and FEND (Front-End Web Developer Nanodegree)
+FEND is much more visual and design oriended, while the Full-Stack Web Developer Nanodegree deals mostly with the Back-End, and is therefore more technical.  
+
+With the Full Stack, you'll be using mostly Python, whereas you'll be using mostly Javascript (and HTML and CSS) with the Front-End.
+
+If you do plan to take both of them, it may make more sense to take the Front-End Web Developer Nanodegree first, as you'll know exactly what the small amount of Javascript you deal with in the Full-Stack Web Developer Nanodegree does.
 
 ###How will skills learned in IPND transfer to FSND?
 
@@ -171,9 +195,11 @@ You will take a baseline installation of a Linux distribution on a virtual machi
 
 
 ###What other tools languages might a Full-Stack Web Developer use on the job?
+PHP, Ruby on Rails, APS.net, Java, Node.js
+
 
 ###How useful is Full-Stack knowledge/experience for engineering in general
 
 
 
-[OH]: https://plus.google.com
+[OH]: https://plus.google.com/u/0/events/c74ljle8ub610a0q050l2qd54mo?authkey=CLiG-d2a8ted2wE
