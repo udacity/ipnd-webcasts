@@ -108,38 +108,38 @@ Nanodegree Structure
 
 In the Nanodegree program, you’ll build five portfolio-worthy apps. Depending on your knowledge and skill level, you can either learn the necessary skills through our supporting courses, or jump into building the apps directly. A summary of each of these apps, as well as a link to their supporting course are included in the sections below.
 
-Pitch Perfect
+###Project: [Pitch Perfect](https://itunes.apple.com/us/app/pitch-perfect-portfolio-app/id987684705?mt=8)
 
 Build an app that records a message and plays the audio back through user-selected filters.
 
-Download an example of what you'll create, then prepare for this project with Intro to iOS App Development with Swift.
+####Course to prepair: [Intro to iOS App Development with Swift](https://www.udacity.com/course/intro-to-ios-app-development-with-swift--ud585).
 
-MemeMe
+###Project: [MemeMe](https://itunes.apple.com/us/app/mememe-portfolio-app/id994289240?mt=8)
 
 Take a photo, and overlay text to meme-ify your friends. Then share on your favorite social channels!
 
-Download an example of what you'll create, then prepare for this project with UIKit Fundamentals.
+####Course to Prepair: [UIKit Fundamentals](https://www.udacity.com/course/uikit-fundamentals--ud788).
 
-On the Map
+###Project: [On the Map](https://itunes.apple.com/us/app/on-the-map-portfolio-app/id994619554?mt=8)
 
 Add your current location to a map of locations for other nanodegree students. Also, post a link to your own blog post, project, or portfolio for others to see.
 
-Download an example of what you'll create, then prepare for this project with: iOS Networking with Swift.
+###Course to Prepair: [iOS Networking with Swift](https://www.udacity.com/course/ios-networking-with-swift--ud421).
 
-Virtual Tourist
+###Project: [Virtual Tourist](https://itunes.apple.com/us/app/virtual-tourist-portfolio/id994696845?mt=8)
 
 Tour the world without leaving the comforts of your couch! This app allows you to drop pins on a map and pull up Flickr images associated with that location. You will store the locations and images using Core Data.
 
-Download an example of what you'll create, then prepare for this project with: iOS Persistence and Core Data.
+####Course to Prepair: [iOS Persistence and Core Data](https://www.udacity.com/course/ios-persistence-and-core-data--ud325)
 
-You Decide!
+###You Decide!
 
 Landing a job as an iOS Developer requires more than technical chops; it also requires a certain amount of creativity and innovation. Drawing from all of the skills you've developed so far in the Nanodegree, you'll dream up, design, and code your own custom app.
 
-Prepare for this project with: How to Make an iOS App
+####Course to Prepair: [How to Make an iOS App](https://www.udacity.com/course/how-to-make-an-ios-app--ud607)
 
 
-####Curriculum Length
+##Curriculum Length
 
 
 #What kind of career does the iOS Developer Nanodegree prepare you for?  
