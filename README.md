@@ -34,6 +34,7 @@ which happen every Tuesday at 4pm Pacific Time.
 - [T 7/14][23]: Jeff and Luke go over the Full Stack Web Developer Nanodegree
 - [T 7/22][24]: Mark and Jonah go over the big questions to answer when planning a whole website from the front-end to the back-end
 - [T 7/28][25]: Mark and Jonah explore animations using Object Oriened Programming
+- [T 7/30][26]: Mark and Anthony show off some cool tips and tricks in Sublime Text
 
 [1]: https://plus.google.com/events/cpehpd7ehd414g5vkpc0g4ojkq8?authkey=CO262J255Kf2Iw
 [2]: Stage_1/2015-02-17-project-1/README.md
@@ -60,4 +61,4 @@ which happen every Tuesday at 4pm Pacific Time.
 [23]: Intro-To-Other-Nanodegrees/Full-Stack-Web-Developer/README.md
 [24]: General/2015-07-21-planning_website_front_to_back/README.md
 [25]: 2015-07-28-OOP_Animate/README.md
-
+[26]: 2015-07-30-sublime_tips/README.md
