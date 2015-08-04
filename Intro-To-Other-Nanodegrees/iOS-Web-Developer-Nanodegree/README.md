@@ -28,7 +28,6 @@ There is also a [Readiness Assessment](https://www.udacity.com/course/viewer#!/c
 
 In summary, before starting the iOS Developer Nanodegree, you should have a strong understanding of programming concepts like variables, if statements, loops, functions, and classes. Additionally, you should have a basic understanding of Git and GitHub, specifically how to: clone a branch, fork, and create a new repository.
 
-If you find you need to brush up on any of these subjects, you can take the following courses on Udacity to prepare:
 
 ###What gaps may need to be filled in from the Intro to Programming Nanodegree?
 
