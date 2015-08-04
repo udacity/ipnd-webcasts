@@ -6,6 +6,7 @@ Here is a link to the [video][OH]
 #What is iOS Development?
 
 
+
 #What is the iOS Developer Nanodegree about?
 
 
@@ -138,12 +139,19 @@ Landing a job as an iOS Developer requires more than technical chops; it also re
 ####Course to Prepair: [How to Make an iOS App](https://www.udacity.com/course/how-to-make-an-ios-app--ud607)
 
 
-##Curriculum Length
+##Curriculum Length: How long does the whole Nanodegree take?
 
 
 #What kind of career does the iOS Developer Nanodegree prepare you for?  
 
+###What programming skills and languages would a typical iOS engineer have?
+
+#####Which of these skills aren't found in the iOS Developer Nanodegree?
+
+
 #How to apply coding skills from IPND into the iOS Developer Nanodegree:
+
+###What are some differences and simularities between Swift and Python?
 
 
 
