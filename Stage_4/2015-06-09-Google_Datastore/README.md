@@ -249,6 +249,7 @@ If you are on a Windows system, the print statements in the reference code will 
 In order for print statements to print to your Logs in Google App Engine, we need to add in a flag for Google App Engine in order for it to show print and debugging statements.
 
 We first need to click on the project, and then go to Edit -> Application Settings. Make sure that the server is stopped for your project.
+
 We then type in this command in the “Extra Command Line Flags” text box:
 
 `--log_level=debug`
