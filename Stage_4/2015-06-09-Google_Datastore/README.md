@@ -242,6 +242,21 @@ app = webapp2.WSGIApplication(router,debug=True)
 
 For a full reference of all of the methods and instances relating to the ndb class, please go [here][reference]
 
+## Troubleshooting Print Statements for Windows
+
+If you are on a Windows system, the print statements in the reference code will not print out to our logs unless we configure Google App Engine appropriately.
+
+In order for print statements to print to your Logs in Google App Engine, we need to add in a flag for Google App Engine in order for it to show print and debugging statements.
+
+We first need to click on the project, and then go to Edit -> Application Settings. Make sure that the server is stopped for your project.
+We then type in this command in the “Extra Command Line Flags” text box:
+
+`--log_level=debug`
+
+![](log_level.png)
+
+Click on “Update” and start the server again and you should be able to see all print statements in the logs in your Windows machine.
+
 
 [WB]: https://plus.google.com/events/c0vkvedeoknfvngrq7oed98edd8?authkey=CMuzmKOv2NS-ywE
 [datastore]: https://cloud.google.com/appengine/docs/python/ndb/properties
