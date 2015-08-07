@@ -4,11 +4,10 @@ Webcast: About the iOS Developer Nanodegree
 Here is a link to the [video][OH]
 
 #What is iOS Development?
-
-
+iOS Development is any type of development for the iPhone or iPad.  These two devices run on an operating system called iOS.  Occationally development for the Apple Watch it thrown in under the iOS development umbrella, but that device uses a different operating system than the iPhone or iPad.
 
 #What is the iOS Developer Nanodegree about?
-
+The iOS Developer Nanodegree is what is going to take a student who has basic understanding of Object Oriented Programming, and teaches them the basics of iOS development.  Much like the Intro to Programming Nanodegree, the program is broken into a variety of projects, as well as courses which prepair you to complete the projects.
 
 #Expected Prerequisite Knowledge  
 ###What is Expected Prerequisite Knowledge to start the iOS Developer Nanodegree?
@@ -20,7 +19,7 @@ First, there are the requirements for any Nanodegree here at Udacity:
 
 There are also iOS Developer Nanodegree Specific Requirements:
 
-- Access to a Mac computer running OS X 10.10 or later
+- Access to a Mac computer running OS X 10.10 or later.  Basically, you need to have access to the most current version of OSX, so when El Capitan comes out, you will most likely need to upgrade to it as well.  It should have the same technical requirements as Yosemite, though, so hardware shouldn't be a problem when that update occurs.
 - Prior object-oriented programming experience, in any object-oriented language
 - Strong understanding of programming concepts like variables, if statements, and loops, as well as object-oriented programming concepts like functions and classes
 - A basic understanding of Git and GitHub, specifically how to: clone a branch, fork, and create a new repository.
@@ -155,4 +154,4 @@ Landing a job as an iOS Developer requires more than technical chops; it also re
 
 
 
-[OH]: https://plus.google.com/u/0/events/
+[OH]: https://plus.google.com/u/1/events/ctvdicbvtbuoe8u2ir6sdjbuuqo?authkey=CMac6o2X8I-9Kw
