@@ -246,9 +246,9 @@ For a full reference of all of the methods and instances relating to the ndb cla
 
 If you are on a Windows system, the print statements in the reference code will not print out to our logs unless we configure Google App Engine appropriately.
 
-In order for print statements to print to your Logs in Google App Engine, we need to add in a flag for Google App Engine in order for it to show print and debugging statements.
+In order for print statements to print to our Logs in Google App Engine, we need to add in a flag for Google App Engine in order for it to show print and debugging statements.
 
-We first need to click on the project, and then go to Edit -> Application Settings. Make sure that the server is stopped for your project.
+First, we should make sure that the server is stopped for our project. We then highlight the project, and then go to **Edit -> Application Settings**.
 
 We then type in this command in the “Extra Command Line Flags” text box:
 
