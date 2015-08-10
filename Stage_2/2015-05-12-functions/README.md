@@ -46,7 +46,7 @@ print "Global: " + str(a)
 
 We then get this for output:
 Function: 5
-Global: 0
+Global: 6
 
 The variable named 'a' inside of some_function is *completely unrelated to* the variable named 'a' in the global scope.
 
