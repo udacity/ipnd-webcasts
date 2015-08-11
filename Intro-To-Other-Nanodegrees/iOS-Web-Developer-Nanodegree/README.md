@@ -146,8 +146,11 @@ Landing a job as an iOS Developer requires more than technical chops; it also re
 
 ####Course to Prepair: [How to Make an iOS App](https://www.udacity.com/course/how-to-make-an-ios-app--ud607)
 
-##Curriculum Length: How long does the whole Nanodegree take?
+###Curriculum Length: How long does the whole Nanodegree take?
 The first iOS Developer Nanodegree graduate finished in about 2 months;  this person had significant experience coming in and is a bit of an extreme case.  The Nanodegree is expected to usually take students between 6 and 12 months, assuming students put in 10 hours a week.  This isn't something that can be known definitively, though, as the Nanodegree has not been out long enough!
+
+###Project Difficulty Levels
+Every project and course in the iOS Developer Nanodegree builds upon previous courses, and every project tends to be more difficult than the last.  Don't worry if things become more difficult as you move along; that is to be expected!  Courses are also frequently being adjusted, so if there are large stumbling blocks for many students, we will typically try to introduce new material to build students up to achieve the goals of the course more readily.  
 
 
 ##iOS Tools
