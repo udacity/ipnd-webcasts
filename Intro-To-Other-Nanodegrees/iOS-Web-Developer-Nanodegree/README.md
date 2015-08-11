@@ -7,7 +7,7 @@ Here is a link to the [video][OH]
 iOS Development is any type of development for the iPhone or iPad.  These two devices run on an operating system called iOS.  Occationally development for the Apple Watch it thrown in under the iOS development umbrella, but that device uses a different operating system than the iPhone or iPad.
 
 #What is the iOS Developer Nanodegree about?
-The iOS Developer Nanodegree is what is going to take a student who has basic understanding of Object Oriented Programming, and teaches them the basics of iOS development.  Much like the Intro to Programming Nanodegree, the program is broken into a variety of projects, as well as courses which prepair you to complete the projects.
+The iOS Developer Nanodegree is what is going to take a student who has basic understanding of Object Oriented Programming, and teaches them the basics of iOS development.  Much like the Intro to Programming Nanodegree structure, the program is broken into a variety of projects, as well as courses which prepair you to complete the projects.
 
 #Expected Prerequisite Knowledge  
 ###What is Expected Prerequisite Knowledge to start the iOS Developer Nanodegree?
@@ -112,6 +112,9 @@ In the Nanodegree program, you’ll build five portfolio-worthy apps. Depending 
 Build an app that records a message and plays the audio back through user-selected filters.
 
 ####Course to prepair: [Intro to iOS App Development with Swift](https://www.udacity.com/course/intro-to-ios-app-development-with-swift--ud585).
+Swift is the main language you will be using for iOS development!  Swift is a new language, launched last year, that takes over from Objective-C, which used to be the main language used for iOS development.  Swift is extremely similar to Python, and is a joy to work with.
+
+The course will also give you an introduction to XCode, the main IDE used on Mac's.
 
 ###Project: [MemeMe](https://itunes.apple.com/us/app/mememe-portfolio-app/id994289240?mt=8)
 
@@ -119,17 +122,23 @@ Take a photo, and overlay text to meme-ify your friends. Then share on your favo
 
 ####Course to Prepair: [UIKit Fundamentals](https://www.udacity.com/course/uikit-fundamentals--ud788).
 
+We'll go into how to transition between screens.  We'll go into the delegate patern, which is how we can delegate certain actions to certain other classes and pass data between different views.  
+
 ###Project: [On the Map](https://itunes.apple.com/us/app/on-the-map-portfolio-app/id994619554?mt=8)
 
 Add your current location to a map of locations for other nanodegree students. Also, post a link to your own blog post, project, or portfolio for others to see.
 
 ###Course to Prepair: [iOS Networking with Swift](https://www.udacity.com/course/ios-networking-with-swift--ud421).
 
+Here we'll learn on how to work with public API's online and how to use networks, which will allow you to use resources that aren't available on your phone and can only be accessed by accessing the internet.  
+
 ###Project: [Virtual Tourist](https://itunes.apple.com/us/app/virtual-tourist-portfolio/id994696845?mt=8)
 
 Tour the world without leaving the comforts of your couch! This app allows you to drop pins on a map and pull up Flickr images associated with that location. You will store the locations and images using Core Data.
 
 ####Course to Prepair: [iOS Persistence and Core Data](https://www.udacity.com/course/ios-persistence-and-core-data--ud325)
+
+This course allows a student to learn how to save items onto the phone.  Is there life after you close an iPhone app?  Yes, and this course will show you how to save data in a variety of ways.  
 
 ###You Decide!
 
@@ -139,6 +148,15 @@ Landing a job as an iOS Developer requires more than technical chops; it also re
 
 
 ##Curriculum Length: How long does the whole Nanodegree take?
+
+
+
+##iOS Tools
+####Xcode vs. Sublime
+Xcode is similar to many other IDE's.  For the most part, it is, at its base, a text editor, like Sublime Text.  It does, however, allow more advanced usage than Sublime might provide for particularly complicated projects.  It is only available on OS X, which means you have to own a Mac to use it.
+
+####Swift vs. Python
+Swift may be one of the easiest languages to transition to Python from, as it shares significant commonalities with Python in terms of both syntax and form.  It is much more like Python than Java, C++, etc.  You can see some of the simililarities and differences between the two languages [here](http://blog.michaelckennedy.net/2014/11/26/comparison-of-python-and-apples-swift-programming-language-syntax/).  
 
 
 #What kind of career does the iOS Developer Nanodegree prepare you for?  
