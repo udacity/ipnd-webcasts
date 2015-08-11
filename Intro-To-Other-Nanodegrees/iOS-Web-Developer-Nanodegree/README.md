@@ -21,7 +21,7 @@ There are also iOS Developer Nanodegree Specific Requirements:
 
 - Access to a Mac computer running OS X 10.10 or later.  Basically, you need to have access to the most current version of OSX, so when El Capitan comes out, you will most likely need to upgrade to it as well.  It should have the same technical requirements as Yosemite, though, so hardware shouldn't be a problem when that update occurs.
 - Prior object-oriented programming experience, in any object-oriented language
-- Strong understanding of programming concepts like variables, if statements, and loops, as well as object-oriented programming concepts like functions and classes
+- Strong understanding of programming concepts like variables, if statements, and loops, as well as object-oriented programming concepts like functions and classes.  The iOS Developer Nanodegree will involve instantiating a lot of classes, using inheritance quite a bit, and it will use method overriding.  
 - A basic understanding of Git and GitHub, specifically how to: clone a branch, fork, and create a new repository.
 
 There is also a [Readiness Assessment](https://www.udacity.com/course/viewer#!/c-none/l-3098108743); taking that should give you a sense as to your preparedness to enter the iOS Developer Nanodegree.
@@ -97,7 +97,7 @@ Now we can move into what a student will need to know before taking the iOS Deve
 ####Going into the iOS Developer Nanodegree from the Intro to Programming Nanodegree
 You should hopefully have developed some level of mastery over object oriented concepts in the Intro to Programming Nanodegree.  It would most likely still be useful to take all of [CS101](https://www.udacity.com/course/viewer#!/c-cs101) in order to master various programming concepts.
 
-Additionally, you will need to take [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775) in order to learn how to use Git and Github effectively, which is a requirement for starting the iOS Developer Nanodegree.
+Additionally, you will need to take [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775) in order to learn how to use Git and Github effectively, which is a requirement for starting the iOS Developer Nanodegree.  This could be taken after you start the iOS Developer Nanodegree, but it is a knowledge base that will be used significantly during the iOS Developer Nanodegree.  This is true of most of Udacity's Nanodegrees; knowledge of Git and Github will be used extensively in the course, but the course can be taken during the Nanodegree instead of before hand if a student prefers to do so.
 
 
 #What students will learn in the iOS Developer Nanodegree  
@@ -146,9 +146,8 @@ Landing a job as an iOS Developer requires more than technical chops; it also re
 
 ####Course to Prepair: [How to Make an iOS App](https://www.udacity.com/course/how-to-make-an-ios-app--ud607)
 
-
 ##Curriculum Length: How long does the whole Nanodegree take?
-
+The first iOS Developer Nanodegree graduate finished in about 2 months;  this person had significant experience coming in and is a bit of an extreme case.  The Nanodegree is expected to usually take students between 6 and 12 months, assuming students put in 10 hours a week.  This isn't something that can be known definitively, though, as the Nanodegree has not been out long enough!
 
 
 ##iOS Tools
