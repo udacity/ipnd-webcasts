@@ -4,7 +4,7 @@
 ## Webcast Recording
 
 Here is the link to the [video][recording]
-Here is are links to [Jonah's Code][code1] and [Mark's Code][code2]
+Here are links to [Jonah's Code][code1] and [Mark's Code][code2]
 
 ## Challenge 1:
 Given a string, return the frequency of each character that occurs within that string disregarding the word "PARAGRAPH:" within the string.
