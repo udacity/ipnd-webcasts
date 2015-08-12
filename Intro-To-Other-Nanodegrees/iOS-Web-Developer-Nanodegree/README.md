@@ -164,13 +164,9 @@ Swift may be one of the easiest languages to transition to Python from, as it sh
 #What kind of career does the iOS Developer Nanodegree prepare you for?  
 The Nanodegree will get a student ready for entry-level iOS developement roles.  In addition, it will provide the education to graduates to let them build their own apps for whatever ideas they (or their friends or family) may have.  The iPhone is sort of a Swiss army knife for the 21st century, combining many different tools into one, and being able to program apps for it opens many opportunities!
 
-###What programming skills and languages would a typical iOS engineer have?
+###What programming skills and languages would a typical iOS engineer have that aren't covered in the Nanodegree
 
-#####Which of these skills aren't found in the iOS Developer Nanodegree?
-
-
-#How to apply coding skills from IPND into the iOS Developer Nanodegree:
-
+The iOS Developer Nanodegree doesn't go over Front-End or Back-End Web Development, although both are quite useful for an iOS developer to know.  The iPhone is much more powerful when it is connected to the internet, so the things taught in the Front-End Web Developer Nanodegree (HTML, CSS, Javascript, jQuery) and Full-Stack Web Developer Nanodegree (Databases, server code) would be useful for the development of iPhone and iPad apps, even if those topics are not covered in the iOS Developer Nanodegree.  
 
 
 [OH]: https://plus.google.com/u/1/events/ctvdicbvtbuoe8u2ir6sdjbuuqo?authkey=CMac6o2X8I-9Kw
