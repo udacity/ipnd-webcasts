@@ -109,7 +109,7 @@ In the Nanodegree program, you’ll build five portfolio-worthy apps. Depending 
 
 ###Project: [Pitch Perfect](https://itunes.apple.com/us/app/pitch-perfect-portfolio-app/id987684705?mt=8)
 
-Build an app that records a message and plays the audio back through user-selected filters.
+Build an app that records a message and plays the audio back through user-selected filters.  These filters include making the audio faster, slower, higher, or lower.
 
 ####Course to prepair: [Intro to iOS App Development with Swift](https://www.udacity.com/course/intro-to-ios-app-development-with-swift--ud585).
 Swift is the main language you will be using for iOS development!  Swift is a new language, launched last year, that takes over from Objective-C, which used to be the main language used for iOS development.  Swift is extremely similar to Python, and is a joy to work with.
@@ -162,6 +162,7 @@ Swift may be one of the easiest languages to transition to Python from, as it sh
 
 
 #What kind of career does the iOS Developer Nanodegree prepare you for?  
+The Nanodegree will get a student ready for entry-level iOS developement roles.  In addition, it will provide the education to graduates to let them build their own apps for whatever ideas they (or their friends or family) may have.  The iPhone is sort of a Swiss army knife for the 21st century, combining many different tools into one, and being able to program apps for it opens many opportunities!
 
 ###What programming skills and languages would a typical iOS engineer have?
 
@@ -169,8 +170,6 @@ Swift may be one of the easiest languages to transition to Python from, as it sh
 
 
 #How to apply coding skills from IPND into the iOS Developer Nanodegree:
-
-###What are some differences and simularities between Swift and Python?
 
 
 
