@@ -7,7 +7,15 @@ Here is a link to the [video][OH]
 
 
 #What is the Android Developer Nanodegree about?
+Learn to develop for Android and transform your career outlook! This Nanodegree will provide a guided, efficient path for an intermediate developer with little or no experience on mobile platforms to emerge as an Android Developer.
 
+By the end of the Nanodegree, you'll have a diverse portfolio of projects to show employers, and will even publish your own app on the Google Play Store as part of the Capstone project.
+
+This is an Intermediate Nanodegree: Entering students are expected to have prior experience building applications (web or mobile) in Java or another object-oriented programming language.
+
+Why Take This Nanodegree?
+
+With over 1 billion Android devices already activated, Android represents an incredible opportunity for developers. As Android continues to grow beyond smartphones, it will become the brains behind invisible, ubiquitous cloud-connected computing. The skills you learn in this Nanodegree will help you master the existing platform, and prepare you for the exciting opportunities in Android's future.
 
 #Expected Prerequisite Knowledge  
 ###What is Expected Prerequisite Knowledge to start the Android Developer Nanodegree?
