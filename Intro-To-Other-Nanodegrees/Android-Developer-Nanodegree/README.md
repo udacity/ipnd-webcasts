@@ -188,7 +188,6 @@ This is your chance to take the skills that you've learned across your Nanodegre
 
 
 ####Java vs. Python
-Swift may be one of the easiest languages to transition to Python from, as it shares significant commonalities with Python in terms of both syntax and form.  It is much more like Python than Java, C++, etc.  You can see some of the simililarities and differences between the two languages [here](http://blog.michaelckennedy.net/2014/11/26/comparison-of-python-and-apples-swift-programming-language-syntax/).  
 
 
 #What kind of career does the Android Developer Nanodegree prepare you for?  
