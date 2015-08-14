@@ -11,18 +11,30 @@ Here is a link to the [video][OH]
 
 #Expected Prerequisite Knowledge  
 ###What is Expected Prerequisite Knowledge to start the Android Developer Nanodegree?
-First, there are the requirements for any Nanodegree here at Udacity:
+This will be a challenging and rewarding journey that will take a novice programmer 9 months or longer to complete, spending an estimated 10 hours per week on the coursework. Do you have the dedication and mindset to sustain you through it? If you're not sure, please check out the courses and projects, listed under Nanodegree Structure, before making this commitment.
 
-- You are self-driven and motivated to learn. Participation in this program requires consistently meeting the deadlines set for your cohort and devoting at least 10 hours per week to your work.
-- You can communicate fluently and professionally in written and spoken English.
-- You are willing to contribute to the success of the program, including collaborating with fellow students and giving us feedback on how we can improve.
+Programming Experience
 
-There are also Android Developer Nanodegree Specific Requirements:
+This is not a "Zero to Hero" program. Entering students are expected to have prior experience building applications (web or mobile) in Java or another object-oriented programming language.
 
-- Access to a Mac computer running OS X 10.10 or later.  Basically, you need to have access to the most current version of OSX, so when El Capitan comes out, you will most likely need to upgrade to it as well.  It should have the same technical requirements as Yosemite, though, so hardware shouldn't be a problem when that update occurs.
-- Prior object-oriented programming experience, in any object-oriented language
-- Strong understanding of programming concepts like variables, if statements, and loops, as well as object-oriented programming concepts like functions and classes.  The Android Developer Nanodegree will involve instantiating a lot of classes, using inheritance quite a bit, and it will use method overriding.  
+You should have at least 1-2 years of experience in Java or another object-oriented programming language prior to enrolling.
+
+If you have no prior programming experience, we recommend you take our Android Development for Beginners course, also built with Google. You should also learn foundational Java programming concepts before enrolling in this Nanodegree. Our Intro to Java course may be a good place to start.
+
+Technical Skills and Requirements
+
+You will submit your projects on GitHub, and must have a GitHub handle and know how to share code prior to enrolling. Take our course on How to Use Git and GitHub if you need to learn how to do this.
 - A basic understanding of Git and GitHub, specifically how to: clone a branch, fork, and create a new repository.
+
+You will build your apps in Android Studio, and will need to install it on your machine to complete your Nanodegree projects. If you don't have Android Studio installed, see our mini-course on How to Install Android Studio for instructions.
+
+Dedication and Mindset
+
+In addition to 1-2 years of prior programming experience and intermediate technical skills, students are expected to demonstrate the following characteristics:
+
+Resourcefulness: Ability to search for and find solutions in documentation, backed by the belief that all problems in code are discoverable;
+Grit: Ability to work through challenges and persevere when code breaks and tests fail.
+Growth Mindset: Belief that intelligence is NOT a fixed entity, and can be boosted by hard work in the process of learning and practice.
 
 There is also a [Readiness Assessment](https://www.udacity.com/course/viewer#!/c-none/l-3098108743); taking that should give you a sense as to your preparedness to enter the Android Developer Nanodegree.
 
@@ -105,68 +117,77 @@ Additionally, you will need to take [How to Use Git and Github](https://www.udac
 ##The Android Developer Nanodegree Structure 
 Nanodegree Structure
 
-In the Nanodegree program, you’ll build five portfolio-worthy apps. Depending on your knowledge and skill level, you can either learn the necessary skills through our supporting courses, or jump into building the apps directly. A summary of each of these apps, as well as a link to their supporting course are included in the sections below.
+Nanodegree Courses
 
-###Project: [Pitch Perfect](https://itunes.apple.com/us/app/pitch-perfect-portfolio-app/id987684705?mt=8)
+Developing Android Apps: Android Fundamentals
+Advanced Android App Development: Productionize and Publish Your App
+Google Play Services
+Google Play Services: Location and Context
+Google Play Services: Analytics
+Google Play Services: AdMob
+Google Play Services: Maps
+Google Play Services: Identity
+Gradle for Android and Java: Build Better Apps Through Automation
+Android Design for Developers: Make Your Apps Material
+Android Ubiquitous Computing: Extend Apps to Wearables, TV and Auto
+Nanodegree Project Portfolio
 
-Build an app that records a message and plays the audio back through user-selected filters.  These filters include making the audio faster, slower, higher, or lower.
+Personal App Portfolio
 
-####Course to prepair: [Intro to iOS App Development with Swift](https://www.udacity.com/course/intro-to-ios-app-development-with-swift--ud585).
-Swift is the main language you will be using for iOS development!  Swift is a new language, launched last year, that takes over from Objective-C, which used to be the main language used for iOS development.  Swift is extremely similar to Python, and is a joy to work with.
+Design and build an app that shows off the apps that you'll create as part of this Nanodegree.
 
-The course will also give you an introduction to XCode, the main IDE used on Mac's.
+Popular Movies, Stage 1
 
-###Project: [MemeMe](https://itunes.apple.com/us/app/mememe-portfolio-app/id994289240?mt=8)
+Build an app to help users discover popular and recent movies. You will build a clean UI, sync to a server, and present information to the user.
 
-Take a photo, and overlay text to meme-ify your friends. Then share on your favorite social channels!
+Popular Movies, Stage 2
 
-####Course to Prepair: [UIKit Fundamentals](https://www.udacity.com/course/uikit-fundamentals--ud788).
+Add onto your project from Stage 1 with a detail view for each movie, allowing users to 'favorite' movies, and adding a tablet layout.
 
-We'll go into how to transition between screens.  We'll go into the delegate patern, which is how we can delegate certain actions to certain other classes and pass data between different views.  
+Super Duo: Productionize Two Apps
 
-###Project: [On the Map](https://itunes.apple.com/us/app/on-the-map-portfolio-app/id994619554?mt=8)
+Productionize two apps, taking them from a functional state to a production-ready state. To do this, you will find and handle error cases, add accessibility features, allow for localization, add widgets, and add a library.
 
-Add your current location to a map of locations for other nanodegree students. Also, post a link to your own blog post, project, or portfolio for others to see.
+Build It Bigger
 
-###Course to Prepair: [iOS Networking with Swift](https://www.udacity.com/course/ios-networking-with-swift--ud421).
+Use Gradle to build a joke-telling app, factoring functionality into libraries and flavors to keep the build simple. You'll also configure a Google Cloud Endpoints development server to supply the jokes.
 
-Here we'll learn on how to work with public API's online and how to use networks, which will allow you to use resources that aren't available on your phone and can only be accessed by accessing the internet.  
+Make Your App Material
 
-###Project: [Virtual Tourist](https://itunes.apple.com/us/app/virtual-tourist-portfolio/id994696845?mt=8)
+Implement Android design concepts and transform a functional newsreader app using material design techniques.
 
-Tour the world without leaving the comforts of your couch! This app allows you to drop pins on a map and pull up Flickr images associated with that location. You will store the locations and images using Core Data.
+Go Ubiquitous
 
-####Course to Prepair: [iOS Persistence and Core Data](https://www.udacity.com/course/ios-persistence-and-core-data--ud325)
+Let users access the weather at a glance by building a Sunshine watch face for Android Wear.
 
-This course allows a student to learn how to save items onto the phone.  Is there life after you close an iPhone app?  Yes, and this course will show you how to save data in a variety of ways.  
+Capstone, Stage 1: Design, Scope and Plan Your App
 
-###You Decide!
+Create a detailed plan, including UI mocks and technical specifications, for building your own app.
 
-Landing a job as an Android Developer requires more than technical chops; it also requires a certain amount of creativity and innovation. Drawing from all of the skills you've developed so far in the Nanodegree, you'll dream up, design, and code your own custom app.
+Capstone, Stage 2: Build and Polish Your App for Production
 
-####Course to Prepair: [How to Make an iOS App](https://www.udacity.com/course/how-to-make-an-ios-app--ud607)
+This is your chance to take the skills that you've learned across your Nanodegree journey and apply it to an app idea of your own.
 
 ###Curriculum Length: How long does the whole Nanodegree take?
-The first Android Developer Nanodegree graduate finished in about 2 months;  this person had significant experience coming in and is a bit of an extreme case.  The Nanodegree is expected to usually take students between 6 and 12 months, assuming students put in 10 hours a week.  This isn't something that can be known definitively, though, as the Nanodegree has not been out long enough!
+
 
 ###Project Difficulty Levels
-Every project and course in the Android Developer Nanodegree builds upon previous courses, and every project tends to be more difficult than the last.  Don't worry if things become more difficult as you move along; that is to be expected!  Courses are also frequently being adjusted, so if there are large stumbling blocks for many students, we will typically try to introduce new material to build students up to achieve the goals of the course more readily.  
 
 
-##iOS Tools
-####Xcode vs. Sublime
-Xcode is similar to many other IDE's.  For the most part, it is, at its base, a text editor, like Sublime Text.  It does, however, allow more advanced usage than Sublime might provide for particularly complicated projects.  It is only available on OS X, which means you have to own a Mac to use it.
 
-####Swift vs. Python
+##Android Tools
+####IDE Used
+
+
+####Java vs. Python
 Swift may be one of the easiest languages to transition to Python from, as it shares significant commonalities with Python in terms of both syntax and form.  It is much more like Python than Java, C++, etc.  You can see some of the simililarities and differences between the two languages [here](http://blog.michaelckennedy.net/2014/11/26/comparison-of-python-and-apples-swift-programming-language-syntax/).  
 
 
 #What kind of career does the Android Developer Nanodegree prepare you for?  
-The Nanodegree will get a student ready for entry-level iOS developement roles.  In addition, it will provide the education to graduates to let them build their own apps for whatever ideas they (or their friends or family) may have.  The iPhone is sort of a Swiss army knife for the 21st century, combining many different tools into one, and being able to program apps for it opens many opportunities!
-
-###What programming skills and languages would a typical iOS engineer have that aren't covered in the Nanodegree
-
-The Android Developer Nanodegree doesn't go over Front-End or Back-End Web Development, although both are quite useful for an Android Developer to know.  The iPhone is much more powerful when it is connected to the internet, so the things taught in the Front-End Web Developer Nanodegree (HTML, CSS, Javascript, jQuery) and Full-Stack Web Developer Nanodegree (Databases, server code) would be useful for the development of iPhone and iPad apps, even if those topics are not covered in the Android Developer Nanodegree.  
 
 
-[OH]: https://plus.google.com/u/1/events/ctvdicbvtbuoe8u2ir6sdjbuuqo?authkey=CMac6o2X8I-9Kw
+###What programming skills and languages would a typical Android engineer have that aren't covered in the Nanodegree
+
+
+
+[OH]: https://plus.google.com/u/1/events/
