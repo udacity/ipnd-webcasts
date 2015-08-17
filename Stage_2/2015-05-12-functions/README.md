@@ -12,7 +12,7 @@ Here is a link to the [video][OH]
 
 
 ##What a Function / Procedure is in Python
-Functions (which are identical to a procedures in Python) are bits of code which can be called repetatively.  Functions need to be defined before they can be used.
+Functions (which are identical to a procedures in Python) are bits of code which can be called repetitively.  Functions need to be defined before they can be used.
 
 ####Function Definiton
 A Function is defined with a def statement:
