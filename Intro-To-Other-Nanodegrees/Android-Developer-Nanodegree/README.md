@@ -62,55 +62,55 @@ You will also learn how to use various tools common in programming, like a text 
 
 #####From Stage 2:
 In stage 2 you will learn the basics of Python, including:
-1.  Strings
-2.  Loops (for and while)
-3.  Variables
-4.  If statements
-5.  Types (like int, str, and bool)
-6.  Lists
-7.  Tuples
-8.  Mutability
-9.  Functions
-10.  Return statements
-11.  Print statements
-12.  Debugging Python code
-13.  Problem Solving
+  1.  Strings
+  2.  Loops (for and while)
+  3.  Variables
+  4.  If statements
+  5.  Types (like int, str, and bool)
+  6.  Lists
+  7.  Tuples
+  8.  Mutability
+  9.  Functions
+  10.  Return statements
+  11.  Print statements
+  12.  Debugging Python code
+  13.  Problem Solving
 
 This will set you up to be able to build your own programs!
 
 #####From Stage 3:
 In stage 3, you will continue learning Python, this time getting into its object oriented side.  Here you will learn about:
-1.  Classes 
-2.  Objects
-3.  Methods
-4.  Instances
-5.  Instance variables
-6.  Inheritance
-7.  Method Overriding
-8.  Import Statements
-9.  The Python Standard Library
-10.  Importing External Libraries
-11.  Using documentation
+  1.  Classes 
+  2.  Objects
+  3.  Methods
+  4.  Instances
+  5.  Instance variables
+  6.  Inheritance
+  7.  Method Overriding
+  8.  Import Statements
+  9.  The Python Standard Library
+  10.  Importing External Libraries
+  11.  Using documentation
 
 #####From Stage 4:
 In stage 4 of the Intro to Programming Nanodegree, you will build the backend of a website using Python and Google App Engine.  You'll learn:
-1.  How to install, run, and deploy with Google App Engine
-2.  How to use the .yaml file with GAE (Google App Engine)
-3.  How to navigate folders appropriately when referencing different files with GAE
-4.  Google Datastore  
-5.  How to use the webapp2 framework
-6.  How to use jinja2 templates
-7.  How to use Python dictionaries
-8.  How to use the modulus operator in Python
+  1.  How to install, run, and deploy with Google App Engine
+  2.  How to use the .yaml file with GAE (Google App Engine)
+  3.  How to navigate folders appropriately when referencing different files with GAE
+  4.  Google Datastore  
+  5.  How to use the webapp2 framework
+  6.  How to use jinja2 templates
+  7.  How to use Python dictionaries
+  8.  How to use the modulus operator in Python
 
 #####From Stage 5:
 Stage 5 in the Intro to Programming Nanodegree will provide awareness of a variety of things instead of providing a higher level of competency.  Some of the concepts in computing you will develop awareness about will be:
-1.  Using JavaScript to bring web pages to life.
-2.  Using APIs to easily access powerful data.
-3.  Recursion 
-4.  Parallel computing
-5.  How to solve large and long problems. 
-6.  Responsive Web Design: How to make web pages look good.
+  1.  Using JavaScript to bring web pages to life.
+  2.  Using APIs to easily access powerful data.
+  3.  Recursion 
+  4.  Parallel computing
+  5.  How to solve large and long problems. 
+  6.  Responsive Web Design: How to make web pages look good.
 
 Now we can move into what a student will need to know before taking the Android Developer Nanodegree.
 
