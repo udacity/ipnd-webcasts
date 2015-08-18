@@ -122,16 +122,16 @@ It would additionally be advantageous to have some familiarity with more advance
 
 Some limited JSON and APIs are taught in Stage 5 of IPND; it would probably be bennificial to go over these in more depth with Lesson 5 of [Web Development](https://www.udacity.com/course/viewer#!/c-cs253).
 
-#What students will learn in the Android Developer Nanodegree  
+##What students will learn in the Android Developer Nanodegree  
 
-##The Android Developer Nanodegree Structure 
+###The Android Developer Nanodegree Structure 
 Nanodegree Structure
 
 Nanodegree Courses
 
 - [Developing Android Apps: Android Fundamentals](https://www.udacity.com/course/developing-android-apps--ud853)
 - [Advanced Android App Development: Productionize and Publish Your App](https://www.udacity.com/course/advanced-android-app-development--ud855)
-###Google Play Services
+#####Google Play Services
 - [Google Play Services: Location and Context](http://www.udacity.com/course/ud876-1)
 - [Google Play Services: Analytics](http://www.udacity.com/course/ud876-2)
 - [Google Play Services: AdMob](http://www.udacity.com/course/ud876-3)
