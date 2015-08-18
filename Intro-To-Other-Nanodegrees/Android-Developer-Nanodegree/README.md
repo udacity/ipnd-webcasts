@@ -127,18 +127,19 @@ Nanodegree Structure
 
 Nanodegree Courses
 
-Developing Android Apps: Android Fundamentals
-Advanced Android App Development: Productionize and Publish Your App
-Google Play Services
-Google Play Services: Location and Context
-Google Play Services: Analytics
-Google Play Services: AdMob
-Google Play Services: Maps
-Google Play Services: Identity
-Gradle for Android and Java: Build Better Apps Through Automation
-Android Design for Developers: Make Your Apps Material
-Android Ubiquitous Computing: Extend Apps to Wearables, TV and Auto
-Nanodegree Project Portfolio
+- [Developing Android Apps: Android Fundamentals](https://www.udacity.com/course/developing-android-apps--ud853)
+- [Advanced Android App Development: Productionize and Publish Your App](https://www.udacity.com/course/advanced-android-app-development--ud855)
+###Google Play Services
+- [Google Play Services: Location and Context](http://www.udacity.com/course/ud876-1)
+- [Google Play Services: Analytics](http://www.udacity.com/course/ud876-2)
+- [Google Play Services: AdMob](http://www.udacity.com/course/ud876-3)
+- [Google Play Services: Maps](http://www.udacity.com/course/ud876-4)
+- [Google Play Services: Identity](http://www.udacity.com/course/ud876-5)
+- [Gradle for Android and Java: Build Better Apps Through Automation](https://www.udacity.com/course/gradle-for-android-and-java--ud867)
+- [Android Design for Developers: Make Your Apps Material](https://www.udacity.com/course/android-design-for-developers--ud862)
+- [Android Ubiquitous Computing: Extend Apps to Wearables, TV and Auto](https://www.udacity.com/course/android-ubiquitous-computing--ud875)
+
+##Nanodegree Project Portfolio
 
 Personal App Portfolio
 
@@ -184,7 +185,7 @@ This is your chance to take the skills that you've learned across your Nanodegre
 
 
 ##Android Tools
-####IDE Used
+####Android Studio
 
 
 ####Java vs. Python
