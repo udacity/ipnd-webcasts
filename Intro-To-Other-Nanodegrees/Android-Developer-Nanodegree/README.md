@@ -19,7 +19,7 @@ With over 1 billion Android devices already activated, Android represents an inc
 
 #Expected Prerequisite Knowledge  
 ###What is Expected Prerequisite Knowledge to start the Android Developer Nanodegree?
-his will be a challenging and rewarding journey that will take a novice programmer 9 months or longer to complete, spending an estimated 10 hours per week on the coursework. Do you have the dedication and mindset to sustain you through it? If you're not sure, please check out the courses and projects, listed under Nanodegree Structure, before making this commitment.
+This will be a challenging and rewarding journey that will take a novice programmer 9 months or longer to complete, spending an estimated 10 hours per week on the coursework. Do you have the dedication and mindset to sustain you through it? If you're not sure, please check out the courses and projects, listed under Nanodegree Structure, before making this commitment.
 
 ####Programming Experience
 
