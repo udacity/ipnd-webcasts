@@ -112,8 +112,15 @@ Now we can move into what a student will need to know before taking the Android 
 ####Going into the Android Developer Nanodegree from the Intro to Programming Nanodegree
 You should hopefully have developed some level of mastery over object oriented concepts in the Intro to Programming Nanodegree.  It would most likely still be useful to take all of [CS101](https://www.udacity.com/course/viewer#!/c-cs101) in order to master various programming concepts.
 
-Additionally, you will need to take [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775) in order to learn how to use Git and Github effectively, which is a requirement for starting the Android Developer Nanodegree.  This could be taken after you start the Android Developer Nanodegree, but it is a knowledge base that will be used significantly during the Android Developer Nanodegree.  This is true of most of Udacity's Nanodegrees; knowledge of Git and Github will be used extensively in the course, but the course can be taken during the Nanodegree instead of before hand if a student prefers to do so.
+Additionally, you will need to take [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775) in order to learn how to use Git and Github effectively, which is a requirement for starting the Android Developer Nanodegree.  
 
+You will most likely need to take [Android Development for Beginners](www.udacity.com/course/viewer#!/c-ud837), which goes over some very necessary things for the Android Development Nanodegree, like installing Android Studio.
+
+You will need to learn additional Java not taught in Android Development for Beginners, such as loops, switch statements, arrays and a few more basic variable types. You can learn more about these in lessons 4 - 7 of our [Intro to Java Programming](https://www.udacity.com/course/intro-to-java-programming--cs046) course.  It would be recommended to first take the entirety of Intro to Java Programming before starting the Android Developer Nanodegree.
+
+It would additionally be advantageous to have some familiarity with more advanced concepts, such as threads, using internet APIs, parsing JSON, regular expressions, databases, generics, interfaces and inner classes.
+
+Some limited JSON and APIs are taught in Stage 5 of IPND; it would probably be bennificial to go over these in more depth with Lesson 5 of [Web Development](https://www.udacity.com/course/viewer#!/c-cs253).
 
 #What students will learn in the Android Developer Nanodegree  
 
