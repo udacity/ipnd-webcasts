@@ -145,35 +145,35 @@ Personal App Portfolio
 
 Design and build an app that shows off the apps that you'll create as part of this Nanodegree.
 
-Popular Movies, Stage 1
+####[Popular Movies, Stage 1](https://www.udacity.com/course/viewer#!/c-nd801/l-4256658707/m-4242848655)
 
 Build an app to help users discover popular and recent movies. You will build a clean UI, sync to a server, and present information to the user.
 
-Popular Movies, Stage 2
+####[Popular Movies, Stage 2](https://www.udacity.com/course/viewer#!/c-nd801/l-4324689102/m-4304038833)
 
 Add onto your project from Stage 1 with a detail view for each movie, allowing users to 'favorite' movies, and adding a tablet layout.
 
-Super Duo: Productionize Two Apps
+####[Super Duo: Productionize Two Apps](https://www.udacity.com/course/viewer#!/c-ud855/l-3993648704/m-4291808735)
 
 Productionize two apps, taking them from a functional state to a production-ready state. To do this, you will find and handle error cases, add accessibility features, allow for localization, add widgets, and add a library.
 
-Build It Bigger
+####[Build It Bigger](https://www.udacity.com/course/viewer#!/c-ud867/l-4328489198/m-4382778568)
 
 Use Gradle to build a joke-telling app, factoring functionality into libraries and flavors to keep the build simple. You'll also configure a Google Cloud Endpoints development server to supply the jokes.
 
-Make Your App Material
+####[Make Your App Material](https://www.udacity.com/course/viewer#!/c-ud855/l-4326960273/m-4329086234)
 
 Implement Android design concepts and transform a functional newsreader app using material design techniques.
 
-Go Ubiquitous
+####[Go Ubiquitous](https://www.udacity.com/course/viewer#!/c-ud875/l-4643648560/m-4634049761)
 
 Let users access the weather at a glance by building a Sunshine watch face for Android Wear.
 
-Capstone, Stage 1: Design, Scope and Plan Your App
+####[Capstone, Stage 1: Design, Scope and Plan Your App](https://www.udacity.com/course/viewer#!/c-ud876-1/l-4330969190/m-4333036077)
 
 Create a detailed plan, including UI mocks and technical specifications, for building your own app.
 
-Capstone, Stage 2: Build and Polish Your App for Production
+####[Capstone, Stage 2: Build and Polish Your App for Production](https://www.udacity.com/course/viewer#!/c-ud876-1/l-4333029280/m-4376351203)
 
 This is your chance to take the skills that you've learned across your Nanodegree journey and apply it to an app idea of your own.
 
