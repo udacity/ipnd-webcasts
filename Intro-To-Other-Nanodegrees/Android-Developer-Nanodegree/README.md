@@ -21,7 +21,7 @@ With over 1 billion Android devices already activated, Android represents an inc
 ###What is Expected Prerequisite Knowledge to start the Android Developer Nanodegree?
 his will be a challenging and rewarding journey that will take a novice programmer 9 months or longer to complete, spending an estimated 10 hours per week on the coursework. Do you have the dedication and mindset to sustain you through it? If you're not sure, please check out the courses and projects, listed under Nanodegree Structure, before making this commitment.
 
-###Programming Experience
+####Programming Experience
 
 This is not a "Zero to Hero" program. Entering students are expected to have prior experience building applications (web or mobile) in Java or another object-oriented programming language.
 
@@ -29,13 +29,13 @@ You should have at least 1-2 years of experience in Java or another object-orien
 
 If you have no prior programming experience, we recommend you take our [Android Development for Beginners](https://www.udacity.com/course/android-development-for-beginners--ud837) course, also built with Google. You should also learn foundational Java programming concepts before enrolling in this Nanodegree. Our [Intro to Java](https://www.udacity.com/course/intro-to-java-programming--cs046) course may be a good place to start.
 
-###Technical Skills and Requirements
+####Technical Skills and Requirements
 
 You will submit your projects on GitHub, and must have a GitHub handle and know how to share code prior to enrolling. Take our course on [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775) if you need to learn how to do this.
 
 You will build your apps in Android Studio, and will need to install it on your machine to complete your Nanodegree projects. If you don't have Android Studio installed, see our mini-course on [How to Install Android Studio](https://www.udacity.com/course/how-to-install-android-studio--ud808) for instructions.
 
-###Dedication and Mindset
+####Dedication and Mindset
 
 In addition to 1-2 years of prior programming experience and intermediate technical skills, students are expected to demonstrate the following characteristics:
 
