@@ -135,13 +135,12 @@ Nanodegree Courses
 
 - [Developing Android Apps: Android Fundamentals](https://www.udacity.com/course/developing-android-apps--ud853)
 - [Advanced Android App Development: Productionize and Publish Your App](https://www.udacity.com/course/advanced-android-app-development--ud855)
-
-#####Google Play Services
-- [Google Play Services: Location and Context](http://www.udacity.com/course/ud876-1)
-- [Google Play Services: Analytics](http://www.udacity.com/course/ud876-2)
-- [Google Play Services: AdMob](http://www.udacity.com/course/ud876-3)
-- [Google Play Services: Maps](http://www.udacity.com/course/ud876-4)
-- [Google Play Services: Identity](http://www.udacity.com/course/ud876-5)
+- Google Play Services
+  - [Google Play Services: Location and Context](http://www.udacity.com/course/ud876-1)
+  - [Google Play Services: Analytics](http://www.udacity.com/course/ud876-2)
+  - [Google Play Services: AdMob](http://www.udacity.com/course/ud876-3)
+  - [Google Play Services: Maps](http://www.udacity.com/course/ud876-4)
+  - [Google Play Services: Identity](http://www.udacity.com/course/ud876-5)
 - [Gradle for Android and Java: Build Better Apps Through Automation](https://www.udacity.com/course/gradle-for-android-and-java--ud867)
     - This course will go over how to use Gradle for Android!
 - [Android Design for Developers: Make Your Apps Material](https://www.udacity.com/course/android-design-for-developers--ud862)
