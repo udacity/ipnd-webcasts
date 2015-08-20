@@ -27,21 +27,21 @@ Working with our leading industry partners, we’ve carefully designed the most 
 
 #Expected Prerequisite Knowledge  
 Data Analyst nanodegree students...
+ - are interested in data science.
+ - have a strong grasp of descriptive and inferential statistics.
+ - have python programming experience.
+ - have a strong understanding of programming concepts such as variables, functions, loops, and basic data structures like lists and dictionaries.
 
-are interested in data science.
-have a strong grasp of descriptive and inferential statistics.
-have python programming experience.
-have a strong understanding of programming concepts such as variables, functions, loops, and basic data structures like lists and dictionaries.
-Prerequisite:
+#####Prerequisite:
 
 The first thing you should do is take the [Readiness Assessment](https://www.udacity.com/course/viewer#!/c-none/l-2364518584), which will help you determine if you have the right background to participate.
 
-General Requirements:
+#######General Requirements:
 
-You are self-driven and motivated to learn. Participation in this program requires consistently meeting the deadlines for your cohort and devoting at least 10 hours per week to your work.
-You can communicate fluently and professionally in written and spoken English.
-You have access to a computer with a broadband connection, on which you’ll install a professional code/text editor (ie. Sublime Text or Atom) and programming languages like Python and R and associating data science libraries.
-You are willing to contribute to the success of the program, including collaborating with fellow students and giving us feedback on how we can improve.
+- You are self-driven and motivated to learn. Participation in this program requires consistently meeting the deadlines for your cohort and devoting at least 10 hours per week to your work.
+- You can communicate fluently and professionally in written and spoken English.
+- You have access to a computer with a broadband connection, on which you’ll install a professional code/text editor (ie. Sublime Text or Atom) and programming languages like Python and R and associating data science libraries.
+- You are willing to contribute to the success of the program, including collaborating with fellow students and giving us feedback on how we can improve.
 
 
 ###What gaps may need to be filled in from the Intro to Programming Nanodegree?
