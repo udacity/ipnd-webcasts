@@ -4,20 +4,26 @@ Webcast: About the Data-Analyst Nanodegree
 Here is a link to the [video][OH]
 
 #What is Data Analysis?
-Android development is programming for Android devices, whether they are are wearables, watches, phones, tables, TVs, or autos.  
+
 
 #What is the Data Analyst Nanodegree about?
-The Nanodegree program is a an intermediate program.  It takes a student from learning the fundamentals of how programs run on Android devices, to refining their apps and bringing them to prodcution quality.  This includes how to make the apps able to run on multiple devices like wearables, phones, watches, TVs, or autos.  
+This Nanodegree program is the most efficient curriculum to prepare you for a job as a Data Analyst. You will learn to:
 
-The Android Developer Nanodegree will provide a guided, efficient path for an intermediate developer with little or no experience on mobile platforms to emerge as an Android Developer.
+Wrangle, extract, transform, and load data from various databases, formats, and data sources
+Use exploratory data analysis techniques to identify meaningful relationships, patterns, or trends from complex data sets
+Classify unlabeled data or predict into the future with applied statistics and machine learning algorithms
+Communicate data analysis and findings well through effective data visualizations
+You will work with your peers and advisors on projects approved by leading employers as the critical indicators of job-readiness. We designed these projects with expert Data Analysts, Data Scientists, and hiring managers.
 
-By the end of the Nanodegree, you'll have a diverse portfolio of projects to show employers, and will even publish your own app on the Google Play Store as part of the Capstone project.
+You'll also have the opportunity to prepare for your new career with reviews of your online presence (resume, LinkedIn, portfolio), prepare for interviews, take part in workshops covering topics like networking and salary negotiation as well as take part in a new program facilitating job placement.
 
-This is an Intermediate Nanodegree: Entering students are expected to have prior experience building applications (web or mobile) in Java or another object-oriented programming language.
+Ready to get started? Take the [Readiness Assessment](https://www.udacity.com/course/viewer#!/c-none/l-2364518584), which will help you determine if you have the right background to participate.
 
 ####Why Take This Nanodegree?
 
-With over 1 billion Android devices already activated, Android represents an incredible opportunity for developers. As Android continues to grow beyond smartphones, it will become the brains behind invisible, ubiquitous cloud-connected computing. The skills you learn in this Nanodegree will help you master the existing platform, and prepare you for the exciting opportunities in Android's future.
+The Data Analyst nanodegree is designed to prepare you for a career in data science. As a Data Analyst, you will be responsible for obtaining, analyzing, and effectively reporting on data insights ranging from business metrics to user behavior and product performance.
+
+Working with our leading industry partners, we’ve carefully designed the most efficient set of projects to train you on the fundamental skills of data science and help you become a Data Analyst.
 
 #Expected Prerequisite Knowledge  
 Data Analyst nanodegree students...
