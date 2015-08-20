@@ -215,4 +215,5 @@ There is also a focus on design in the Android Development Nanodegree, and the N
 
 
 
-[OH]: https://plus.google.com/u/1/events/
+[OH]: https://plus.google.com/u/0/events/cf2jnpdnh375fpdshrk03tkb6r0?authkey=CPKMlrDS0MP7vAE
+
