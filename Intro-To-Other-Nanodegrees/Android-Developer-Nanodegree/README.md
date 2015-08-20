@@ -204,7 +204,7 @@ Emulators can't fully test apps, though, as it is difficult to test things which
 As previously mentioned, we will be using Git and Github often in this Nanodegree.  
 
 ####Java vs. Python
-
+Java and Python are both object oriented languages that can run cross-platform; there are both significant simularities and significant differences between the two.  Java is strongly typed; that means that you have to declare what type every variable is before you use it, and you cannot change the type of variable.  You'll find that it takes longer to make Java programs than it would to write similar Python programs, but that those Java programs can run faster.
 
 #What kind of career does the Android Developer Nanodegree prepare you for?  
 The Nanodegree prepairs you very well for any form of Android Development!  This includes becoming an Andriod Developer for any company which develops Android apps, as well as entrepreneurial opportunities from being able to develope for a platform with such a wide user base.  
@@ -212,8 +212,6 @@ The Nanodegree prepairs you very well for any form of Android Development!  This
 The Android Developer Nanodegree also gives substantial experience in Java development, and, as such, can also prepair students for Java development roles.
 
 There is also a focus on design in the Android Development Nanodegree, and the Nanodegree could help prepare students for design heavy roles.
-
-###What programming skills and languages would a typical Android engineer have that aren't covered in the Nanodegree
 
 
 
