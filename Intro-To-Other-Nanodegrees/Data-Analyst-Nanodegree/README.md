@@ -36,7 +36,7 @@ Data Analyst nanodegree students...
 
 The first thing you should do is take the [Readiness Assessment](https://www.udacity.com/course/viewer#!/c-none/l-2364518584), which will help you determine if you have the right background to participate.
 
-#######General Requirements:
+######General Requirements:
 
 - You are self-driven and motivated to learn. Participation in this program requires consistently meeting the deadlines for your cohort and devoting at least 10 hours per week to your work.
 - You can communicate fluently and professionally in written and spoken English.
