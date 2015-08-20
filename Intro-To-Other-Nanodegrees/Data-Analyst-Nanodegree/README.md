@@ -20,30 +20,22 @@ This is an Intermediate Nanodegree: Entering students are expected to have prior
 With over 1 billion Android devices already activated, Android represents an incredible opportunity for developers. As Android continues to grow beyond smartphones, it will become the brains behind invisible, ubiquitous cloud-connected computing. The skills you learn in this Nanodegree will help you master the existing platform, and prepare you for the exciting opportunities in Android's future.
 
 #Expected Prerequisite Knowledge  
-###What is Expected Prerequisite Knowledge to start the Android Developer Nanodegree?
-This will be a challenging and rewarding journey that will take a novice programmer 9 months or longer to complete, spending an estimated 10 hours per week on the coursework. Do you have the dedication and mindset to sustain you through it? If you're not sure, please check out the courses and projects, listed under Nanodegree Structure, before making this commitment.
+Data Analyst nanodegree students...
 
-####Programming Experience
+are interested in data science.
+have a strong grasp of descriptive and inferential statistics.
+have python programming experience.
+have a strong understanding of programming concepts such as variables, functions, loops, and basic data structures like lists and dictionaries.
+Prerequisite:
 
-This is not a "Zero to Hero" program. Entering students are expected to have prior experience building applications (web or mobile) in Java or another object-oriented programming language.
+The first thing you should do is take the [Readiness Assessment](https://www.udacity.com/course/viewer#!/c-none/l-2364518584), which will help you determine if you have the right background to participate.
 
-You should have at least 1-2 years of experience in Java or another object-oriented programming language prior to enrolling.
+General Requirements:
 
-If you have no prior programming experience, we recommend you take our [Android Development for Beginners](https://www.udacity.com/course/android-development-for-beginners--ud837) course, also built with Google. You should also learn foundational Java programming concepts before enrolling in this Nanodegree. Our [Intro to Java](https://www.udacity.com/course/intro-to-java-programming--cs046) course may be a good place to start.
-
-####Technical Skills and Requirements
-
-You will submit your projects on GitHub, and must have a GitHub handle and know how to share code prior to enrolling. Take our course on [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775) if you need to learn how to do this.
-
-You will build your apps in Android Studio, and will need to install it on your machine to complete your Nanodegree projects. If you don't have Android Studio installed, see our mini-course on [How to Install Android Studio](https://www.udacity.com/course/how-to-install-android-studio--ud808) for instructions.
-
-####Dedication and Mindset
-
-In addition to 1-2 years of prior programming experience and intermediate technical skills, students are expected to demonstrate the following characteristics:
-
-- Resourcefulness: Ability to search for and find solutions in documentation, backed by the belief that all problems in code are discoverable;
-- Grit: Ability to work through challenges and persevere when code breaks and tests fail.
-- Growth Mindset: Belief that intelligence is NOT a fixed entity, and can be boosted by hard work in the process of learning and practice.
+You are self-driven and motivated to learn. Participation in this program requires consistently meeting the deadlines for your cohort and devoting at least 10 hours per week to your work.
+You can communicate fluently and professionally in written and spoken English.
+You have access to a computer with a broadband connection, on which you’ll install a professional code/text editor (ie. Sublime Text or Atom) and programming languages like Python and R and associating data science libraries.
+You are willing to contribute to the success of the program, including collaborating with fellow students and giving us feedback on how we can improve.
 
 
 ###What gaps may need to be filled in from the Intro to Programming Nanodegree?
@@ -109,109 +101,83 @@ Stage 5 in the Intro to Programming Nanodegree will provide awareness of a varie
   5.  How to solve large and long problems. 
   6.  Responsive Web Design: How to make web pages look good.
 
-Now we can move into what a student will need to know before taking the Android Developer Nanodegree.
+Now we can move into what a student will need to know before taking the Data Analyst Nanodegree.
 
-####Going into the Android Developer Nanodegree from the Intro to Programming Nanodegree
+####Going into the Data Analyst Nanodegree from the Intro to Programming Nanodegree
 You should hopefully have developed some level of mastery over object oriented concepts in the Intro to Programming Nanodegree.  It would most likely still be useful to take all of [CS101](https://www.udacity.com/course/viewer#!/c-cs101) in order to master various programming concepts.
 
 Additionally, you will need to take [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775) in order to learn how to use Git and Github effectively, which is a requirement for starting the Android Developer Nanodegree.  This will be used for submitting projects, collaborating with your peers and coaches, and is generally a very useful skill to have, so this knowledge this course teaches is recommended for all of our other Nanodegrees as well.  
 
-You will most likely need to take [Android Development for Beginners](www.udacity.com/course/viewer#!/c-ud837), which goes over some very necessary things for the Android Development Nanodegree, like installing Android Studio.
 
-You will need to learn additional Java not taught in Android Development for Beginners, such as loops, switch statements, arrays and a few more basic variable types. You can learn more about these in lessons 4 - 7 of our [Intro to Java Programming](https://www.udacity.com/course/intro-to-java-programming--cs046) course.  It would be recommended to first take the entirety of Intro to Java Programming before starting the Android Developer Nanodegree.
 
-It would additionally be advantageous (but not required!) to have some familiarity with more advanced concepts, such as threads, using internet APIs, parsing JSON, regular expressions, databases, generics, interfaces and inner classes.
-
-Some limited JSON and APIs are taught in Stage 5 of IPND; if you are interested, it may be bennificial to go over these in more depth with Lesson 5 of [Web Development](https://www.udacity.com/course/viewer#!/c-cs253).  (You will already have touched much of Web Development in stage 4!)
-
-Additional information about going in to the Android Developer Nanodegree can be found [here](https://www.udacity.com/course/viewer#!/c-ud837/l-4584545214/m-4582702844).  
-
-##What students will learn in the Android Developer Nanodegree  
+##What students will learn in the Data Analyst Nanodegree  
 
 ###The Data Analyst Nanodegree Structure 
 Nanodegree Structure
 
-Nanodegree Courses
+These are the projects you'll build and the classes that will prepare you to build each of the projects. You'll have access to all these in the Nanodegree:
 
-- [Developing Android Apps: Android Fundamentals](https://www.udacity.com/course/developing-android-apps--ud853)
-- [Advanced Android App Development: Productionize and Publish Your App](https://www.udacity.com/course/advanced-android-app-development--ud855)
-- Google Play Services
-  - [Google Play Services: Location and Context](http://www.udacity.com/course/ud876-1)
-  - [Google Play Services: Analytics](http://www.udacity.com/course/ud876-2)
-  - [Google Play Services: AdMob](http://www.udacity.com/course/ud876-3)
-  - [Google Play Services: Maps](http://www.udacity.com/course/ud876-4)
-  - [Google Play Services: Identity](http://www.udacity.com/course/ud876-5)
-- [Gradle for Android and Java: Build Better Apps Through Automation](https://www.udacity.com/course/gradle-for-android-and-java--ud867)
-    - This course will go over how to use Gradle for Android!
-- [Android Design for Developers: Make Your Apps Material](https://www.udacity.com/course/android-design-for-developers--ud862)
-    - This course will show you the principles of Material Design for your apps, helping them look better.  
-- [Android Ubiquitous Computing: Extend Apps to Wearables, TV and Auto](https://www.udacity.com/course/android-ubiquitous-computing--ud875)
-   - This course will go over how to extend beyond the phone and the tablet; how to take your app and extend it to wearables, TV, and autos.  
+7 day WARM-UP: Find the Optimal Chopstick Length
+An opportunity to get your feet wet and get some quick feedback about your progress in the first week of the program.
 
-##Nanodegree Project Portfolio
+Set up IPython notebook and commonly used data analysis libraries on your own computer. Use them to dig into the results of an experiment testing the optimal length of chopsticks and present your findings.
 
-You will build 8 different projects for this Nanodegree.  First, you will design and build an app that shows off the apps that you'll create as part of this Nanodegree in stage 0.  From there:
+Prepare for this project with: [Lesson 1 of Statistics](https://www.udacity.com/course/viewer#!/c-ud827/l-1293178557)
 
-####[Popular Movies, Stage 1](https://www.udacity.com/course/viewer#!/c-nd801/l-4256658707/m-4242848655)
+Test a Perceptual Phenomenon
 
-Build an app to help users discover popular and recent movies. You will build a clean UI, sync to a server, and present information to the user.  You will recieve information from an external API.
+Use descriptive statistics and a statistical test to analyze the Stroop effect, a classic result of experimental psychology. Give your readers a good intuition for the data and use statistical inference to draw a conclusion based on the results.
 
-####[Popular Movies, Stage 2](https://www.udacity.com/course/viewer#!/c-nd801/l-4324689102/m-4304038833)
+Prepare for this project with: Statistics (available separately as [Inferential Statistics](https://www.udacity.com/course/viewer#!/c-ud201) and [Descriptive Statistics](https://www.udacity.com/course/viewer#!/c-ud827))
 
-Add onto your project from Stage 1 with a detail view for each movie, allowing users to 'favorite' movies, and adding a tablet layout.
+Predict the New York City Subway Ridership
 
-####[Super Duo: Productionize Two Apps](https://www.udacity.com/course/viewer#!/c-ud855/l-3993648704/m-4291808735)
+Learn fundamental data science skills like data wrangling, applied statistics and machine learning, and effective visualization. Pose a question about the New York City Subway and work with the subway ridership dataset to draw an interesting conclusion about the dataset itself.
 
-Productionize two apps, taking them from a functional state to a production-ready state. To do this, you will find and handle error cases, add accessibility features, allow for localization, add widgets, and add a library.
+Prepare for this project with: [Intro to Data Science](https://www.udacity.com/course/viewer#!/c-ud359)
 
-####[Build It Bigger](https://www.udacity.com/course/viewer#!/c-ud867/l-4328489198/m-4382778568)
+Wrangle OpenStreetMaps Data 
+Choose any area of the world in [Open Street Map](https://www.openstreetmap.org/) and use data munging techniques, such as assessing the quality of the data for validity, accuracy, completeness, consistency and uniformity, to clean the OpenStreetMap data for a part of the world that you care about.
 
-Use Gradle to build a joke-telling app, factoring functionality into libraries and flavors to keep the build simple. You'll also configure a Google Cloud Endpoints development server to supply the jokes.
+Prepare for this project with: [Data Wrangling with MongoDB](https://www.udacity.com/course/viewer#!/c-ud032)
 
-####[Make Your App Material](https://www.udacity.com/course/viewer#!/c-ud855/l-4326960273/m-4329086234)
+Explore, Summarize, and Discover Interesting Insights from Datasets 
+Use R to apply exploratory data analysis techniques. Practice understanding a single variable and relationships between multiple variables, and explore a selected data set for distributions, outliers, and anomalies.
 
-Implement Android design concepts and transform a functional newsreader app using material design techniques.
+Prepare for this project with: [Data Analysis with R](https://www.udacity.com/course/viewer#!/c-ud651)
 
-####[Go Ubiquitous](https://www.udacity.com/course/viewer#!/c-ud875/l-4643648560/m-4634049761)
+Identify Fraud from the Enron Email Dataset 
+Play detective and put your machine learning skills to use by building an algorithm to identify Enron Employees who may have committed fraud based on the public Enron financial and email dataset.
 
-Let users access the weather at a glance by building a Sunshine watch face for Android Wear.
+Prepare for this project with: [Intro to Machine Learning](https://www.udacity.com/course/viewer#!/c-ud120)
 
-####[Capstone, Stage 1: Design, Scope and Plan Your App](https://www.udacity.com/course/viewer#!/c-ud876-1/l-4330969190/m-4333036077)
+Tell Stories with Data Visualization 
+Create a data visualization from a data set that tells a story or allows a reader to explore trends or patterns. Your work will be a reflection of the theory and best practices of data visualization.
 
-Create a detailed plan, including UI mocks and technical specifications, for building your own app.
+Prepare for this project with: [Data Visualization](https://www.udacity.com/course/viewer#!/c-ud507)
 
-####[Capstone, Stage 2: Build and Polish Your App for Production](https://www.udacity.com/course/viewer#!/c-ud876-1/l-4333029280/m-4376351203)
+Design and Analyze an A/B Test
 
-This is your chance to take the skills that you've learned across your Nanodegree journey and apply it to an app idea of your own.
+Make design decisions for an A/B test, including which metrics to measure and how long the test should be run. Analyze the results of an A/B test that was run by Udacity and recommend whether or not to launch the change.
 
-There is approximately one course for each project, although the capstone project will combine everything you learn!
+Prepare for this project with: [A/B Testing](https://www.udacity.com/course/viewer#!/c-ud257)
+
+
+We will be periodically reviewing the Data Analyst Nanodegree curriculum - both courses and projects - and making adjustments based on student and industry feedback. We will notify active students working toward the Nanodegree about any effects updates may have on the degree requirements.
 
 
 ###Curriculum Length: How long does the whole Nanodegree take?
-Assuming you are coming in with prior programming experience and averaging 10-20 hours per week, it will most likely take about 9-12 months.  We have had our first graduate in about 3 months, although he had previous Android experience.  Our timeline should be a bit conservative, and the timeline projects to about 12 months if that is the rate you go at.
+
 
 ###Project Difficulty Levels
-The Nanodegree projects maintain a semi-constant difficulty.  There may actually even be less resistance as you go along, as you become more familiar with the coding environment and how the Android programs work!
 
 
-##Android Tools
-####Android Studio
-Android Studio is the IDE (Integrated Development Enviornment) that we use in this Nanodegree, and it is the main development enviornment that Android developers used.  This replaces Eclipse, which is a popular open source platform most frequently used for Java, which used to be the place where most Android development was done.  Google has made Android Studio to be the environment they endorse!  It contains emulators, so that you can test your apps without actually using an Android device.  The emulators are quite faithful, and there are also third party emulators that tweek the Android Studio emulator (like [GenyMotion](https://www.genymotion.com/#!/)); they help to make the emulator work more quickly.
 
-Emulators can't fully test apps, though, as it is difficult to test things which require the use of your location and maps if your location never changes!  You won't need an Android device to take this Nanodegree, though, as the emulator will be sufficient.  Emulators also have the advantage of being able to simulate *all* Android devices, whereas you would otherwise be constrained by the devices you have access to.
+##Data Analyst Tools
 
-####Git and Github
-As previously mentioned, we will be using Git and Github often in this Nanodegree.  
 
-####Java vs. Python
-Java and Python are both object oriented languages that can run cross-platform; there are both significant simularities and significant differences between the two.  Java is strongly typed; that means that you have to declare what type every variable is before you use it, and you cannot change the type of variable.  You'll find that it takes longer to make Java programs than it would to write similar Python programs, but that those Java programs can run faster.
+#What kind of career does the Data Analyst Nanodegree prepare you for?  
 
-#What kind of career does the Android Developer Nanodegree prepare you for?  
-The Nanodegree prepairs you very well for any form of Android Development!  This includes becoming an Andriod Developer for any company which develops Android apps, as well as entrepreneurial opportunities from being able to develope for a platform with such a wide user base.  
-
-The Android Developer Nanodegree also gives substantial experience in Java development, and, as such, can also prepair students for Java development roles.
-
-There is also a focus on design in the Android Development Nanodegree, and the Nanodegree could help prepare students for design heavy roles.
 
 
 
