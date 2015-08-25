@@ -110,7 +110,45 @@ Stage 5 in the Intro to Programming Nanodegree will provide awareness of a varie
 Now we can move into what a student will need to know before taking the Data Analyst Nanodegree.
 
 ####Going into the Data Analyst Nanodegree from the Intro to Programming Nanodegree
+
+
+###READYNESS ASSESSMENT
+Prerequisites
+Before you begin, it is important to ensure you are ready to embark on this journey and will benefit from it as much as possible.
+
+Please answer the following questions as best you can to help us guide you to the learning path that makes the most sense for you. If you have taken the Readiness Assessment previously, please feel free to skip this section.
+
+Please note that in the Readiness Assessment you will get your hands dirty with a little programming and probability.
+
+Programming 
+If you feel that you don't yet have the necessary programming background for this program, you can take the following courses on Udacity to prepare:
+
+[Intro to Computer Science](https://www.udacity.com/course/cs101)
+[Intro to Python Programming](https://www.udacity.com/course/ud036)
+Statistics
+We've found that many students who enroll in the Data Analyst Nanodegree Program have taken statistics in college, or sometime prior to their enrollment, but often they need review of certain key concepts in order to be succcessful. With this in mind, the first course in this Nanodegree Program will help you review statistics, beginning with a special placement advisor, which will tell you the specific lessons you need to work through. As a result of this addition, you will not be asked any questions about statistics in the following Readiness Assessment.
+
+Pay attention to the feedback that will appear in the box to the right after each submission. It's okay if you don't get the questions right the first time. Go to the resources that we share with you to review or learn something new. Once you've done that, you can come back and try the questions again!
+
+####Time Commitment
+With 10 hours of work per week, we expect you will complete this nanodegree (and start applying for jobs) in about 9 to 12 months.
+
+Students who set aside regular time to work are significantly more likely to complete this Nanodegree. Make sure you set a schedule and then stick to it. Online courses are a unique learning experience. We recommend blocking out time in your schedule every week so that working on your Nanodegree becomes an established part of your routine. That way, you'll stay motivated and keep making progress!
+
+
+####Bayes rule
+Although Statistics are reviewed in the Nanodegree, probability is not.  If you think you would benefit from going over Bayes rule, you may find the first lesson of [AI for Robotics](https://plus.google.com/hangouts/_/knowlabs.com/rolandnturner?authuser=0) to be particularly useful.
+
+
+
+
+
+
+
+
 You should hopefully have developed some level of mastery over object oriented concepts in the Intro to Programming Nanodegree.  It would most likely still be useful to take all of [CS101](https://www.udacity.com/course/viewer#!/c-cs101) in order to master various programming concepts.
+
+
 
 Additionally, you will need to take [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775) in order to learn how to use Git and Github effectively, which is a requirement for starting the Android Developer Nanodegree.  This will be used for submitting projects, collaborating with your peers and coaches, and is generally a very useful skill to have, so this knowledge this course teaches is recommended for all of our other Nanodegrees as well.  
 
