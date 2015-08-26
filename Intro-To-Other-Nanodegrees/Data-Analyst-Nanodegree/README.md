@@ -4,7 +4,9 @@ Webcast: About the Data-Analyst Nanodegree
 Here is a link to the [video][OH]
 
 #What is Data Analysis?
+Data Analysis can mean a large variety of things, but in our context, we interpret it as such:
 
+Analyzing Data, coming up with insights into data, presenting it to others, and reformulating the data into something you can share.
 
 #What is the Data Analyst Nanodegree about?
 This Nanodegree program is the most efficient curriculum to prepare you for a job as a Data Analyst. You will learn to:
@@ -223,7 +225,5 @@ We will be periodically reviewing the Data Analyst Nanodegree curriculum - both 
 #What kind of career does the Data Analyst Nanodegree prepare you for?  
 
 
-
-
-[OH]: https://plus.google.com/u/0/events/
+[OH]: https://plus.google.com/u/0/hangouts/onair/watch?hid=hoaevent%2Fcsn7ic34ss1r4p4df953kbirugk&ytl=IUbcZbMQhKs&hl=en
 
