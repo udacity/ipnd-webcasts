@@ -134,7 +134,29 @@ All built-in numeric types support the following operations. See The power opera
 
 
 ##Operators
-
+Python has all of the standard 
+```python
+print 1 / 2
+print 1//2
+#>>>0
+#>>>0
+print 2 / 2
+print 2//2
+#>>>1
+#>>>1
+print -1/ 2
+print -1//2
+#>>>-1
+#>>>-1
+print -3 / 2
+print -3 // 2
+#>>>-2
+#>>>-2
+print -3.0 // 2
+print -3.0 / 2
+#>>>-2.0
+#>>>-1.5
+```
 
 Operation	Result	Notes
 x + y	sum of x and y	 
