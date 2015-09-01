@@ -398,10 +398,14 @@ Here, if there are n elements in the list, we are suddenly doing n<sup>2</sup> c
 
 
 ###O(n)
-We often categorize a particular program based on the infinite limit of how many computations it will preform when given a specific data set.
+We often categorize a particular program based on the infinite limit of how many computations it will preform when given a specific data set.  
 
-Basically, we
+This is frequently applied to accessing data from some data structure.  You are currently probably familiar with one of Python's most used data structures; the list.  Let's say we are searching a list for a particular value.  A list that has 10000 entries will take a for loop 10000 repetitions to go through, and the worst case senario is the value either is in the last entry or isn't in the list at all, so it is very possible that we have to take 10000 actions to find the value we want.  However, if you want to access the 100th entry, it doesn't matter how long the list is, it always takes the same amount of time to retrieve the 100th entry.  (This is true of any particular entry, even finding the last entry is only one computation.)
 
+We would then say that retrieval is O(1), while search is O(n).  This is called big O notation.  
+
+
+If you want to know more about O(n), efficiency, and data structures, take our [Intro to Algorithms course](https://www.udacity.com/course/viewer#!/c-cs215)!
 
 
 
