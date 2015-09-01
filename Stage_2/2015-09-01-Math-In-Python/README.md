@@ -36,7 +36,7 @@ Similarly, binary numbers are divided into powers of 2:  2^0, 2^1, 2^2, etc.  Th
 2^9 | 512
 2^10 | 1024
 
-So, if we have the number 1045 in binary, we would convert it like so:
+So, if we convert the decimal number 1045 to binary, we would convert it like so:
 
 ```python
 # #(using integer division)
