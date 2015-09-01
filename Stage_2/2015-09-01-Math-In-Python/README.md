@@ -22,8 +22,8 @@ The number 1045 would be composed of 5 1's, 4 10's, 0 100's, and 1 1000's.
 
 Similarly, binary numbers are divided into powers of 2:  2^0, 2^1, 2^2, etc.  The powers of 2 would be as such:
 
-2^x   |  Decimal Value
-------------
+2^x | Decimal Value
+----|----
 2^0 | 1
 2^1 | 2
 2^2 | 4
@@ -55,7 +55,7 @@ So, if we have the number 1045 in binary, we would convert it like so:
 1 / 1 = 1
 
 1024 | 512 | 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1
-------------------------------------------------------
+-----|-----|-----|-----|----|----|----|---|---|---|---
 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 1
 
 That gives a binary number of 10000010101
