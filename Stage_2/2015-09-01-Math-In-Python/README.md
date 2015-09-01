@@ -54,8 +54,15 @@ So, if we have the number 1045 in binary, we would convert it like so:
 # 5 % 4 = 1
 # 1 / 2 = 0
 # 1 / 1 = 1
+```
 
+1024 | 512 | 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1
+-----|-----|-----|-----|----|----|----|---|---|---|---
+1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 1
 
+That gives a binary number of 10000010101
+
+```python
 def convert_to_binary(decimal_number):
     needed_binary = []
     current_power = 0
@@ -76,13 +83,6 @@ def convert_to_binary(decimal_number):
 for i in range(16):
     print i, convert_to_binary(i)
 ```
-
-
-1024 | 512 | 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1
------|-----|-----|-----|----|----|----|---|---|---|---
-1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 1
-
-That gives a binary number of 10000010101
 
 Counting in Binary:
 
