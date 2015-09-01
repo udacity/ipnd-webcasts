@@ -134,7 +134,20 @@ All built-in numeric types support the following operations. See The power opera
 
 
 ##Operators
-Python has all of the standard 
+Python has all of the standard mathematical operators:
+
+The '+' sign does exactly what you expect it to do; it adds two numbers together.  
+The '-' sign does exaclty what you expect it to do as well; it subtracts one number from another to find the difference.
+The '*' sign again does what you probably expect it to do; it multiplies to numbers together, resulting in a product.
+
+However, '/' does *not* do what you expect it to do.  
+
+If one or both of the numbers is a float (floating point number), it divides the two of them together in a normal fasion.
+
+However, if both of the numbers are ints (integers), then the '/' sign does something called *integer division*.  Integer division always results in an integer, even if the divisor (i.e. the denominator) is not evenly divisible by the numerator.  Instead, the quotient in integer division is *rounded down*.  Integer division in Python is actually identical to floor division, which also has its own Python symbol ('//').
+
+For instance:
+
 ```python
 print 1 / 2
 print 1//2
@@ -143,7 +156,13 @@ print 1//2
 print 2 / 2
 print 2//2
 #>>>1
+print 12 / 5
+print 12 // 5
+#>>>2
+#>>>2
 #>>>1
+
+#Negative integer results are still rounded down (away from 0); they are not truncated.
 print -1/ 2
 print -1//2
 #>>>-1
@@ -152,30 +171,33 @@ print -3 / 2
 print -3 // 2
 #>>>-2
 #>>>-2
+
+#There is a difference between floor division and division when at least one number is a float, though:
 print -3.0 // 2
 print -3.0 / 2
 #>>>-2.0
 #>>>-1.5
 ```
-
-Operation	Result	Notes
-x + y	sum of x and y	 
-x - y	difference of x and y	 
-x * y	product of x and y	 
-x / y	quotient of x and y	(1)
-x // y	(floored) quotient of x and y	(4)(5)
-x % y	remainder of x / y	(4)
--x	x negated	 
-+x	x unchanged	 
-abs(x)	absolute value or magnitude of x	(3)
-int(x)	x converted to integer	(2)
-long(x)	x converted to long integer	(2)
-float(x)	x converted to floating point	(6)
-complex(re,im)	a complex number with real part re, imaginary part im. im defaults to zero.	 
-c.conjugate()	conjugate of the complex number c. (Identity on real numbers)	 
-divmod(x, y)	the pair (x // y, x % y)	(3)(4)
-pow(x, y)	x to the power y	(3)(7)
-x ** y	x to the power y	(7)
+From the [Python Docs](https://docs.python.org/2/library/stdtypes.html#numeric-types-int-float-long-complex):
+Operation |	Result 
+----------|--------
+x + y |	sum of x and y
+x - y | difference of x and y
+x * y | product of x and y 
+x / y | quotient of x and y
+x // y | (floored) quotient of x and y
+x % y | remainder of x / y
+-x | x negated 
++x | x unchanged
+abs(x) | absolute value or magnitude of x
+int(x) | x converted to integer
+long(x) | x converted to long integer
+float(x) | x converted to floating point
+complex(re,im) | a complex number with real part re, imaginary part im. im defaults to zero.	 
+c.conjugate() | conjugate of the complex number c. (Identity on real numbers)	 
+divmod(x, y) | the pair (x // y, x % y)
+pow(x, y) | x to the power y
+x ** y | x to the power y
 
 
 ##Computational Efficiency
