@@ -105,8 +105,9 @@ Binary | Decimal
 1110   | 14
 1111   | 15
 
-Each of the binary numbers above are expressed in 4 bits; that is, the numbers are defined by four 1's and 0's.  A computer actually works not in bits, but in bytes!  Instead of a a single 1 or 0, a byte will be defined by ***8*** 1's or 0's, like so:
+Each of the binary numbers above are expressed in 4 bits; that is, the numbers are defined by four 1's and 0's.  A computer actually works not in bits, but in bytes!  Instead of a a single 1 or 0, a byte will be defined by ***8***  1's or 0's, like so:
 
+```
 00000000
 00000001
 00000010
@@ -114,6 +115,7 @@ Each of the binary numbers above are expressed in 4 bits; that is, the numbers a
 10101010
 ...
 11111111
+```
 
 While a single bit can be only one of two possible values, n bits can hold one of 2^n possible values!  This means a byte can hold 2^8, or one of 256 possible values.  While this may be sufficient to hold an ANSI character, it is a fairly small range of numbers to be held by an integer.  This is why C, the language which Python is typically built in, typically has an integer defined as 4 bytes; 4 bytes can hold 2^32 (4294967296) possible values!
 
