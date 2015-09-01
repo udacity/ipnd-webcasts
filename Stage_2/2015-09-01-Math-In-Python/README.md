@@ -105,29 +105,62 @@ Binary | Decimal
 1110   | 14
 1111   | 15
 
+Each of the binary numbers above are expressed in 4 bits; that is, the numbers are defined by four 1's and 0's.  A computer actually works not in bits, but in bytes!  Instead of a a single 1 or 0, a byte will be defined by ***8*** 1's or 0's, like so:
 
-###How C impliments variables
+00000000
+00000001
+00000010
+...
+10101010
+...
+11111111
 
-#####int vs. long
+While a single bit can be only one of two possible values, n bits can hold one of 2^n possible values!  This means a byte can hold 2^8, or one of 256 possible values.  While this may be sufficient to hold an ANSI character, it is a fairly small range of numbers to be held by an integer.  This is why C, the language which Python is typically built in, typically has an integer defined as 4 bytes; 4 bytes can hold 2^32 (4294967296) possible values!
 
 
-#####float vs. double
+#####What happens if you give an integer a value beyone what it can hold?
+Well, what happens if you add 1 to 11111111 in binary?  You should be getting 100000000, however, you don't have the memory set aside to get this result!  Instead, you will end up cutting off the first digit, giving you 00000000 !
 
+C actually has several numerical types for this reason.
+
+###Int vs. Float
+We have so far dealt with only integers, which have a straightforward mathematical conversion.  What happens if we want to include a decimal point, creating non-integer numbers?  This is done with something called a 'float'; in C, this also takes 4 bytes of memory.  
+
+In C, there are also types which are identical, except that they take up more memory; these would be 'long' for ints and 'double' for floats!
 
 ###How Python impliments variables
+Python is generally written in C, and its numerical types are based of off C's.  The respective memory specifications are differnt, however; a Python int is a C long, while a Python float is a C double!  Python also has a 'long' data type; similar to in C, it is an integer type.  However, in Python, because of the way 'long' is written, it actually can take an unlimited number of possible values!  Of course, your machine has actual limits to how much memory it can hold and access, so it isn't truly unlimited, but it does provide a very useful type for solving math problems with very large numbers, similar to the kind you might find at [Project Euler](https://projecteuler.net).
 
+There is also a complex variable types in Python! Simply adding a lowercase or capital 'j' (or 'J') will give you a complex literal.
 
+```
+a_number = 12 +2j
+print a_number
+#>>>(12+2j)
+```
+It follows the rules any complex number would:
 
-##Numeric Types — int, float, long, complex
-There are four distinct numeric types: plain integers, long integers, floating point numbers, and complex numbers. In addition, Booleans are a subtype of plain integers. Plain integers (also just called integers) are implemented using long in C, which gives them at least 32 bits of precision (sys.maxint is always set to the maximum plain integer value for the current platform, the minimum value is -sys.maxint - 1). Long integers have unlimited precision. Floating point numbers are usually implemented using double in C; information about the precision and internal representation of floating point numbers for the machine on which your program is running is available in sys.float_info. Complex numbers have a real and imaginary part, which are each a floating point number. To extract these parts from a complex number z, use z.real and z.imag. (The standard library includes additional numeric types, fractions that hold rationals, and decimal that hold floating-point numbers with user-definable precision.)
+```
+a_number = 12 + 2J
+another_number = 5
+a_thrid_number = 1j
 
-Numbers are created by numeric literals or as the result of built-in functions and operators. Unadorned integer literals (including binary, hex, and octal numbers) yield plain integers unless the value they denote is too large to be represented as a plain integer, in which case they yield a long integer. Integer literals with an 'L' or 'l' suffix yield long integers ('L' is preferred because 1l looks too much like eleven!). Numeric literals containing a decimal point or an exponent sign yield floating point numbers. Appending 'j' or 'J' to a numeric literal yields a complex number with a zero real part. A complex numeric literal is the sum of a real and an imaginary part.
+x = a_number + another_number
+print x
+#>>>(17+2j)
 
-Python fully supports mixed arithmetic: when a binary arithmetic operator has operands of different numeric types, the operand with the “narrower” type is widened to that of the other, where plain integer is narrower than long integer is narrower than floating point is narrower than complex. Comparisons between numbers of mixed type use the same rule. [2] The constructors int(), long(), float(), and complex() can be used to produce numbers of a specific type.
+y = a_number + a_thrid_number
+print y
+#>>>(12+3j)
+z = a_thrid_number*a_thrid_number
+print z
+#>>>(-1+0j)
+```
 
-All built-in numeric types support the following operations. See The power operator and later sections for the operators’ priorities.
+One big thing in Python; whenever you mix types, the result will be of the "wider" type.  From the Python Docs:
+"Python fully supports mixed arithmetic: when a binary arithmetic operator has operands of different numeric types, the operand with the “narrower” type is widened to that of the other, where plain integer is narrower than long integer is narrower than floating point is narrower than complex. Comparisons between numbers of mixed type use the same rule. "
 
-All built-in numeric types support the following operations. See The power operator and later sections for the operators’ priorities.
+What this means is that if you add (or subtract, or multiply, divide, take the power of, etc.) an int and a float, your result will be a float.  The int will actually be converted to a float before the calculation is done!
 
 ##Priority Levels
 
