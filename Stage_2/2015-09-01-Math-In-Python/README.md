@@ -63,7 +63,9 @@ So, if we convert the decimal number 1045 to binary, we would convert it like so
 That gives a binary number of 10000010101
 
 ```python
+#We havent' gone over Python operators, but this 
 def convert_to_binary(decimal_number):
+    "Converts a decimal number to a binary number; binary number is returned as a list.
     needed_binary = []
     current_power = 0
     #Find how many bits we need
@@ -164,12 +166,10 @@ One big thing in Python; whenever you mix types, the result will be of the "wide
 
 What this means is that if you add (or subtract, or multiply, divide, take the power of, etc.) an int and a float, your result will be a float.  The int will actually be converted to a float before the calculation is done!
 
-##Priority Levels
-
-
 
 ##Operators
-Python has all of the standard mathematical operators:
+Python has all of the standard mathematical binary operators:
+(Here, a binary operator is one that takes two arguments).
 
 The '+' sign does exactly what you expect it to do; it adds two numbers together.  
 The '-' sign does exaclty what you expect it to do as well; it subtracts one number from another to find the difference.
@@ -213,7 +213,49 @@ print -3.0 / 2
 #>>>-2.0
 #>>>-1.5
 ```
-From the [Python Docs](https://docs.python.org/2/library/stdtypes.html#numeric-types-int-float-long-complex):
+#####Modulo
+There is also another operator, %,  called the **modulo**. It is actually conceptually linked to integer division!  Think back to grade school, when you learned to do long division by hand.  If you were dividing 21 by 9, you would get 2 remainder 3, since 9*2 = 18, and 18+3 = 21.  Here, 21/9 using iteger division would give you 2, while 21 % 9 would give you 3, the remainder!  
+
+#####Power
+There are several built in ways to find x^n in Python as well.  The simplest would be to simply use two asteriscs:
+
+```
+x = 5
+n = 2
+print x**n
+#>>>>25
+```
+This is completely identical to using the `pow()` keyword:
+
+```
+x = 5
+n = 2
+print pow(x, n)
+#>>>>25
+```
+
+####Unary Operators
+You can also have operators which take only one number as an argument; these would be called 'unary' operators.
+You can take the absolute value of a number with the `abs()` keyword:
+
+```
+print abs(-5)
+#>>>5
+print abs(5)
+#>>>5
+```
+
+As we've already been doing, you can add a `+` or a `-` sign before a number; the `-` sign will give you the negative of that number:
+
+```
+print -5
+#>>>-5
+print +5
+#>>>5
+```
+
+
+####An overview on simple operators from the [Python Docs](https://docs.python.org/2/library/stdtypes.html#numeric-types-int-float-long-complex):
 
 Operation |	Result 
 ----------|--------
@@ -234,6 +276,64 @@ c.conjugate() | conjugate of the complex number c. (Identity on real numbers)
 divmod(x, y) | the pair (x // y, x % y)
 pow(x, y) | x to the power y
 x ** y | x to the power y
+
+##Priority Levels
+Much like in math, there is an order of operations to Python!  In Python, this is called an operator's ***Priority Level***.  You can find a good resource on a ranking of Python's priority levels [here](http://www.tutorialspoint.com/python/operators_precedence_example.htm).
+
+Python follows standard Math order of operations:
+
+- Power (**) is the highest priority level.
+- A negative sign (-) (or a positive sign (+) or compliment sign (~)) is the next highest
+- Those things dealing with multiplication or addition are next (*, /, //, %)
+- Addition (+) and subtraction (-) are next
+- Python then reads from left to right, and things which are the same priority level are read on the left first.  However, the *right* side of assignment is computed before the *left* side of assignment, as you would expect, since you are assigning the left side the value of the right:
+
+```
+x = 5+4*0
+print x
+#>>>5
+```
+
+##Assignment Operators (=, %=, /=, //=, -=, +=, *=, **=)
+As you are probably aware, asignment in Python is done with a single equal sign (=), while a test for equivalency is done with two (==).  You may not be aware that there are shortcuts for a variable preforming an operation on itself, though!
+
+Any operator can let a variable preform an operation on itself if it comes before the equals sign.  For instance:
+
+```python
+some_variable = 1
+#You are probably familiar with adding one two a variable as you use it as a counter in a loop:
+some_variable = some_variable + 1
+
+#You can do the *exact* same thing with less typing!
+some_variable += 1  (completely equivalent)
+```
+
+
+###Back to Decimal to Binary Conversion
+Now that we know how operators work, lets go back and review the code I wrote to convert decimal numbers to binary numbers!
+```python
+#We havent' gone over Python operators, but this 
+def convert_to_binary(decimal_number):
+    "Converts a decimal number to a binary number; binary number is returned as a list.
+    needed_binary = []
+    current_power = 0
+    #Find how many bits we need
+    while 2**current_power <= decimal_number:
+        needed_binary.append(0)
+        current_power += 1
+
+    #Follow the same algorithm we did above
+    for e in range(len(needed_binary)):
+        current_power -= 1
+        needed_binary[e] = decimal_number / (2**current_power)
+        if needed_binary[e]:
+            decimal_number = decimal_number % (2**current_power)
+    return needed_binary
+
+#Test it out
+for i in range(16):
+    print i, convert_to_binary(i)
+```
 
 
 ##Computational Efficiency
