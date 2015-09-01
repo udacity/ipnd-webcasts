@@ -179,6 +179,7 @@ print -3.0 / 2
 #>>>-1.5
 ```
 From the [Python Docs](https://docs.python.org/2/library/stdtypes.html#numeric-types-int-float-long-complex):
+
 Operation |	Result 
 ----------|--------
 x + y |	sum of x and y
