@@ -38,21 +38,45 @@ Similarly, binary numbers are divided into powers of 2:  2^0, 2^1, 2^2, etc.  Th
 
 So, if we have the number 1045 in binary, we would convert it like so:
 
-(using integer division)
-1045 / 1024 = 1
-1045 % 1024 = 21
-21 / 512 = 0
-21 / 256 = 0
-21 / 128 = 0
-21 / 64 = 0
-21 / 32 = 0
-21 / 16 = 1
-21 % 16 = 5
-5 / 8 = 0
-5 / 4 = 1
-5 % 4 = 1
-1 / 2 = 0
-1 / 1 = 1
+```python
+# #(using integer division)
+# 1045 / 1024 = 1
+# 1045 % 1024 = 21
+# 21 / 512 = 0
+# 21 / 256 = 0
+# 21 / 128 = 0
+# 21 / 64 = 0
+# 21 / 32 = 0
+# 21 / 16 = 1
+# 21 % 16 = 5
+# 5 / 8 = 0
+# 5 / 4 = 1
+# 5 % 4 = 1
+# 1 / 2 = 0
+# 1 / 1 = 1
+
+
+def convert_to_binary(decimal_number):
+    needed_binary = []
+    current_power = 0
+    #Find how many bits we need
+    while 2**current_power <= decimal_number:
+        needed_binary.append(0)
+        current_power += 1
+
+    #Follow the same algorithm we did above
+    for e in range(len(needed_binary)):
+        current_power -= 1
+        needed_binary[e] = decimal_number / (2**current_power)
+        if needed_binary[e]:
+            decimal_number = decimal_number % (2**current_power)
+    return needed_binary
+
+#Test it out
+for i in range(16):
+    print i, convert_to_binary(i)
+```
+
 
 1024 | 512 | 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1
 -----|-----|-----|-----|----|----|----|---|---|---|---
