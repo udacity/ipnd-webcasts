@@ -62,6 +62,7 @@ That gives a binary number of 10000010101
 
 Counting in Binary:
 
+```
 0000
 0001
 0010
@@ -78,6 +79,7 @@ Counting in Binary:
 1101
 1110
 1111
+```
 
 
 
