@@ -305,9 +305,17 @@ some_variable = 1
 some_variable = some_variable + 1
 
 #You can do the *exact* same thing with less typing!
-some_variable += 1  (completely equivalent)
+some_variable += 1  #(completely equivalent)
 ```
+As a note; no matter what the operator being used, it will be the *last* operator applied; first, the computer will evaluate the complete expression to the right of the operator, then it will apply the operator to the variable it is assigning, and then it will assign the variable the result it gets.  For example
 
+```python
+print some_variable
+#>>>
+some_variable *= 2+5
+print some_variable
+#>>>21  #So... 2+5 = 7, some_variable was 3, 3*7 = 21
+```
 
 ###Back to Decimal to Binary Conversion
 Now that we know how operators work, lets go back and review the code I wrote to convert decimal numbers to binary numbers!
@@ -337,8 +345,62 @@ for i in range(16):
 
 
 ##Computational Efficiency
+A very large idea in computer science is that of computational efficiency.  This is generally about two things; how long does it take to run a program, and how much memory does it take to run a program.  
+
+While memory efficiency is still going to be considered, the RAM in modern computers far, far outstrips what most programs require.  For this reason, the time it takes to run a program is generally the chief concern when one optimizes a program to run efficiently.
+
+
+###How to measure efficiency
+Measuring how long it takes a program (or part of a program) to run is very simple in Python:
+
+```
+import time
+start_time = time.time()
+#Run the program you want to measure
+total_time = time.time() - start_time
+print total_time  #This will be in seconds
+```
+
+You'll notice that when you build a program in Sublime text, it actually prints this out for you!
+Programs are generally not run on pre-determined inputs, though.  This is why the running time of a program is typically refered to in terms of the size of its input!
+
+For instance, a frequent thing we do in programming is to go through a list:
+```python
+import random
+
+#List comprehension to make a random list with 200 entries
+some_list = [random.random() for x in range(200)]  
+
+for x in some_list:
+    print x
+```
+In this list, we will do that print statement once for every time we go through the list.  The number of 'basic' computations a program does in its complete running time is a good proxy for total running time; we can count each print statement and each move from one element of the list to the next as 1 computation for the sake of our own comparisons.
+
+Let's compare this with two other things we could do while going through the list:
+
+```python
+y = 0
+z = 0
+for x in some_list:
+    y += 1
+    z += 2
+    print x
+```
+Here, we'll do 4 things for every element of the list.
+
+```python
+for x in some_list:
+    for y in some_list:
+        print x
+```
+
+Here, if there are n elements in the list, we are suddenly doing n<sup>2</sup> computations!
+
 
 ###O(n)
+We often categorize a particular program based on the infinite limit of how many computations it will preform when given a specific data set.
+
+Basically, we
 
 
 
