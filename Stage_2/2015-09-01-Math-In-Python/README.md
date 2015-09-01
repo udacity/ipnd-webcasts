@@ -6,9 +6,63 @@
 Here is the link to the [video][recording]
 Here are links to [Luke's Code][code1] and [Michael's Code][code2]
 
+
 ##Nature of Computing (It's base 2)
+Today we are going into using Python for Math and Computation!  Before we get into more advanced details, it is very useful to go back to basics and find out how computation of any kind is done.  
+
+In any computer, every form of data is fundamntally stored in Binary:  1 or 0, True or False, On or Off, electricity flows through a transistor or it doesn't.  This means that numbers are going to be stored in base 2, and any mathematical operations are going to need to be run in base 2!
+
 
 ###Base 2 examples
+We should probably start on how to convert from base 10 to base 2.
+
+In decimal, you can divide a number into it's 1's place, 10's place, 100's place, 1000's place, etc., like so:
+
+The number 1045 would be composed of 5 1's, 4 10's, 0 100's, and 1 1000's.
+
+Similarly, binary numbers are divided into powers of 2:  2^0, 2^1, 2^2, etc.  The powers of 2 would be as such:
+
+2^x   |  Decimal Value
+------------
+2^0 | 1
+2^1 | 2
+2^2 | 4
+2^3 | 8
+2^4 | 16
+2^5 | 32
+2^6 | 64
+2^7 | 128
+2^8 | 256
+2^9 | 512
+2^10 | 1024
+
+So, if we have the number 1045 in binary, we would convert it like so:
+
+(using integer division)
+1045 / 1024 = 1
+1045 % 1024 = 21
+21 / 512 = 0
+21 / 256 = 0
+21 / 128 = 0
+21 / 64 = 0
+21 / 32 = 0
+21 / 16 = 1
+21 % 16 = 5
+5 / 8 = 0
+5 / 4 = 1
+5 % 4 = 1
+1 / 2 = 0
+1 / 1 = 1
+
+1024 | 512 | 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1
+------------------------------------------------------
+1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 1
+
+That gives a binary number of 10000010101
+
+Counting in Binary:
+
+0000
 0001
 0010
 0011
