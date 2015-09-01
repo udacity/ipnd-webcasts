@@ -251,6 +251,7 @@ https://docs.python.org/2/library/stdtypes.html#numeric-types-int-float-long-com
 
 
 [recording]: https://plus.google.com/
-[code1]: 
-[code2]:   
+[code1]: https://plus.google.com
+[code2]: https://plus.google.com
+
 
