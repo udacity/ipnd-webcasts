@@ -4,7 +4,6 @@
 ## Webcast Recording
 
 Here is the link to the [video][recording]
-Here are links to [Luke's Code][code1] and [Michael's Code][code2]
 
 
 ##Nature of Computing (It's base 2)
@@ -418,8 +417,6 @@ https://docs.python.org/2/library/stdtypes.html#numeric-types-int-float-long-com
 ##Summary
 
 
-[recording]: https://plus.google.com/
-[code1]: https://plus.google.com
-[code2]: https://plus.google.com
+[recording]: https://plus.google.com/u/0/events/c5s7rb5gcact56fnh2c7dq41qg0?authkey=CP-uuPLoh_adgQE
 
 
