@@ -70,5 +70,5 @@ which happen every Tuesday at 4pm Pacific Time.
 [27]: Stage_2/2015-08-11-Python-problem-solving/README.md
 [28]: Intro-To-Other-Nanodegrees/Android-Developer-Nanodegree/README.md
 [29]: Intro-To-Other-Nanodegrees/iOS-Web-Developer-Nanodegree/README.md
-[30]: Stage_2/2015-09-01-Math-in-Python/README.md
+[30]: Stage_2/2015-09-01-Math-In-Python
 [31]: General/2015-09-08-problem_solving_session/README.md
