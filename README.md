@@ -38,7 +38,7 @@ which happen every Tuesday at 4pm Pacific Time.
 - [T 8/11][27]: Jonah and Mark solve some Python challenges
 - [T 8/18][28]: Luke and Jessica go over the Android Developer Nanodegree
 - [T 8/25][29]: Luke and James go over the iOS Developer Nanodegree
-- [T 9/01][30]: Luke and Michael talk over Math in Python
+- [T 9/01][30]: Luke and Michael talk about doing math in Python
 - [T 9/08][31]: Mark and Michael go over some Python problems
 
 [1]: https://plus.google.com/events/cpehpd7ehd414g5vkpc0g4ojkq8?authkey=CO262J255Kf2Iw
