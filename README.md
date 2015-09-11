@@ -36,6 +36,10 @@ which happen every Tuesday at 4pm Pacific Time.
 - [T 7/28][25]: Mark and Jonah explore animations using Object Oriented Programming
 - [T 7/30][26]: Mark and Anthony show off some cool tips and tricks in Sublime Text
 - [T 8/11][27]: Jonah and Mark solve some Python challenges
+- [T 8/18][28]: Luke and Jessica go over the Android Developer Nanodegree
+- [T 8/25][29]: Luke and James go over the iOS Developer Nanodegree
+- [T 9/01][30]: Luke and Michael talk over Math in Python
+- [T 9/08][31]: Mark and Michael some some Python problems
 
 [1]: https://plus.google.com/events/cpehpd7ehd414g5vkpc0g4ojkq8?authkey=CO262J255Kf2Iw
 [2]: Stage_1/2015-02-17-project-1/README.md
@@ -64,3 +68,7 @@ which happen every Tuesday at 4pm Pacific Time.
 [25]: Stage_3/2015-07-28-OOP_Animate/README.md
 [26]: General/2015-07-30-sublime_tips/README.md
 [27]: Stage_2/2015-08-11-Python-problem-solving/README.md
+[28]: Intro-To-Other-Nanodegrees/Android-Developer-Nanodegree/README.md
+[29]: Intro-To-Other-Nanodegrees/iOS-Web-Developer-Nanodegree/README.md
+[30]: Stage_2/2015-09-01-Math-in-Python/README.md
+[31]: General/2015-09-08-problem_solving_session/README.md
