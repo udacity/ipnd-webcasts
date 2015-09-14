@@ -19,7 +19,7 @@ In decimal, you can divide a number into it's 1's place, 10's place, 100's place
 
 The number 1045 would be composed of 5 1's, 4 10's, 0 100's, and 1 1000's.
 
-Similarly, binary numbers are divided into powers of 2:  2^0, 2^1, 2^2, etc.  The powers of 2 would be as such:
+Similarly, binary numbers are divided into powers of 2:  2<sup>0</sup>, 2<sup>1</sup>, 2<sup>2</sup>, etc.  The powers of 2 would be as such:
 
 2^x | Decimal Value
 ----|----
@@ -60,6 +60,9 @@ So, if we convert the decimal number 1045 to binary, we would convert it like so
 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 1
 
 That gives a binary number of 10000010101
+
+
+If you are interested in how a Python program would convert from a decimal number to a binary number, I wrote one which follows the above algorithm below:
 
 ```python
 #We havent' gone over Python operators, but this 
@@ -118,7 +121,7 @@ Each of the binary numbers above are expressed in 4 bits; that is, the numbers a
 11111111
 ```
 
-While a single bit can be only one of two possible values, n bits can hold one of 2^n possible values!  This means a byte can hold 2^8, or one of 256 possible values.  While this may be sufficient to hold an ANSI character, it is a fairly small range of numbers to be held by an integer.  This is why C, the language which Python is typically built in, typically has an integer defined as 4 bytes; 4 bytes can hold 2^32 (4294967296) possible values!
+While a single bit can be only one of two possible values, n bits can hold one of 2<sup>n</sup> possible values!  This means a byte can hold 2<sup>8</sup>, or one of 256 possible values.  While this may be sufficient to hold an ANSI character, it is a fairly small range of numbers to be held by an integer.  This is why C, the language which Python is typically built in, typically has an integer defined as 4 bytes; 4 bytes can hold 2<sup>32</sup> (4294967296) possible values!
 
 
 #####What happens if you give an integer a value beyone what it can hold?
@@ -256,9 +259,9 @@ print +5
 
 ####An overview on simple operators from the [Python Docs](https://docs.python.org/2/library/stdtypes.html#numeric-types-int-float-long-complex):
 
-Operation |	Result 
+Operation | Result 
 ----------|--------
-x + y |	sum of x and y
+x + y | sum of x and y
 x - y | difference of x and y
 x * y | product of x and y 
 x / y | quotient of x and y
@@ -270,8 +273,8 @@ abs(x) | absolute value or magnitude of x
 int(x) | x converted to integer
 long(x) | x converted to long integer
 float(x) | x converted to floating point
-complex(re,im) | a complex number with real part re, imaginary part im. im defaults to zero.	 
-c.conjugate() | conjugate of the complex number c. (Identity on real numbers)	 
+complex(re,im) | a complex number with real part re, imaginary part im. im defaults to zero.     
+c.conjugate() | conjugate of the complex number c. (Identity on real numbers)    
 divmod(x, y) | the pair (x // y, x % y)
 pow(x, y) | x to the power y
 x ** y | x to the power y
@@ -407,14 +410,12 @@ We would then say that retrieval is O(1), while search is O(n).  This is called 
 If you want to know more about O(n), efficiency, and data structures, take our [Intro to Algorithms course](https://www.udacity.com/course/viewer#!/c-cs215)!
 
 
-
-
+While Python is not a particularly fast running language compared to something like C or C++, it is frequently used in data analysis because of some excelent modules that can be downloaded for it.  We won't go over them here, but, if you are interested, numpy and scipy are the two most famous and widely utilized.  You can download them with a simple `pip install numpy` or `pip install scipy` (assuming you have pip installed, which you will automatically if you have Python 2.7.9 or later).
 
 ##Good References:
 https://docs.python.org/2/reference/expressions.html#
 https://docs.python.org/2/library/stdtypes.html#numeric-types-int-float-long-complex
 
-##Summary
 
 
 [recording]: https://plus.google.com/u/0/events/c5s7rb5gcact56fnh2c7dq41qg0?authkey=CP-uuPLoh_adgQE
