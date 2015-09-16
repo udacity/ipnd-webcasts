@@ -40,6 +40,7 @@ which happen every Tuesday at 4pm Pacific Time.
 - [T 8/25][29]: Luke and James go over the iOS Developer Nanodegree
 - [T 9/01][30]: Luke and Michael talk about doing math in Python
 - [T 9/08][31]: Mark and Michael go over some Python problems
+- [T 9/16][32]: Jonah and Anthony explore data visualization with Python
 
 [1]: https://plus.google.com/events/cpehpd7ehd414g5vkpc0g4ojkq8?authkey=CO262J255Kf2Iw
 [2]: Stage_1/2015-02-17-project-1/README.md
@@ -72,3 +73,4 @@ which happen every Tuesday at 4pm Pacific Time.
 [29]: Intro-To-Other-Nanodegrees/iOS-Web-Developer-Nanodegree/README.md
 [30]: Stage_2/2015-09-01-Math-In-Python
 [31]: General/2015-09-08-problem_solving_session/README.md
+[32]: Stage_3/2015-09-15-Basic_Visualization
