@@ -147,8 +147,6 @@ You should hopefully have developed some level of mastery over object oriented c
 It may be helpful to know linear algebra, but you don't strictly speaking need to know it for the Data Analysis Nanodegree.
 
 
-
-
 ##What students will learn in the Data Analyst Nanodegree 
 
 
@@ -157,24 +155,24 @@ Nanodegree Structure
 
 These are the projects you'll build and the classes that will prepare you to build each of the projects. You'll have access to all these in the Nanodegree:
 
-7 day WARM-UP: Find the Optimal Chopstick Length
+#####Project: 7 day WARM-UP: Find the Optimal Chopstick Length
 An opportunity to get your feet wet and get some quick feedback about your progress in the first week of the program.
 
 Set up IPython notebook and commonly used data analysis libraries on your own computer. Use them to dig into the results of an experiment testing the optimal length of chopsticks and present your findings.
 
-Prepare for this project with: [Lesson 1 of Statistics](https://www.udacity.com/course/viewer#!/c-ud827/l-1293178557)
+######Prepare for this project with: [Lesson 1 of Statistics](https://www.udacity.com/course/viewer#!/c-ud827/l-1293178557)
 
-Test a Perceptual Phenomenon
+#####Project: Test a Perceptual Phenomenon
 
 Use descriptive statistics and a statistical test to analyze the Stroop effect, a classic result of experimental psychology. Give your readers a good intuition for the data and use statistical inference to draw a conclusion based on the results.
 
-Prepare for this project with: Statistics (available separately as [Inferential Statistics](https://www.udacity.com/course/viewer#!/c-ud201) and [Descriptive Statistics](https://www.udacity.com/course/viewer#!/c-ud827))
+######Prepare for this project with: Statistics (available separately as [Inferential Statistics](https://www.udacity.com/course/viewer#!/c-ud201) and [Descriptive Statistics](https://www.udacity.com/course/viewer#!/c-ud827))
 
-Predict the New York City Subway Ridership
+#####Project: Predict the New York City Subway Ridership
 
 Learn fundamental data science skills like data wrangling, applied statistics and machine learning, and effective visualization. Pose a question about the New York City Subway and work with the subway ridership dataset to draw an interesting conclusion about the dataset itself.
 
-Prepare for this project with: [Intro to Data Science](https://www.udacity.com/course/viewer#!/c-ud359)
+######Prepare for this project with: [Intro to Data Science](https://www.udacity.com/course/viewer#!/c-ud359)
 
 Intro to Data Science gives a broad overview of each of the stages of data analysis.  In the first part, you clean and shape the data into something you can work with.  The second part would be about analyzing the data using statistical tests, linear regression, 
 
@@ -182,40 +180,40 @@ The next step is about how to visualize the data, how to present your findings, 
 
 The following courses then go into each of those steps in more detail.  
 
-Wrangle OpenStreetMaps Data 
+#####Project: Wrangle OpenStreetMaps Data 
 Choose any area of the world in [Open Street Map](https://www.openstreetmap.org/) and use data munging techniques, such as assessing the quality of the data for validity, accuracy, completeness, consistency and uniformity, to clean the OpenStreetMap data for a part of the world that you care about.
 
-Prepare for this project with: [Data Wrangling with MongoDB](https://www.udacity.com/course/viewer#!/c-ud032)
+######Prepare for this project with: [Data Wrangling with MongoDB](https://www.udacity.com/course/viewer#!/c-ud032)
 
 This course will get into the nity-grity of wrangling and cleaning data.  This teaches how to get data from various sources, like csv, excel, or xml files, APIs, or webpages.  It also shows you how to shape the data into the form you want to analyze it in, and how to put data into a non-relational database called MongoDB, which stores data in documets similar to JSON.  The course uses Python extensively.
 
-Explore, Summarize, and Discover Interesting Insights from Datasets 
+#####Project: Explore, Summarize, and Discover Interesting Insights from Datasets 
 Use R to apply exploratory data analysis techniques. Practice understanding a single variable and relationships between multiple variables, and explore a selected data set for distributions, outliers, and anomalies.
 
-Prepare for this project with: [Data Analysis with R](https://www.udacity.com/course/viewer#!/c-ud651)
+######Prepare for this project with: [Data Analysis with R](https://www.udacity.com/course/viewer#!/c-ud651)
 
 This course focuses on exploritory data analysis.   This is one of the most overlooked aspects of data analysis; what is the data set, what will you be working with?  A big part of this is looking at plots, histograms, etc., and getting a deap understanding of your dataset, including any biases in your dataset.  This will allow you to possibly consider doing a more indepth analysis, or going back and recollecting data without the flaws you find.  This class will be in R; it doesn't assume you have any R knowledge, and will teach you the basics of R.
 
-Identify Fraud from the Enron Email Dataset 
+#####Project: Identify Fraud from the Enron Email Dataset 
 Play detective and put your machine learning skills to use by building an algorithm to identify Enron Employees who may have committed fraud based on the public Enron financial and email dataset.
 
-Prepare for this project with: [Intro to Machine Learning](https://www.udacity.com/course/viewer#!/c-ud120)
+######Prepare for this project with: [Intro to Machine Learning](https://www.udacity.com/course/viewer#!/c-ud120)
 
 Machine learning is using algorithms and statistical methods to make predictions and insights about data.  This course covers a wide variety of topics, and gives a broad introduction to the subject, including different approaches, processes and methods.  You learn how to chose your features, how to chose what knowledge you'll need to make predictions, how to gauge the preformance of your predictinos, and how to improve on it and get a better and better model.  
 
-Tell Stories with Data Visualization 
+#####Project: Tell Stories with Data Visualization 
 Create a data visualization from a data set that tells a story or allows a reader to explore trends or patterns. Your work will be a reflection of the theory and best practices of data visualization.
 
-Prepare for this project with: [Data Visualization](https://www.udacity.com/course/viewer#!/c-ud507)
+######Prepare for this project with: [Data Visualization](https://www.udacity.com/course/viewer#!/c-ud507)
 The main thing of this course is the science of data visualization.    It goes into how to construct good visualizations, how to encode your data with visualizations, what the advanatages and disadvantages for displaying data in different ways.  This is also a key part of data science; how to present an analysis to your peers and those who are not familiar with the dataset. 
 
 This course will be using JavaScript, specifically the d3 library.  If you've ever seen a plot where you see an image where points move around and shift based on what filters you apply, it was probably made with this library.  
 
-Design and Analyze an A/B Test
+#####Project: Design and Analyze an A/B Test
 
 Make design decisions for an A/B test, including which metrics to measure and how long the test should be run. Analyze the results of an A/B test that was run by Udacity and recommend whether or not to launch the change.
 
-Prepare for this project with: [A/B Testing](https://www.udacity.com/course/viewer#!/c-ud257)
+######Prepare for this project with: [A/B Testing](https://www.udacity.com/course/viewer#!/c-ud257)
 
 A/B testing is a bit seperate from the rest of what you'll be learning in the nanodegree.  Almost any large website will do A/B testing; you try a small change, and compare an A group (with the change) from a B group (without the change), and the results from the test will inform a decision on whether or not to make the change.  
 
