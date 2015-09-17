@@ -142,21 +142,15 @@ Students who set aside regular time to work are significantly more likely to com
 Although Statistics are reviewed in the Nanodegree, probability is not.  If you think you would benefit from going over Bayes rule, you may find the first lesson of [AI for Robotics](https://plus.google.com/hangouts/_/knowlabs.com/rolandnturner?authuser=0) to be particularly useful.
 
 
+You should hopefully have developed some level of mastery over object oriented concepts in the Intro to Programming Nanodegree.  It would most likely still be useful to take all of [CS101](https://www.udacity.com/course/viewer#!/c-cs101) in order to master various programming concepts.  You will need to use data structures very extensively in DAND, and this is something which CS101 will give you more information on data structures than 
+
+It may be helpful to know linear algebra, but you don't strictly speaking need to know it for the Data Analysis Nanodegree.
 
 
 
 
+##What students will learn in the Data Analyst Nanodegree 
 
-
-You should hopefully have developed some level of mastery over object oriented concepts in the Intro to Programming Nanodegree.  It would most likely still be useful to take all of [CS101](https://www.udacity.com/course/viewer#!/c-cs101) in order to master various programming concepts.
-
-
-
-Additionally, you will need to take [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775) in order to learn how to use Git and Github effectively, which is a requirement for starting the Android Developer Nanodegree.  This will be used for submitting projects, collaborating with your peers and coaches, and is generally a very useful skill to have, so this knowledge this course teaches is recommended for all of our other Nanodegrees as well.  
-
-
-
-##What students will learn in the Data Analyst Nanodegree  
 
 ###The Data Analyst Nanodegree Structure 
 Nanodegree Structure
@@ -182,25 +176,40 @@ Learn fundamental data science skills like data wrangling, applied statistics an
 
 Prepare for this project with: [Intro to Data Science](https://www.udacity.com/course/viewer#!/c-ud359)
 
+Intro to Data Science gives a broad overview of each of the stages of data analysis.  In the first part, you clean and shape the data into something you can work with.  The second part would be about analyzing the data using statistical tests, linear regression, 
+
+The next step is about how to visualize the data, how to present your findings, how to construct graphs and visualizations, etc.
+
+The following courses then go into each of those steps in more detail.  
+
 Wrangle OpenStreetMaps Data 
 Choose any area of the world in [Open Street Map](https://www.openstreetmap.org/) and use data munging techniques, such as assessing the quality of the data for validity, accuracy, completeness, consistency and uniformity, to clean the OpenStreetMap data for a part of the world that you care about.
 
 Prepare for this project with: [Data Wrangling with MongoDB](https://www.udacity.com/course/viewer#!/c-ud032)
+
+This course will get into the nity-grity of wrangling and cleaning data.  This teaches how to get data from various sources, like csv, excel, or xml files, APIs, or webpages.  It also shows you how to shape the data into the form you want to analyze it in, and how to put data into a non-relational database called MongoDB, which stores data in documets similar to JSON.  The course uses Python extensively.
 
 Explore, Summarize, and Discover Interesting Insights from Datasets 
 Use R to apply exploratory data analysis techniques. Practice understanding a single variable and relationships between multiple variables, and explore a selected data set for distributions, outliers, and anomalies.
 
 Prepare for this project with: [Data Analysis with R](https://www.udacity.com/course/viewer#!/c-ud651)
 
+This course focuses on exploritory data analysis.   This is one of the most overlooked aspects of data analysis; what is the data set, what will you be working with?  A big part of this is looking at plots, histograms, etc., and getting a deap understanding of your dataset, including any biases in your dataset.  This will allow you to possibly consider doing a more indepth analysis, or going back and recollecting data without the flaws you find.  This class will be in R; it doesn't assume you have any R knowledge, and will teach you the basics of R.
+
 Identify Fraud from the Enron Email Dataset 
 Play detective and put your machine learning skills to use by building an algorithm to identify Enron Employees who may have committed fraud based on the public Enron financial and email dataset.
 
 Prepare for this project with: [Intro to Machine Learning](https://www.udacity.com/course/viewer#!/c-ud120)
 
+Machine learning is using algorithms and statistical methods to make predictions and insights about data.  This course covers a wide variety of topics, and gives a broad introduction to the subject, including different approaches, processes and methods.  You learn how to chose your features, how to chose what knowledge you'll need to make predictions, how to gauge the preformance of your predictinos, and how to improve on it and get a better and better model.  
+
 Tell Stories with Data Visualization 
 Create a data visualization from a data set that tells a story or allows a reader to explore trends or patterns. Your work will be a reflection of the theory and best practices of data visualization.
 
 Prepare for this project with: [Data Visualization](https://www.udacity.com/course/viewer#!/c-ud507)
+The main thing of this course is the science of data visualization.    It goes into how to construct good visualizations, how to encode your data with visualizations, what the advanatages and disadvantages for displaying data in different ways.  This is also a key part of data science; how to present an analysis to your peers and those who are not familiar with the dataset. 
+
+This course will be using JavaScript, specifically the d3 library.  If you've ever seen a plot where you see an image where points move around and shift based on what filters you apply, it was probably made with this library.  
 
 Design and Analyze an A/B Test
 
@@ -208,21 +217,18 @@ Make design decisions for an A/B test, including which metrics to measure and ho
 
 Prepare for this project with: [A/B Testing](https://www.udacity.com/course/viewer#!/c-ud257)
 
+A/B testing is a bit seperate from the rest of what you'll be learning in the nanodegree.  Almost any large website will do A/B testing; you try a small change, and compare an A group (with the change) from a B group (without the change), and the results from the test will inform a decision on whether or not to make the change.  
+
 
 We will be periodically reviewing the Data Analyst Nanodegree curriculum - both courses and projects - and making adjustments based on student and industry feedback. We will notify active students working toward the Nanodegree about any effects updates may have on the degree requirements.
 
 
 ###Curriculum Length: How long does the whole Nanodegree take?
-
+The nanodegree is slotted to take about a year and a month; there are, after all, quite a few courses in this Nanodegree.
 
 ###Project Difficulty Levels
+Data Science is composed of at least three different skills; Programming, Statistical Analysis, and Data Visualization.  Depending on what your background is before coming into the Nanodegree, you may find some courses more difficult than others.  Data Wrangling is probably the most difficult course on the programming end, while A/B Testing is the hardest course from the Statistical end.  
 
-
-
-##Data Analyst Tools
-
-
-#What kind of career does the Data Analyst Nanodegree prepare you for?  
 
 
 [OH]: https://plus.google.com/u/0/hangouts/onair/watch?hid=hoaevent%2Fcsn7ic34ss1r4p4df953kbirugk&ytl=IUbcZbMQhKs&hl=en
