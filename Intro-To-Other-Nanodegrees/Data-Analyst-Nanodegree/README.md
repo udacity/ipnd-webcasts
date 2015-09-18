@@ -139,16 +139,17 @@ Students who set aside regular time to work are significantly more likely to com
 
 
 ####Bayes rule
-Although Statistics are reviewed in the Nanodegree, probability is not.  If you think you would benefit from going over Bayes rule, you may find the first lesson of [AI for Robotics](https://plus.google.com/hangouts/_/knowlabs.com/rolandnturner?authuser=0) to be particularly useful.
+Although Statistics are reviewed in the Nanodegree, probability is not.  You don't need to know any Bayesian statistics, although it again could help you some of what is happening 'underneath the hood' in some of the algorithms you use.  If you think you would benefit from going over Bayes rule, you may find the first lesson of [AI for Robotics](https://plus.google.com/hangouts/_/knowlabs.com/rolandnturner?authuser=0) to be particularly useful.
 
 
-You should hopefully have developed some level of mastery over object oriented concepts in the Intro to Programming Nanodegree.  It would most likely still be useful to take all of [CS101](https://www.udacity.com/course/viewer#!/c-cs101) in order to master various programming concepts.  You will need to use data structures very extensively in DAND, and this is something which CS101 will give you more information on data structures than 
+You should hopefully have developed some level of mastery over object oriented concepts in the Intro to Programming Nanodegree.  It would most likely still be useful to take all of [CS101](https://www.udacity.com/course/viewer#!/c-cs101) in order to master various programming concepts.  You will need to use data structures very extensively in DAND, and this is something which CS101 will give you more information on data structures than IPND does.  
 
-It may be helpful to know linear algebra, but you don't strictly speaking need to know it for the Data Analysis Nanodegree.
+It may be helpful to know linear algebra, as you will technically be using it in much of machine learning, but you don't strictly speaking need to know it for the Data Analysis Nanodegree.
+
+You will need to be very comfortable looking up how to do things, especially in the Python docs.  DAND may throw things you aren't used to in Python, like list comprehensions or File I/O, which you'll be able to look up in the docs as you go.  
 
 
 ##What students will learn in the Data Analyst Nanodegree 
-
 
 ###The Data Analyst Nanodegree Structure 
 Nanodegree Structure
@@ -227,7 +228,17 @@ The nanodegree is slotted to take about a year and a month; there are, after all
 ###Project Difficulty Levels
 Data Science is composed of at least three different skills; Programming, Statistical Analysis, and Data Visualization.  Depending on what your background is before coming into the Nanodegree, you may find some courses more difficult than others.  Data Wrangling is probably the most difficult course on the programming end, while A/B Testing is the hardest course from the Statistical end.  
 
+###Data Analysis Tools
+You'll learn how to use a variety of tools in the Data Analysis Nanodegree.  These incldue pandas, numpy, sci-kit, and a bunch of Machine Learning tools, but these thigns change through time.  Because of this, learning how to use documentation efficiently is a major key to success in both the Data Analysis Nanodegree and in the field.  
 
+###What roles does this Nanodegree track prepare you for?
+It prepares you to be a Data Analysist.  This could actually go under quite a few different job titles:  Data Analysist, Data Scientist, Business Intelligence Analyst, etc.  They may not all be the same job, but the names are frequently used interchangably.  
+
+The content doesn't directly go into BioInformatics, although you will develop many of the skills that would go with that.
+
+No matter what you go into, though, knowledge of statistics is greatly beneficial, but it isn't a substitute for domain expertese.  Any time you can have some insight and intuition about data, it greatly helps to catch any errors you may make in data analysis.  
+
+By the end of the Data Analysis Nanodegree, you will be able to take any realistic form of data, explore the data, shape it, display it, and do some predictive analysis on it.
 
 [OH]: https://plus.google.com/u/0/hangouts/onair/watch?hid=hoaevent%2Fcsn7ic34ss1r4p4df953kbirugk&ytl=IUbcZbMQhKs&hl=en
 
