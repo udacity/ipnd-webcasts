@@ -9,7 +9,7 @@ Here is the link to the [video][recording]
 ##Nature of Computing (It's base 2)
 Today we are going into using Python for Math and Computation!  Before we get into more advanced details, it is very useful to go back to basics and find out how computation of any kind is done.  
 
-In any computer, every form of data is fundamntally stored in Binary:  1 or 0, True or False, On or Off, electricity flows through a transistor or it doesn't.  This means that numbers are going to be stored in base 2, and any mathematical operations are going to need to be run in base 2!
+In any computer, every form of data is fundamentally stored in Binary:  1 or 0, True or False, On or Off, electricity flows through a transistor or it doesn't.  This means that numbers are going to be stored in base 2, and any mathematical operations are going to need to be run in base 2!
 
 
 ###Base 2 examples
@@ -65,7 +65,7 @@ That gives a binary number of 10000010101
 If you are interested in how a Python program would convert from a decimal number to a binary number, I wrote one which follows the above algorithm below:
 
 ```python
-#We havent' gone over Python operators, but this 
+#We haven't' gone over Python operators, but this 
 def convert_to_binary(decimal_number):
     "Converts a decimal number to a binary number; binary number is returned as a list.
     needed_binary = []
@@ -124,7 +124,7 @@ Each of the binary numbers above are expressed in 4 bits; that is, the numbers a
 While a single bit can be only one of two possible values, n bits can hold one of 2<sup>n</sup> possible values!  This means a byte can hold 2<sup>8</sup>, or one of 256 possible values.  While this may be sufficient to hold an ANSI character, it is a fairly small range of numbers to be held by an integer.  This is why C, the language which Python is typically built in, typically has an integer defined as 4 bytes; 4 bytes can hold 2<sup>32</sup> (4294967296) possible values!
 
 
-#####What happens if you give an integer a value beyone what it can hold?
+#####What happens if you give an integer a value beyond what it can hold?
 Well, what happens if you add 1 to 11111111 in binary?  You should be getting 100000000, however, you don't have the memory set aside to get this result!  Instead, you will end up cutting off the first digit, giving you 00000000 !
 
 C actually has several numerical types for this reason.
@@ -134,8 +134,8 @@ We have so far dealt with only integers, which have a straightforward mathematic
 
 In C, there are also types which are identical, except that they take up more memory; these would be 'long' for ints and 'double' for floats!
 
-###How Python impliments variables
-Python is generally written in C, and its numerical types are based of off C's.  The respective memory specifications are differnt, however; a Python int is a C long, while a Python float is a C double!  Python also has a 'long' data type; similar to in C, it is an integer type.  However, in Python, because of the way 'long' is written, it actually can take an unlimited number of possible values!  Of course, your machine has actual limits to how much memory it can hold and access, so it isn't truly unlimited, but it does provide a very useful type for solving math problems with very large numbers, similar to the kind you might find at [Project Euler](https://projecteuler.net).
+###How Python implements variables
+Python is generally written in C, and its numerical types are based of off C's.  The respective memory specifications are different, however; a Python int is a C long, while a Python float is a C double!  Python also has a 'long' data type; similar to in C, it is an integer type.  However, in Python, because of the way 'long' is written, it actually can take an unlimited number of possible values!  Of course, your machine has actual limits to how much memory it can hold and access, so it isn't truly unlimited, but it does provide a very useful type for solving math problems with very large numbers, similar to the kind you might find at [Project Euler](https://projecteuler.net).
 
 There is also a complex variable types in Python! Simply adding a lowercase or capital 'j' (or 'J') will give you a complex literal.
 
@@ -174,12 +174,12 @@ Python has all of the standard mathematical binary operators:
 (Here, a binary operator is one that takes two arguments).
 
 The '+' sign does exactly what you expect it to do; it adds two numbers together.  
-The '-' sign does exaclty what you expect it to do as well; it subtracts one number from another to find the difference.
+The '-' sign does exactly what you expect it to do as well; it subtracts one number from another to find the difference.
 The '*' sign again does what you probably expect it to do; it multiplies to numbers together, resulting in a product.
 
 However, '/' does *not* do what you expect it to do.  
 
-If one or both of the numbers is a float (floating point number), it divides the two of them together in a normal fasion.
+If one or both of the numbers is a float (floating point number), it divides the two of them together in a normal fashion.
 
 However, if both of the numbers are ints (integers), then the '/' sign does something called *integer division*.  Integer division always results in an integer, even if the divisor (i.e. the denominator) is not evenly divisible by the numerator.  Instead, the quotient in integer division is *rounded down*.  Integer division in Python is actually identical to floor division, which also has its own Python symbol ('//').
 
@@ -216,10 +216,10 @@ print -3.0 / 2
 #>>>-1.5
 ```
 #####Modulo
-There is also another operator, %,  called the **modulo**. It is actually conceptually linked to integer division!  Think back to grade school, when you learned to do long division by hand.  If you were dividing 21 by 9, you would get 2 remainder 3, since 9*2 = 18, and 18+3 = 21.  Here, 21/9 using iteger division would give you 2, while 21 % 9 would give you 3, the remainder!  
+There is also another operator, %,  called the **modulo**. It is actually conceptually linked to integer division!  Think back to grade school, when you learned to do long division by hand.  If you were dividing 21 by 9, you would get 2 remainder 3, since 9*2 = 18, and 18+3 = 21.  Here, 21/9 using integer division would give you 2, while 21 % 9 would give you 3, the remainder!  
 
 #####Power
-There are several built in ways to find x^n in Python as well.  The simplest would be to simply use two asteriscs:
+There are several built in ways to find x^n in Python as well.  The simplest would be to simply use two asterisks:
 
 ```
 x = 5
@@ -297,7 +297,7 @@ print x
 ```
 
 ##Assignment Operators (=, %=, /=, //=, -=, +=, *=, **=)
-As you are probably aware, asignment in Python is done with a single equal sign (=), while a test for equivalency is done with two (==).  You may not be aware that there are shortcuts for a variable preforming an operation on itself, though!
+As you are probably aware, assignment in Python is done with a single equal sign (=), while a test for equivalency is done with two (==).  You may not be aware that there are shortcuts for a variable preforming an operation on itself, though!
 
 Any operator can let a variable preform an operation on itself if it comes before the equals sign.  For instance:
 
@@ -322,7 +322,7 @@ print some_variable
 ###Back to Decimal to Binary Conversion
 Now that we know how operators work, lets go back and review the code I wrote to convert decimal numbers to binary numbers!
 ```python
-#We havent' gone over Python operators, but this 
+#We haven't' gone over Python operators, but this 
 def convert_to_binary(decimal_number):
     "Converts a decimal number to a binary number; binary number is returned as a list.
     needed_binary = []
@@ -364,7 +364,7 @@ print total_time  #This will be in seconds
 ```
 
 You'll notice that when you build a program in Sublime text, it actually prints this out for you!
-Programs are generally not run on pre-determined inputs, though.  This is why the running time of a program is typically refered to in terms of the size of its input!
+Programs are generally not run on pre-determined inputs, though.  This is why the running time of a program is typically referred to in terms of the size of its input!
 
 For instance, a frequent thing we do in programming is to go through a list:
 ```python
@@ -410,7 +410,7 @@ We would then say that retrieval is O(1), while search is O(n).  This is called 
 If you want to know more about O(n), efficiency, and data structures, take our [Intro to Algorithms course](https://www.udacity.com/course/viewer#!/c-cs215)!
 
 
-While Python is not a particularly fast running language compared to something like C or C++, it is frequently used in data analysis because of some excelent modules that can be downloaded for it.  We won't go over them here, but, if you are interested, numpy and scipy are the two most famous and widely utilized.  You can download them with a simple `pip install numpy` or `pip install scipy` (assuming you have pip installed, which you will automatically if you have Python 2.7.9 or later).
+While Python is not a particularly fast running language compared to something like C or C++, it is frequently used in data analysis because of some excellent modules that can be downloaded for it.  We won't go over them here, but, if you are interested, numpy and scipy are the two most famous and widely utilized.  You can download them with a simple `pip install numpy` or `pip install scipy` (assuming you have pip installed, which you will automatically if you have Python 2.7.9 or later).
 
 ##Good References:
 https://docs.python.org/2/reference/expressions.html#
@@ -419,5 +419,3 @@ https://docs.python.org/2/library/stdtypes.html#numeric-types-int-float-long-com
 
 
 [recording]: https://plus.google.com/u/0/events/c5s7rb5gcact56fnh2c7dq41qg0?authkey=CP-uuPLoh_adgQE
-
-
