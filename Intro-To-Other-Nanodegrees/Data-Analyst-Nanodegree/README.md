@@ -128,7 +128,7 @@ If you feel that you don't yet have the necessary programming background for thi
 [Intro to Computer Science](https://www.udacity.com/course/cs101)
 [Intro to Python Programming](https://www.udacity.com/course/ud036)
 Statistics
-We've found that many students who enroll in the Data Analyst Nanodegree Program have taken statistics in college, or sometime prior to their enrollment, but often they need review of certain key concepts in order to be succcessful. With this in mind, the first course in this Nanodegree Program will help you review statistics, beginning with a special placement advisor, which will tell you the specific lessons you need to work through. As a result of this addition, you will not be asked any questions about statistics in the following Readiness Assessment.
+We've found that many students who enroll in the Data Analyst Nanodegree Program have taken statistics in college, or sometime prior to their enrollment, but often they need review of certain key concepts in order to be successful. With this in mind, the first course in this Nanodegree Program will help you review statistics, beginning with a special placement advisor, which will tell you the specific lessons you need to work through. As a result of this addition, you will not be asked any questions about statistics in the following Readiness Assessment.
 
 Pay attention to the feedback that will appear in the box to the right after each submission. It's okay if you don't get the questions right the first time. Go to the resources that we share with you to review or learn something new. Once you've done that, you can come back and try the questions again!
 
@@ -186,27 +186,27 @@ Choose any area of the world in [Open Street Map](https://www.openstreetmap.org/
 
 ######Prepare for this project with: [Data Wrangling with MongoDB](https://www.udacity.com/course/viewer#!/c-ud032)
 
-This course will get into the nity-grity of wrangling and cleaning data.  This teaches how to get data from various sources, like csv, excel, or xml files, APIs, or webpages.  It also shows you how to shape the data into the form you want to analyze it in, and how to put data into a non-relational database called MongoDB, which stores data in documets similar to JSON.  The course uses Python extensively.
+This course will get into the nitty-gritty of wrangling and cleaning data.  This teaches how to get data from various sources, like csv, excel, or xml files, APIs, or webpages.  It also shows you how to shape the data into the form you want to analyze it in, and how to put data into a non-relational database called MongoDB, which stores data in documents similar to JSON.  The course uses Python extensively.
 
 #####Project: Explore, Summarize, and Discover Interesting Insights from Datasets 
 Use R to apply exploratory data analysis techniques. Practice understanding a single variable and relationships between multiple variables, and explore a selected data set for distributions, outliers, and anomalies.
 
 ######Prepare for this project with: [Data Analysis with R](https://www.udacity.com/course/viewer#!/c-ud651)
 
-This course focuses on exploritory data analysis.   This is one of the most overlooked aspects of data analysis; what is the data set, what will you be working with?  A big part of this is looking at plots, histograms, etc., and getting a deap understanding of your dataset, including any biases in your dataset.  This will allow you to possibly consider doing a more indepth analysis, or going back and recollecting data without the flaws you find.  This class will be in R; it doesn't assume you have any R knowledge, and will teach you the basics of R.
+This course focuses on exploratory data analysis.   This is one of the most overlooked aspects of data analysis; what is the data set, what will you be working with?  A big part of this is looking at plots, histograms, etc., and getting a deep understanding of your dataset, including any biases in your dataset.  This will allow you to possibly consider doing a more in-depth analysis, or going back and recollecting data without the flaws you find.  This class will be in R; it doesn't assume you have any R knowledge, and will teach you the basics of R.
 
 #####Project: Identify Fraud from the Enron Email Dataset 
 Play detective and put your machine learning skills to use by building an algorithm to identify Enron Employees who may have committed fraud based on the public Enron financial and email dataset.
 
 ######Prepare for this project with: [Intro to Machine Learning](https://www.udacity.com/course/viewer#!/c-ud120)
 
-Machine learning is using algorithms and statistical methods to make predictions and insights about data.  This course covers a wide variety of topics, and gives a broad introduction to the subject, including different approaches, processes and methods.  You learn how to chose your features, how to chose what knowledge you'll need to make predictions, how to gauge the preformance of your predictinos, and how to improve on it and get a better and better model.  
+Machine learning is using algorithms and statistical methods to make predictions and insights about data.  This course covers a wide variety of topics, and gives a broad introduction to the subject, including different approaches, processes and methods.  You learn how to chose your features, how to chose what knowledge you'll need to make predictions, how to gauge the performance of your predictions, and how to improve on it and get a better and better model.  
 
 #####Project: Tell Stories with Data Visualization 
 Create a data visualization from a data set that tells a story or allows a reader to explore trends or patterns. Your work will be a reflection of the theory and best practices of data visualization.
 
 ######Prepare for this project with: [Data Visualization](https://www.udacity.com/course/viewer#!/c-ud507)
-The main thing of this course is the science of data visualization.    It goes into how to construct good visualizations, how to encode your data with visualizations, what the advanatages and disadvantages for displaying data in different ways.  This is also a key part of data science; how to present an analysis to your peers and those who are not familiar with the dataset. 
+The main thing of this course is the science of data visualization.    It goes into how to construct good visualizations, how to encode your data with visualizations, what the advantages and disadvantages for displaying data in different ways.  This is also a key part of data science; how to present an analysis to your peers and those who are not familiar with the dataset. 
 
 This course will be using JavaScript, specifically the d3 library.  If you've ever seen a plot where you see an image where points move around and shift based on what filters you apply, it was probably made with this library.  
 
@@ -216,7 +216,7 @@ Make design decisions for an A/B test, including which metrics to measure and ho
 
 ######Prepare for this project with: [A/B Testing](https://www.udacity.com/course/viewer#!/c-ud257)
 
-A/B testing is a bit seperate from the rest of what you'll be learning in the nanodegree.  Almost any large website will do A/B testing; you try a small change, and compare an A group (with the change) from a B group (without the change), and the results from the test will inform a decision on whether or not to make the change.  
+A/B testing is a bit separate from the rest of what you'll be learning in the nanodegree.  Almost any large website will do A/B testing; you try a small change, and compare an A group (with the change) from a B group (without the change), and the results from the test will inform a decision on whether or not to make the change.  
 
 
 We will be periodically reviewing the Data Analyst Nanodegree curriculum - both courses and projects - and making adjustments based on student and industry feedback. We will notify active students working toward the Nanodegree about any effects updates may have on the degree requirements.
@@ -229,16 +229,15 @@ The nanodegree is slotted to take about a year and a month; there are, after all
 Data Science is composed of at least three different skills; Programming, Statistical Analysis, and Data Visualization.  Depending on what your background is before coming into the Nanodegree, you may find some courses more difficult than others.  Data Wrangling is probably the most difficult course on the programming end, while A/B Testing is the hardest course from the Statistical end.  
 
 ###Data Analysis Tools
-You'll learn how to use a variety of tools in the Data Analysis Nanodegree.  These incldue pandas, numpy, sci-kit, and a bunch of Machine Learning tools, but these thigns change through time.  Because of this, learning how to use documentation efficiently is a major key to success in both the Data Analysis Nanodegree and in the field.  
+You'll learn how to use a variety of tools in the Data Analysis Nanodegree.  These include pandas, numpy, sci-kit, and a bunch of Machine Learning tools, but these things change through time.  Because of this, learning how to use documentation efficiently is a major key to success in both the Data Analysis Nanodegree and in the field.  
 
 ###What roles does this Nanodegree track prepare you for?
-It prepares you to be a Data Analysist.  This could actually go under quite a few different job titles:  Data Analysist, Data Scientist, Business Intelligence Analyst, etc.  They may not all be the same job, but the names are frequently used interchangably.  
+It prepares you to be a Data Analysist.  This could actually go under quite a few different job titles:  Data Analysist, Data Scientist, Business Intelligence Analyst, etc.  They may not all be the same job, but the names are frequently used interchangeably.  
 
 The content doesn't directly go into BioInformatics, although you will develop many of the skills that would go with that.
 
-No matter what you go into, though, knowledge of statistics is greatly beneficial, but it isn't a substitute for domain expertese.  Any time you can have some insight and intuition about data, it greatly helps to catch any errors you may make in data analysis.  
+No matter what you go into, though, knowledge of statistics is greatly beneficial, but it isn't a substitute for domain expertise.  Any time you can have some insight and intuition about data, it greatly helps to catch any errors you may make in data analysis.  
 
 By the end of the Data Analysis Nanodegree, you will be able to take any realistic form of data, explore the data, shape it, display it, and do some predictive analysis on it.
 
 [OH]: https://plus.google.com/u/0/hangouts/onair/watch?hid=hoaevent%2Fcsn7ic34ss1r4p4df953kbirugk&ytl=IUbcZbMQhKs&hl=en
-
