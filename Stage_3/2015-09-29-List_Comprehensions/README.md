@@ -13,7 +13,7 @@ At the end of the Webcast session, we will understand:
 * How to use generators and the yield statement to create a "disposable", iterable data structure
 * Why speed and memory efficiency are desirable to have in code, balanced with code readability
 
-# What is a List Comprehension?
+## What is a List Comprehension?
 
 A list comprehension is best understood by demonstration. Imagine that you are trying to fill a list with the numbers 0 through 9. Using a for loop, the most efficient way to do this would be:
 
@@ -60,48 +60,33 @@ def print_and_add_one(x):
 # this code will not result in a syntax error
 numbers = [print_and_add_one(i) for i in range(10)]
 ```
+We can also add conditionals to our list comprehensions. To add a conditional to our for loop, we tack it on to the end. See this example that creates a list of even numbers using the modulus operator (%). If you have never seen the modulus operator before, just think of it as the "remainder operator", like the remainder resulting from when you divide some number by another.
 
+```python
 
-We'll be using the Tkinter library that comes standard in Python to create a Graphical User Interface application (GUI). The entire application has three stages:
+# store only even numbers
+even_numbers = [i for i in range(10) if i%2==0]
 
-* Initialize GUI components and widgets
-* Create the objects to be shown on a Canvas object; this is where we draw all of our graphics.
-* Animate the objects
+# numbers are even when there are divisible by 2, that is, when they have no remainder
+```
 
-We can see these steps in the Application constructor here:
+If we want to make a double for loop, or triple and so on, you can do that too! Moreover, you can make a list comprehension within a list comprehension (But you must be careful: list comprehensions can become difficult to read when you have too much code in them.)
+
+```python
+
+multiple_nums = [j for i in range(3) for j in range(10)]
+
+multiple_num_lists = [[j*i for i in range(3)]for j in range(10)] 
+
+```
+
+Try these out in your favorite python cosole and see what you get!
+
+# Generators and the `yield` statement
 
 ```python
 ```
 
-Let's go into the `self.__animate()` function. We assume that the audience is already familiar with Object Oriented Programming in Python. Note that the name of the function is `__animate`. The naming convention to put two underscore characters in front of the function tells us that we want this function to be private and we should not access this function outside of the Application object.
-
-Here is the code for the `__animate` function:
-
-```python
-def __animate(self):
-    # Update all object positions based on their current state: collisions for example
-    self.__updateAll()
-
-    # Clear canvas and redraw all objects with their new positions
-    self.__redrawAll()
-
-    # This is the key to our animation. We wait MS_PER_FRAME and call our animate function again
-    self.__canvas.after(MS_PER_FRAME, self.__animate)
-```
-
-There are three distinct stages to animation:
-
-* Update position of all our objects. If an object collides with the edge of the canvas or gets input from a user, we want to update the x and y positions of all of our objects before we re-draw the objects on our canvas.
-* In order to give the illusion of animation, for every frame, we need to clear the canvas and delete all pixels that were painted on the canvas in the last frame. This the main reason why we call the widget that we draw on 'Canvas' because in traditional painting, once we paint on a canvas, the color stays there permanently. Without wiping away the existing pixels on the canvas, the pixels will never go away and can only get drawn over. Once we clear the canvas, we then proceed to redraw all of our objects with their updated positions on the canvas.
-* We wait a few milliseconds to call our `__animate` function again. This is the key to animation in programming. We program a function that gets called repeatedly every few milliseconds. In order to achieve smooth 60 frames per second animation, we need to wait approximately 16.667 milliseconds before we move onto the next frame. Since the `after` function can only take in integers, we will wait 16 milliseconds before the next frame.
-
-# Creating Objects for Animation
-
-Looking at the starter code, we know that if we want to add in new objects, we would need to create the object, add in code to update its position every frame, and then add in code to redraw the object. Imagine we want to create 50 objects. Without OOP design, we would be forced to write a few hundred lines of code that are very similar to each other.
-
-This method would be error-prone because we have to copy and paste a lot of code and violates the DRY principal (Don't-Repeat-Yourself) in programming. We want to use the computer to take care of all of the details of creating and keeping track of our objects for us.
-
-Therefore we will design our objects with OOP design in mind. For this case, we will create two classes: a Shape class and a Circle class.
 
 ## The Shape Class
 
