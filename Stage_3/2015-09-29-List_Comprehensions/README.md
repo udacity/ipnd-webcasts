@@ -13,12 +13,12 @@ At the end of the Webcast session, we will understand:
 * How to use generators and the yield statement to create a "disposable", iterable data structure
 * Why speed and memory efficiency are desirable to have in code, balanced with code readability
 
-## What is a List Comprehension?
+# What is a List Comprehension?
 
-A list comprehension is best understood by demonstration. Imagine that you are trying to fill a list with the numbers 0 through 9. Using a for loop, the most efficient way to do this would be:
+A list comprehension is best understood by demonstration. Imagine that you are trying to fill a list with the numbers 0 through 9. Using a for-loop, the most efficient way to do this would be:
 
 ```python
-# for loop demonstration
+# for-loop demonstration
 numbers = []
 for i in range(10):
   numbers.append(i)
@@ -31,15 +31,15 @@ This syntax is the most efficient way that we currently know of to add things to
 numbers = [i for i in range(10)]
 ```
 
-Wow! We just turned a three-line chunk of code into one! You can test out the two different techniques in idle or your python console and see that you get the same value for ```numbers``` in each case. Let's break down what's going on here:
+Wow! We just turned a three-line chunk of code into one! You can test out the two different techniques in your python console and see that you get the same value for `numbers` in each case. Let's break down what's going on here:
 
-* furthest to the left is the name of the variable we store the result of the list comprehension into: ``` numbers```
+* furthest to the left is the name of the variable we store the result of the list comprehension into: `numbers`
 
-* the square brackets ([]) are the usual syntax we use to indicate an empty list. By have the for loop inside it, we are basically telling python "whatever the result of this for loop is, it should go into a list"
+* the square brackets ([ ]) are the usual syntax we use to indicate an empty list. By have the for-loop inside it, we are basically telling python "whatever the result of this for-loop is, it should go into a list"
 
-* the `i` furthest to the left within the square square brackets is the variable that we are telling python to store in the list we are building. We can manipulate the value of whatever ```i``` is to how we would like to add it to the list -- we can store `i-1`, `i**2`, even store `i` into a list like this `[i]`!
+* the `i` furthest to the left within the square square brackets is the variable that we are telling python to store in the list we are building. We can manipulate the value of whatever `i` is to how we would like to add it to the list -- we can store `i-1`, `i**2`, even store `i` into a list like this `[i]`!
 
-* We don't need to use `i` per se -- `i` is just the variable name we give for the element that we are looking at in the for loop, which is exactly the same syntax as it always is. 
+* We don't need to use `i` per se -- `i` is just the variable name we give for the element that we are looking at in the for-loop, which is exactly the same syntax as it always is. 
 
 What we CAN'T do is try to execute a statement that does an I/O operation on the `i` furthest to the left -- for example, we can't have something like:
 
@@ -51,7 +51,6 @@ numbers = [print(i) for i in range(10)]
 But we CAN call a function that manipulates `i` and then sends it back to be stored in the list. For example, this is perfectly valid code:
 
 ```python
-
 # this function prints the number, x, and returns it with 1 added to it
 def print_and_add_one(x):
     print x
@@ -60,58 +59,67 @@ def print_and_add_one(x):
 # this code will not result in a syntax error
 numbers = [print_and_add_one(i) for i in range(10)]
 ```
-We can also add conditionals to our list comprehensions. To add a conditional to our for loop, we tack it on to the end. See this example that creates a list of even numbers using the modulus operator (%). If you have never seen the modulus operator before, just think of it as the "remainder operator", like the remainder resulting from when you divide some number by another.
+We can also add conditionals to our list comprehensions. To add a conditional to our for-loop, we tack it on to the end. See this example that creates a list of even numbers using the modulus operator (%). If you have never seen the modulus operator before, just think of it as the "remainder operator", like the remainder resulting from when you divide some number by another.
 
 ```python
 
 # store only even numbers
-even_numbers = [i for i in range(10) if i%2==0]
-
 # numbers are even when there are divisible by 2, that is, when they have no remainder
+even_numbers = [i for i in range(10) if i%2==0]
 ```
 
-If we want to make a double for loop, or triple and so on, you can do that too! Moreover, you can make a list comprehension within a list comprehension (But you must be careful: list comprehensions can become difficult to read when you have too much code in them.)
+If we want to make a double for-loop, or triple and so on, you can do that too! For every nested loop you need, just put them one after the other (but you must be careful: list comprehensions can become difficult to read when you have too much code in them):
 
 ```python
-
 multiple_nums = [j for i in range(3) for j in range(10)]
+```
+and if you would like a conditional, just take it onto the end of the for-loop that is associated with it. Moreover, you can make a list comprehension within a list comprehension: 
 
+```python
 multiple_num_lists = [[j*i for i in range(3)]for j in range(10)] 
+```
+Try these out in your favorite python console and see what you get!
 
+Here is a more complicated example that uses the power of list comprehensions to generate a list of primes from 0 to 50:
+
+```python
+# a list of non-prime numbers:
+noprimes = [j for i in range(2, 8) for j in range(i*2, 50, i)]
+
+# list of primes
+primes = [x for x in range(2, 50) if x not in noprimes]
 ```
 
-Try these out in your favorite python cosole and see what you get!
+## Dictionaries
+
+- iterating over an existing dictionary
+- creating a dictionary
+
+##Tuples
 
 # Generators and the `yield` statement
 
+So far in your python education you have come across a variety of different data structures including lists, dictionaries, and tuples. Each of these data structures are known as iterable structures, meaning we can go through each element one-by-one.
+
+Another type of data structure that list comprehensions allow us to introduce are generators. Generators are a type of iterable data structure that can only be traversed once (in other programming languages, generators are often called iterators).
+
 ```python
 ```
 
 
-## The Shape Class
 
-We want to create a general class called Shape that specific objects such as a circle, square, polygon, and triangle can inherit. This goes back to the DRY principle because all of these shapes share similar characteristics such as **position, velocity, width, height, etc.** Furthermore, if we were to add in any new features to our shapes, we can simply add in our feature in the Shape class and the rest of our shapes will inherit the new feature.
 
-Here is how we start to define the Shape class:
 
-```python
-class Shape(object):
 
-# Private variables
-  x_pos, y_pos = 0, 1
 
-  def __init__(self, vel, width, height, color, canvas_width, canvas_height, x=None, y=None):
-    """Constructor for Shape. Randomly assigns a position of the shape in the canvas and
-       assigns the velocity list [x,y] as a velocity vector to the shape.
-    """
-    self.x = random.randint(0,canvas_width - width) if not x else x
-    self.y = random.randint(0,canvas_height - height) if not y else y
-    self.width = width
-    self.height = height
-    self.color = color
-    self.vel = list(vel)                      # We need to make a copy of the list or else
-                                              # there will be reference errors
-```
+
+
+
+
+
+
+
+
 
 The constructor tells us that whenever we create a new object, we will create a new object with the position x and y, width, height, color, and velocity. Velocity will be a 2-dimensional list that contains the magnitude and direction that will help us calculate the position of our object for any frame.
 
