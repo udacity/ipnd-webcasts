@@ -13,7 +13,7 @@ At the end of the Webcast session, we will understand:
 * How to use generators and the yield statement to create a "disposable", iterable data structure
 * Why speed and memory efficiency are desirable to have in code, balanced with code readability
 
-TECHNICAL NOTE: In the webcast it was said that tuples and generators are iterable data structures -- this is not true of an individual tuple and not true in the technical sense of an iterable structure. What was meant is a list of tuples is an iterable structure, and that the elements of a generator can be traversed at most once. 
+TECHNICAL NOTE: In the webcast it was said that tuples and generators are iterable data structures -- this is not true of an individual tuple and not true in the technical sense of a generator. What was meant is a list of tuples is an iterable structure, and that the elements of a generator can be traversed at most once. 
 
 
 # What is a List Comprehension?
@@ -137,4 +137,17 @@ result = [i for i in num_generator]
 []
 ```
 
-Printing out results, we see can see the contents of generator unloaded in the list comprehension, and stored in results. However, if after doing so we attempt to unload `num_generator` again, we see that result is an empty list.
+Printing out results, we see can see the contents of generator unloaded in the list comprehension, and stored in results. However, if we attempt to unload `num_generator` after doing so once already, we see that result is an empty list.
+
+## Creating Generators
+
+Generators do not necessarily have to be created by comprehensions. Another way to create a generator is to utilize the `yield` keyword. You can think of `yield` as a type of `return` statement in a function, but allowing you to return many elements -- one at a time -- in a loop, ending when the loop ends. For example:
+
+```python
+def return_gen():
+  for i in range(10):
+    yield i
+
+# assign the result of the function to a variable
+```
+
