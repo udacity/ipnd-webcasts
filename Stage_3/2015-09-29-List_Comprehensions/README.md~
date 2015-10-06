@@ -1,4 +1,4 @@
-Air Date: 09/29/2015 [video][recording]
+Air Date: 09/29/2015 https://plus.google.com/events/clu6gr594l1veqsmdnp7h6o3j48?authkey=CIbjz6urp_PJmwE
 
 List Comprehensions and Generators
 ===
@@ -187,4 +187,3 @@ A comprehension is an elegant way to create lists, lists of tuples, dictionaries
 You may have been wondering what we mean by "fast" or "speed" in a computer program. When we say "fast," we mean the actual speed in real time that it takes to finish a computation, usually measured by the cycles of effort the CPU in the computer undergoes to complete a task (the fewer the better/faster). Generally when we code we try to write programs that are first readable, then fast (consuming the minimal amount of CPU power), then space-efficient (consuming as little RAM, or working memory) as possible. As you continue your programming career, the resources available to you will become a concern whether you are making a server-side web application or a mobile application for your phone. List comprehensions are one of the many tools that will help you build cool projects efficiently and elegantly. Happy coding!
 
 
-[recording]:https://plus.google.com/events/clu6gr594l1veqsmdnp7h6o3j48?authkey=CIbjz6urp_PJmwE
