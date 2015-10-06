@@ -286,6 +286,6 @@ print makebricks(20, 4, 4)
 print makebricks(10, 5, 28)
 ```
 
-[recording][https://plus.google.com/u/0/events/cp0l2k9i3t9sju7chvi9bespqj8?authkey=CLXExrjJ9OvFhAE]
-[code1][make_bricks.py]
-[code2][split_string.py]
+[recording]:https://plus.google.com/u/0/events/cp0l2k9i3t9sju7chvi9bespqj8?authkey=CLXExrjJ9OvFhAE
+[code1]:make_bricks.py
+[code2]:split_string.py
