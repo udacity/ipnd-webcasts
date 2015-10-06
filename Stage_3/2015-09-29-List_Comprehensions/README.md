@@ -11,7 +11,6 @@ At the end of the Webcast session, we will understand:
 
 * How list comprehensions can be used to quickly generate iterable structures
 * How to use generators and the yield statement to create a "disposable", iterable data structure
-* Why speed and memory efficiency are desirable to have in code, balanced with code readability
 
 TECHNICAL NOTE: In the webcast it was said that tuples and generators are iterable data structures -- this is not true of an individual tuple and not true in the technical sense of a generator. What was meant is a list of tuples is an iterable structure, and that the elements of a generator can be traversed at most once. 
 
@@ -38,9 +37,9 @@ Wow! We just turned a three-line chunk of code into one! You can test out the tw
 
 * furthest to the left is the name of the variable we store the result of the list comprehension into: `numbers`
 
-* the square brackets ([ ]) are the usual syntax we use to indicate an empty list. By have the for-loop inside it, we are basically telling python "whatever the result of this for-loop is, it should go into a list"
+* the square brackets ( [ ] ) are the usual syntax we use to indicate an empty list. By have the for-loop inside it, we are basically telling python "whatever the result of this for-loop is, it should go into a list"
 
-* the `i` furthest to the left within the square square brackets is the variable that we are telling python to store in the list we are building. We can manipulate the value of whatever `i` is to how we would like to add it to the list -- we can store `i-1`, `i**2`, even store `i` into a list like this `[i]`!
+* the `i` furthest to the left within the square brackets is the variable that we are telling python to store in the list we are building. We can manipulate the value of whatever `i` is to how we would like to add it to the list -- we can store `i-1`, `i**2`, even store `i` into a list like this `[i]` to create a list of lists!
 
 * We don't need to use `i` per se -- `i` is just the variable name we give for the element that we are looking at in the for-loop, which is exactly the same syntax as it always is. 
 
@@ -49,6 +48,12 @@ What we CAN'T do is try to execute a statement that does an I/O operation on the
 ```python
 # this will result in syntax error
 numbers = [print(i) for i in range(10)]
+```
+We also CAN'T do variable assignment within a list comprehension:
+
+```python
+# this will result in syntax error
+numbers = [i+=4 for i in range(10)]
 ```
 
 But we CAN call a function that manipulates `i` and then sends it back to be stored in the list. For example, this is perfectly valid code:
@@ -62,7 +67,7 @@ def print_and_add_one(x):
 # this code will not result in a syntax error
 numbers = [print_and_add_one(i) for i in range(10)]
 ```
-We can also add conditionals to our list comprehensions. To add a conditional to our for-loop, we tack it on to the end. See this example that creates a list of even numbers using the modulus operator (%). If you have never seen the modulus operator before, just think of it as the "remainder operator", like the remainder resulting from when you divide some number by another.
+We can also add conditionals to our list comprehensions. To add a conditional to our for-loop, we tack it on to the end. See this example that creates a list of even numbers using the modulus operator (%). If you have never seen the modulus operator before, just think of it as the "remainder operator," like the remainder resulting from the division of one number by another.
 
 ```python
 
@@ -76,12 +81,23 @@ If we want to make a double for-loop, or triple and so on, you can do that too! 
 ```python
 multiple_nums = [j for i in range(3) for j in range(10)]
 ```
-and if you would like a conditional, just take it onto the end of the for-loop that is associated with it. Moreover, you can make a list comprehension within a list comprehension: 
+and if you would like a conditional, just tack it onto the end of the for-loop that is associated with it. 
 
 ```python
-multiple_num_lists = [[j*i for i in range(3)]for j in range(10)] 
+# use of multiple conditionals
+testing = [j for i in range(3) if i < 2 for j in range(10) if j > 5]
+>>> testing
+[6, 7, 8, 9, 6, 7, 8, 9]
 ```
-Try these out in your favorite python console and see what you get!
+
+Moreover, you can make a list comprehension within a list comprehension: 
+
+```python
+multiple_num_lists = [[j*i for i in range(3)]for j in range(10)]
+>>> multiple_num_lists
+[[0, 0, 0], [0, 1, 2], [0, 2, 4], [0, 3, 6], [0, 4, 8], [0, 5, 10], [0, 6, 12], [0, 7, 14], [0, 8, 16], [0, 9, 18]]
+```
+Try out other examples in your favorite python console and see what you get!
 
 Here is a more complicated example that uses the power of list comprehensions to generate a list of primes from 0 to 50:
 
@@ -149,5 +165,21 @@ def return_gen():
     yield i
 
 # assign the result of the function to a variable
+numbers = return_gen()
+num_list = [num for num in numbers]
+>>> num_list
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
+Unlike a `return` statement, `yield` does not break the for-loop and exit out of the function. Instead, `i` is returned until the condition in the for-loop is satisfied. This means when there are no more elements left in `range(10)`. However, if you choose to use a `yield` in your function, you cannot also have a `return` statement somewhere in your code. If you are creating a generator, then using a `yield` statement is the fastest way to go.
+
+# Summary
+
+Comprehensions are an elegant way to generate lists, dictionaries, and generators. However, they do have some minor faults:
+
+* variable assignment and I/O functions cannot be made within a comprehension
+* depending on your familiarity, list comprehensions can be difficult to read, especially when you have several for loops in one comprehension 
+* list comprehensions are faster than regular looping mechanisms, which is an important consideration when you need to scale your program. But not the fastest. See the python module `itertools` for a faster, albeit more abstracted solution to iteration
+
+When we say "fast," we mean the actual speed in real time, usually measured by the cycles of effort the CPU in the computer undergoes to complete a task (the fewer the better/faster). Generally when we code we try to write programs that are first readable, then fast (consuming the minimal amount of CPU power), then space-efficient (consuming as little RAM, or working memory) as possible. As you continue your programming career, the resources available to you will become a concern whether you are making a server-side web application or a mobile application for your phone. List comprehensions are one of just many tools that will help you build efficiently and elegantly. 
+
 
