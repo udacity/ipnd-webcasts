@@ -7,7 +7,7 @@ Here are links to [Luke's Code][code1] and [Anthony's Code][code2].
 
 Today we'll be going over a couple different problems!  Anthony and Luke will each give each other a problem that the other coach hasn't prepared for, and we'll watch as they solve it in real time.
 
-###Problem 1
+###Luke's problem for Anthony
 Luke's problem to Anthony is from a part of [CS101](https://www.udacity.com/course/viewer#!/c-cs101/) which isn't in IPND, specifically [this problem](https://www.udacity.com/course/viewer#!/c-cs101/l-48737171/e-48299954/m-48632793):
 
 ```python
