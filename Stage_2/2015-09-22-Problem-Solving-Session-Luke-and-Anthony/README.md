@@ -1,4 +1,11 @@
-Today we'll be going over a couple different problems!  Anthony and Luke will each give each other a problem that the other coach hasn't prepaired for, and we'll watch as they solve it in real time.
+# Webcast: Problem Solving with Loops and Lists
+
+## Webcast Recording
+
+Here is the link to the [video][recording].  The video does have a problem with the later half, as the camera picks up Anthony's screen, but not Luke's. 
+Here are links to [Luke's Code][code1] and [Anthony's Code][code2].
+
+Today we'll be going over a couple different problems!  Anthony and Luke will each give each other a problem that the other coach hasn't prepared for, and we'll watch as they solve it in real time.
 
 ###Problem 1
 Luke's problem to Anthony is from a part of [CS101](https://www.udacity.com/course/viewer#!/c-cs101/) which isn't in IPND, specifically [this problem](https://www.udacity.com/course/viewer#!/c-cs101/l-48737171/e-48299954/m-48632793):
@@ -30,7 +37,7 @@ The first things Anthony does is create the shell of a procedure, which contains
 def split_string(target, separators):
 ```
 
-The first thing Anthony says is he will look through the target string, and every time he finds a separator, he will split the target string from everything before and after the seperator.  He then writes the below code:
+The first thing Anthony says is he will look through the target string, and every time he finds a separator, he will split the target string from everything before and after the separator.  He then writes the below code:
 
 ```python
 def split_string(target, separators):
@@ -45,12 +52,12 @@ def split_string(target, separators):
 
 This code works in the following way:
 
-1.  It loops through every seperator contained in the string called 'seperators'
-2.  For every seperator, it has a while loop which goes through the target string, and replaces any instances of the target string with a space (" ")
-3.  After it's done that for every instance of a given seperator in the target string, it moves on to the next seperator and does the same thing, until it has replaced every separator character with a space character.
+1.  It loops through every separator contained in the string called 'separators'
+2.  For every separator, it has a while loop which goes through the target string, and replaces any instances of the target string with a space (" ")
+3.  After it's done that for every instance of a given separator in the target string, it moves on to the next separator and does the same thing, until it has replaced every separator character with a space character.
 4.  Finally, it splits the target string with the inbuilt Python string function 'split()', which will divide the target string along any spaces, creating a list.
 
-From here, Anthony goes on to test his program with the tests already writen from CS101:
+From here, Anthony goes on to test his program with the tests already written from CS101:
 
 ```python
 #Tests:
@@ -120,7 +127,7 @@ However, the third test case was not correct:
 
 This happens in the case where there are spaces inside of the target string, but there is no space inside of the separators string.  This is a problem for the whole method Anthony's been using to solve the problem!  
 
-Anthony realizes this quickly, and desides to start the problem over.  After a little bit of tinkering, he realizes that the easiest way to approach the problem may be to go through the target string character by character, instead of foing through each separator one at a time:
+Anthony realizes this quickly, and decides to start the problem over.  After a little bit of tinkering, he realizes that the easiest way to approach the problem may be to go through the target string character by character, instead of going through each separator one at a time:
 
 ```python
 def split_string(target, separators):
@@ -249,7 +256,7 @@ large_brick_size = 5
 print make_bricks(6, 1, 3)
 ```
 
-This is technically posible, but the current code won't find the solution.  However, there was not enough time to add sufficient complexity to handle cases like this.
+This is technically possible, but the current code won't find the solution.  However, there was not enough time to add sufficient complexity to handle cases like this.
 
 This problem was inspired by a classic problem for finding change (and often even the minimum number of coins) for a given monetary amount.  
 
@@ -279,5 +286,6 @@ print makebricks(20, 4, 4)
 print makebricks(10, 5, 28)
 ```
 
-
-
+[recording][https://plus.google.com/u/0/events/cp0l2k9i3t9sju7chvi9bespqj8?authkey=CLXExrjJ9OvFhAE]
+[code1][make_bricks.py]
+[code2][split_string.py]
