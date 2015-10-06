@@ -3,16 +3,16 @@ List Comprehensions and Generators
 
 # Introduction
 
-This Webcast session will be about list comprehensions -- a faster, cleaner-looking way to generate iterable structures like lists and dictionaries, and iterators -- known in python as generators.
+This Webcast session will be about list comprehensions -- a faster, cleaner-looking way to generate iterable structures like lists and dictionaries -- as well as iterators, known in python as generators.
 
-List comprehensions are used in Stage 4 and Stage 5 to generate complex lists. You will find them all over the place in your career developing in python, so it is definitely a useful syntax to get accustomed to and try out on your own.
+List comprehensions are used in Stage 4 and Stage 5 to generate complex lists. You will find them all over the place in your career developing in python; it's a useful syntax to get accustomed to and try out on your own.
 
 At the end of the Webcast session, we will understand:
 
 * How list comprehensions can be used to quickly generate iterable structures
 * How to use generators and the yield statement to create a "disposable", iterable data structure
 
-TECHNICAL NOTE: In the webcast it was said that tuples and generators are iterable data structures -- this is not true of an individual tuple and not true in the technical sense of a generator. What was meant is a list of tuples is an iterable structure, and that the elements of a generator can be traversed at most once. 
+TECHNICAL NOTE: In the webcast it was said that tuples and generators are iterable data structures -- this is not true of an individual tuple and not true in the technical sense of a generator. What was meant is a list of tuples is an iterable structure, and that the elements of a generator can be traversed at most once as an iterator. If these terms don't make sense to you yet, keep reading!
 
 
 # What is a List Comprehension?
@@ -25,7 +25,7 @@ numbers = []
 for i in range(10):
   numbers.append(i)
 ```
-This syntax is the most efficient way that we currently know of to add things to a list in python. This same list can be built using a list comprehension:
+This same list can be built using a list comprehension:
 
 ```python 
 # list comprehension demonstration
@@ -109,7 +109,7 @@ noprimes = [j for i in range(2, 8) for j in range(i*2, 50, i)]
 primes = [x for x in range(2, 50) if x not in noprimes]
 ```
 
-## Dictionary Comprehensions
+## Dictionary Comprehensions and Tuples
 
 The syntax for creating a dictionary using a comprehension is identical to that of a list comprehension, but the syntax that tells python we are using a dictionary -- namely, cruly brackets ({ }). Say that we want to create a dictionary where the key in each dictionary is a number from 0 through 9 (as we have been doing), and each key has a value that is a string representation of the integer. So one element of the dictionary would be `1: '1'`:
 
@@ -117,12 +117,12 @@ The syntax for creating a dictionary using a comprehension is identical to that 
 num_dict_comp = {i:'%s' % i for i in range(10)}
 ```
 
-If you haven't seen the colon syntax yet, `i:'%s' % i` means the key (on the left of the colon) is `i` and the value (on the right of the colon) is `'%s' % i`, which is a string representation of the integer `i`. We can also traverse the dictionary we just created in the same way we would in a normal for-loop:
+If you haven't seen the colon syntax yet, `i:'%s' % i` means the key (on the left of the colon) is `i` and the value (on the right of the colon) is `'%s' % i`, which is a string representation of the integer `i`. We can also traverse the dictionary we just created in the same way we would in a normal for-loop. If we want to create a list of tuples with the dictionary we just created, we could do it as such
 
 ```python
-num_dict_unload = {k:v for k,v in num_dict_comp}
+num_dict_unload = [(k,v) for k,v in num_dict_comp]
 ```
-where `k,v` stands for each 'key' and 'value' pair in the dictionary, num_dict_comp. (Here we are just recreating the dictionary we are unloading, `num_dict_comp`) All the same rules regarding conditionals and multiple for loops apply the same here as it did for lists.
+where `k,v` stands for each 'key' and 'value' pair in the dictionary, num_dict_comp. All the same rules regarding conditionals and multiple for loops apply the same here as it did for lists.
 
 # Generators and the `yield` statement
 
@@ -133,11 +133,11 @@ Another type of data structure that list comprehensions allow us to introduce ar
 ```python
 num_generator = (i for i in range(10))
 ```
-Notice that the syntax is precisely the same as that of list comprehensions, save for the parentheses instead of square brackets. The parenthetic syntax wrapping a list comprehension is how a generator is created. However, if you attempt to print the generator `num_generator`, you will not see the contents of the generator, but some odd expression like this:
+Notice that the syntax is precisely the same as that of list comprehensions, save for the parentheses instead of square brackets. (The use of parentheses may seem confusing considering tuples have the same syntax; just remember that tuples ALWAYS have a comma in the parentheses that separate the variables.) The parenthetic syntax wrapping a list comprehension is how a generator is created. However, if you attempt to print the generator `num_generator`, you will not see the contents of the generator, but some odd expression like this:
 
 ```<generator object <genexpr> at 0x10afb8e60>```
 
-You don't need to worry about this too much; just know that your generator is stored in a different part of your computer than your list would be stored. In versions of Python prior to v.3, this characteristic would help items in generators be accessed faster than in lists; following Python3, both lists and generators are equally fast to access.
+You don't need to worry about this too much; just know that your generator is stored in a different part of your computer than your list would be stored. In versions of Python prior to v.3, this characteristic would help items in generators be accessed faster than in lists; following Python3, both lists and generators are equally fast to access, though generators still take less memory.
 
 The thing to remember about generators and iterators in general is that you can only go through each element in the structure once. For example, say we traverse the generator from the previous example, `num_generator`, by emptying the contents of the generator into a list:
 
@@ -180,6 +180,6 @@ A comprehensions is an elegant way to generate lists, dictionaries, and generato
 * depending on your familiarity, list comprehensions can be difficult to read, especially when you have several for loops in one comprehension 
 * list comprehensions are faster than regular looping mechanisms, which is an important consideration when you need to scale your program. But not the fastest. See the python module `itertools` for a faster, albeit more abstracted solution to iteration
 
-When we say "fast," we mean the actual speed in real time, usually measured by the cycles of effort the CPU in the computer undergoes to complete a task (the fewer the better/faster). Generally when we code we try to write programs that are first readable, then fast (consuming the minimal amount of CPU power), then space-efficient (consuming as little RAM, or working memory) as possible. As you continue your programming career, the resources available to you will become a concern whether you are making a server-side web application or a mobile application for your phone. List comprehensions are one of just many tools that will help you build efficiently and elegantly. 
+When we say "fast," we mean the actual speed in real time, usually measured by the cycles of effort the CPU in the computer undergoes to complete a task (the fewer the better/faster). Generally when we code we try to write programs that are first readable, then fast (consuming the minimal amount of CPU power), then space-efficient (consuming as little RAM, or working memory) as possible. As you continue your programming career, the resources available to you will become a concern whether you are making a server-side web application or a mobile application for your phone. List comprehensions are one of the many tools that will help you build efficiently and elegantly. Happy coding!
 
 
