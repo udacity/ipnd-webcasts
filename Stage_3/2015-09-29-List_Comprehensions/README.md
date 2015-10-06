@@ -174,7 +174,7 @@ Unlike a `return` statement, `yield` does not break the for-loop and exit out of
 
 # Summary
 
-Comprehensions are an elegant way to generate lists, dictionaries, and generators. However, they do have some minor faults:
+A comprehensions is an elegant way to generate lists, dictionaries, and generators. However, they do have some minor faults:
 
 * variable assignment and I/O functions cannot be made within a comprehension
 * depending on your familiarity, list comprehensions can be difficult to read, especially when you have several for loops in one comprehension 
