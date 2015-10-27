@@ -15,53 +15,80 @@ By the end of this webcast, you will understand
 - What the three main functions of functional programming are and how they work
 - How lambda functions can be an alternative way to define a function
 
-## What is Functional Programming
-I like to think of functional programming in practice as using a function the same way you would use a variable. That is, functional programming is when you can pass functions to other functions and you assign functions to variables.
+# What is Functional Programming
+In practice, functional programming involves using a function the same way you would use a variable. That is, functional programming is when you can pass functions to other functions and you assign functions to variables.
 
 ## What's So Cool About It?
+Companies like Facebook (their NewsFeed), Twitter (they use Scala), WhatsApp (they use Erlang), and many algorithmic trading companies use functional programming languages and concepts to develop their core services.
 
-Every programming language today either contains functional programming concepts, or is having functional programming concepts added to its language. If you take a look at code in a programming language like C or Assembly Language (Google it if you dare!), you'll see that programming has changed a lot. It's much easier today to read and write the same programs we would write in C or Assembly in languages like Python and Ruby instead.
+Every programming language today either contains functional programming concepts, or is having functional programming concepts added to it. If you take a look at code in a programming language like C or Assembly Language (Google it if you dare!), you'll see that programming has changed a lot. It's much easier to read and write the same programs we would write in C or Assembly in languages like Python and Ruby instead.
 
-Today, companies like Facebook (their NewsFeed), Twitter (they use Scala), WhatsApp (they use Erlang), and many algorithmic trading companies use functional programming languages and concepts to develop their core services.
+Faster processors and more memory in computers have enabled us to transition to modern languages, which are slower and have greater memory requirements. Modern langauges are able to abstract away the complex aspects of older languages, making them easier to read and write. (For an example of this, just see how difficult it is to reverse a string in C versus reversing a string in Python.) The popular languages of tomorrow will similarly replace the languages of today by abstracting away verbose, error-prone constructs. 
 
-The transition to more readable code has been driven by advances in the hardware capability of computers, namely faster processors and more memory. This has paved the way for the languages we use today, which are slower and have greater memory requirements than older languages.
+And functional programming is one way this is happening. Functional programming is being used to replace the need for loops, where code can often be difficult to follow and where errors in logic happen all the time. Understanding how these abstractions work and using them today will better prepare you for possible changes in programming in the future, and give you an edge in writing cleaner, less error-prone code. 
 
-But programming can always get better. Popular languages of today -- Python, Ruby, and JavaScript -- have replaced the popular languages of the past because of concepts that abstracted away some verbose aspects of "old" languages. (For an example of this, just see how difficult it is to reverse a string in C versus reversing a string in Python.) The popular languages of tomorrow will similarly replace the languages of today by abstracting away verbose, error-prone constructs. 
-
-And functional programming is one way this is happening today. Functional programming is being used to replace the need for loops, where code can often be difficult to follow and where errors in logic happen all the time. Understanding how these abstractions work and using them today will better prepare you for possible changes in programming in the future, and give you an edge in writing cleaner, less error-prone code. 
-
-Today we're going to be talking about three specific functions that are the three central concepts of functional programming: "map", "filter" and "reduce." We'll also talk about the concept of lambda functions, which are also used in any language that employs functional programming.
+Today we're going to be talking about three specific functions that are the three central concepts of functional programming: the "map", "filter" and "reduce" functions. We'll also talk about the concept of lambda functions, which are also used (or can be created) in any language that employs functional programming.
 
 ## The Functions
+
+Functional programming, unsurprisingly, involves passing a function and an iterable structure to another function. An iterable structure is just a list or dictionary. The function that is being passed in has to accept members of the list as input. The function accepting this input then applies the input function to each member of the input list. Let's demonstrate how this works using the most common functional programming procedure, ```map()```. 
+
+
 ### The `map()` function
 
-This is map aka apply
+```map()``` is the most common procedure in functional programming. All it does is take a function and applies it to each member of the input list (in some programming languages, ```map()``` is called ```apply()```). Let's look at an example. Suppose we are trying to multiply each element of a list by 5 and record the results. This is one way we could do this:
 
 ```python
-def multiply_by_5(number):
-	return number*5
-
 l = [0,1,2,3,4,4,5,8]
+
 new_list = []
 for num in l:
-	new_list.append(multiply_by_5(num))
+	product = 5*num
+	new_list.append(product)
 
-# steps involved:
-# create a new list
-# call append
-# use a for loop
-# call function
+>>> new_list
+[0, 5, 10, 15, 20, 20, 25, 40]
+```
+Here we had to
+
+- create a new list, which uses more memory
+- call append on the new list, which slows the program
+- use a for-loop, where we have to follow what goes on in each step to make sure we are correctly performing the steps
+
+This is fine, but every time we come across a for-loop in our code, we have to figure out what is being done inside it. That is to say, a for-loop is almost like a function in itself; it just does the same computation over an iterable structure each time. For-loops make quickly reading code difficult because we have to slow down and understand what it is the for loop is doing for each cycle -- this is an opportunity to make our code more abstract. Let's see how we can do that.
+
+```
+l = [0,1,2,3,4,4,5,8]
+
+def multiply_by_5(number):
+	return number*5
 
 l = map(multiply_by_5, l)
 >>> l
 [0, 5, 10, 15, 20, 20, 25, 40]
 ```
+This is better because
 
-* Suppose you have a function and want to apply the function to each element in a list
-* takes a function and a list
-* the function has to accept input of the type contained in the list
-* returns a list of the changed elements of the list -- the input list and output list are the same size.
-* why use this? (Anthony question)
+- you're focusing more on results and less on steps
+- the code is shorter (3 lines vs. 4 lines)
+- we are separating the functionality more explicitly here from the iteration;
+this makes it easier to see what happens to each member of the list `l` by considering just one case
+- if we need to debug the code, we've already separated the problem area to inspect!
+- we are reinforcing DRY principles because if we want to re-use this functionality, we would just repeat the call of this function! (Much easier than copying the functionality of a for-loop, no?)
+- you're breaking apart your problems by functionality, which is an efficient method of planning out your program
+
+
+What do you think this bit of code does? What is the result?
+
+```python
+l = [1,2,3,4,5]
+
+def square(num):
+	return num**2
+
+>>> map(square, l)
+???
+```
 
 ### The `filter()` function
 
