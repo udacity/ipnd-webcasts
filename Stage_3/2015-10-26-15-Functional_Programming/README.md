@@ -179,9 +179,10 @@ large_num = reduce(greatest, l)
 ### An Application: Google MapReduce technology
 Google has made a lot of money off of a service that employs the concepts of `map()` and `reduce()`, known fittingly as MapReduce. The service is used to process computationally heavy programs by using multiple computers around the world to do a small part of the computation, and then combine the results of each computation until we arrive at one answer. 
 
-Anthony, can you see how the `map()` and `reduce()` function are being used here?
 
-## The Main Benefits of Functional Programming
+## Summary
+
+To summarize, here are the main benefits of functional programming
 
 * As Neal Ford of IBM puts it: "functional programming enables us to replace other core building blocks with higher-order abstractions, and to focus more on results than on steps"
 
@@ -193,28 +194,5 @@ Anthony, can you see how the `map()` and `reduce()` function are being used here
 
 - The concept of DRY and Abstraction are reinforced using functional programming
 
-## Lambda functions
 
-* "mini" functions that can be assigned to variables, and then variables can be used in functions
-* some people call them "anonymous" functions
-* using "sorted" in the context of lambda functions
-
-```python
-# traditional add_one function
-def add_one(x):
-	sum = x + 1
-	return sum
-
->>> print add_one(4)
-5
-
-# the same function using a lambda expression
-add_one_lambda = lambda x: x+1
->>> print add_one_lambda(4)
-5
-
-```
-
-The `x` as used in the lambda function is used exactly the same way as `x` in the normal function. The `:` separates the input variable declaration from what's done with the variable. In this case, what's done with the variable `x` in the lambda expression is 1 being added to it and returned. 
-
-[recording]:
+[recording]:https://plus.google.com/u/1/events/c28pp6v59ilj0sgr38dn2ap1ip0
