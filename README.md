@@ -41,11 +41,9 @@ which happen every Tuesday at 4pm Pacific Time.
 - [T 9/01][30]: Luke and Michael talk about doing math in Python
 - [T 9/08][31]: Mark and Michael go over some Python problems
 - [T 9/16][32]: Jonah and Anthony explore data visualization with Python
-- [T 9/29][33]: Rahul and Luke explore list comprehensions in Python
-- [T 10/07][34]: Jonah and Anthony showcase projects of Nanodegree graduates
-- [T 10/13][35]: Anthony and Jonah discuss the importance of structuring code for readability.
-- [T 10/22][36]: Jonah and Luke challenge each other in Python
-- [T 10/27][37]: Rahul and Anthony explore what functional programming is in Python
+- [T 10/07][33]: Jonah and Anthony showcase projects of Nanodegree graduates
+- [T 10/13][34]: Anthony and Jonah discuss the importance of structuring code for readability.
+- [T 10/22][35]: Jonah and Luke challenge each other in Python
 
 [1]: https://plus.google.com/events/cpehpd7ehd414g5vkpc0g4ojkq8?authkey=CO262J255Kf2Iw
 [2]: Stage_1/2015-02-17-project-1/README.md
@@ -79,8 +77,6 @@ which happen every Tuesday at 4pm Pacific Time.
 [30]: Stage_2/2015-09-01-Math-In-Python
 [31]: General/2015-09-08-problem_solving_session/README.md
 [32]: Stage_3/2015-09-15-Basic_Visualization
-[33]: General/2015-09-15-List_Comprehensions
-[34]: General/2015-10-07-student_projects
-[35]: General/2015-10-13-structuring_code
-[36]: General/2015-10-22-problem_solving_session
-[37]: General/2015-10-27-Functional_Programming_Concepts
+[33]: General/2015-10-07-student_projects
+[34]: General/2015-10-13-structuring_code
+[35]: General/2015-10-22-problem_solving_session
