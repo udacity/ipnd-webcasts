@@ -2,6 +2,7 @@ Recursive Functions in Python in 10 Minutes
 ======
 
 ## Introduction
+[Link to Video](https://www.youtube.com/watch?v=0Ii3mM-vgGE)
 
 This Webcast will explain the main concepts of recursion and give some quick examples of how it can be used to solve problems.
 
