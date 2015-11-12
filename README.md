@@ -44,6 +44,7 @@ which happen every Tuesday at 4pm Pacific Time.
 - [T 10/07][33]: Jonah and Anthony showcase projects of Nanodegree graduates
 - [T 10/13][34]: Anthony and Jonah discuss the importance of structuring code for readability.
 - [T 10/22][35]: Jonah and Luke challenge each other in Python
+- [T 11/03][36]: Anthony and Jonah discuss sorting algorithms, a historical topic in computer science
 
 [1]: https://plus.google.com/events/cpehpd7ehd414g5vkpc0g4ojkq8?authkey=CO262J255Kf2Iw
 [2]: Stage_1/2015-02-17-project-1/README.md
@@ -80,3 +81,4 @@ which happen every Tuesday at 4pm Pacific Time.
 [33]: General/2015-10-07-student_projects
 [34]: General/2015-10-13-structuring_code
 [35]: General/2015-10-22-problem_solving_session
+[36]: Stage_2/2015-11-03-sorting_algorithms
