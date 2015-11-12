@@ -54,8 +54,11 @@ print cipher("map")
  
 #Problem 2
 Problem comes from [CS101](https://www.udacity.com/course/viewer#!/c-cs101/l-48683810/e-48750084/m-48735060)
-> Write a procedure date_converter which takes two inputs. The first is 
-> a dictionary and the second a string. The string is a valid date in  the format month/day/year. The procedure ? should return the date written in the form <day> <name of month> <year>. For example , if the dictionary is in English,
+Write a procedure date_converter which takes two inputs. The first is 
+a dictionary and the second a string. The string is a valid date in  the format month/day/year. The procedure should return
+the date written in the form <day> <name of month> <year>.
+For example , if the
+dictionary is in English,
 ```python
 english = {1:"January", 2:"February", 3:"March", 4:"April", 5:"May", 
 6:"June", 7:"July", 8:"August", 9:"September",10:"October", 
@@ -64,12 +67,12 @@ english = {1:"January", 2:"February", 3:"March", 4:"April", 5:"May",
 then  "5/11/2012" should be converted to "11 May 2012". 
 
 Jonah thought about the inputs and realized that he needed to read in a string, process it into a list, and then output it as a reformatted string. He looked up a function to change a string into a list by defining the character / as a separator. He realized that in order to find the month that maps to a number he would need to change the string form of the month into a integer and then find the value connected with that in the dictionary. After testing his code, he realized that he was only coding for the dictionary 'English' so he replaced that with the function argument variable 'index' which was being passed in. His final solution can be found here.
-```python
+```
 def date_converter(index, date):
     returnlist = date.split('/')
     returnlist[0] = int(returnlist[0])
     output = returnlist[1] +' '+ index[returnlist[0]] + ' ' + returnlist[2]
     return output
 ```
-Jonah and Luke then discussed their approach to problem solving by talking through the problem at hand. Pseudocode makes less sense if you are comfortable with a language, although makes more sense with larger-scale projects. The fastest way to solve a problem is just to write a little bit of code that gets you close to the solution and then refine until you can solve the problem completely. This is what's known as fast iteration.
+Jonah and Luke then discussed their approach to problem solving by talking through the problem at hand. Pseudocode makes less sense if you are comfortable with a language, although makes more sense with larger-scale projects. Fastest way to solve a problem is just to write a little bit of code that gets you close to the solution and then refine until you can solve the problem completely. This is what's known as fast iteration.
 [WB]: https://www.youtube.com/watch?v=SV2wrbhOfE0
