@@ -41,18 +41,23 @@ Problems Liz wants to Address
    *  >A ```.``` prefix usually represents a class selector, but if it's immediately followed   by whitespace then it's a syntax error.
   * Fixing the image:
    * Liz's original HTML (the entire ```<div>``` is being stylized):
+
 ```
-<div  class="Header-image">
+<div  class="header-image">
   <img src="http://i.imgur.com/An1q9ze.jpg">
 </div>
 ```
+
    * Liz's corrected HTML (only the image is stylized, added a class name that will be used to center the image):
+
 ```
 <div class="image-container">
   <img class="Header-image"  src="http://i.imgur.com/An1q9ze.jpg">
 </div>
 ```
+
    * Liz's original CSS:
+
 ```
 .header-image {
   width: 850px;
@@ -62,7 +67,9 @@ Problems Liz wants to Address
   -moz-border-radius: 150px;
 }
 ```
+
    * Liz's corrected CSS (correct the size to be the right scale and center the image)
+
 ```
 .header-image {
   height: 300px;
