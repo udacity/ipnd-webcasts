@@ -85,6 +85,6 @@ which happen every Tuesday at 4pm Pacific Time.
 [34]: General/2015-10-07-student_projects
 [35]: General/2015-10-13-structuring_code
 [36]: General/2015-10-22-problem_solving_session
-[37]: Stage_3/2015-10-26-15-Functional_Programming
+[37]: Stage_3/2015-10-26-Functional_Programming
 [38]: Stage_2/2015-11-03-sorting_algorithms
 [39]: Stage_3/2015-11-10-Recursion
