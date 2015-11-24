@@ -12,19 +12,19 @@ You should also download Github desktop from [here](https://desktop.github.com/)
 Follow the prompts to install Github desktop.  We'll do the Mac version here; both Windows and Mac should have a straight-forward installation process.
 
 On a Mac, once it is downloaded, go to your downloads folder:
-http://i.imgur.com/EPDsIhM.png
+![downloads folder](http://i.imgur.com/EPDsIhM.png)
 
 Unzip the file by double clicking on it.  From there, double click the opened app:
 
-http://i.imgur.com/pyOhgN8.png
+![open app](http://i.imgur.com/pyOhgN8.png)
 
 Open the app when prompted:
 
-http://i.imgur.com/vbLLLFp.png
+![open app securely](http://i.imgur.com/vbLLLFp.png)
 
 Move it into your applications folder when prompted:
 
-http://i.imgur.com/SjZg5A2.png
+![move to applications folder](http://i.imgur.com/SjZg5A2.png)
 
 Now it's installed!
 
