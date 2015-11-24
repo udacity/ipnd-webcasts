@@ -67,6 +67,8 @@ This will upload everything to GitHub, which will allow us to more easily collab
 You can also create new repositories directly on your local machine, and then publish them to Github before starting the syncing process for new updates.  To do this, start Github desktop.  Create a new repository, with whatever name you want and wherever you want.  This will create a folder in this location by that name!
 
 ![create new repository](http://i.imgur.com/3sPqbTI.png)
+
+
 ![save it where you want](http://i.imgur.com/ncesdB1.png)
 
 Then, when you want to upload it to Github, press 'Publish':
