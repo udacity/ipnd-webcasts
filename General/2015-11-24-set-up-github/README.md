@@ -9,27 +9,27 @@ I recommend setting up a GitHub account to share what you currently have so we c
 
 After creating an account, create a new repository:
 
-![create new repository](http://i.imgur.com/Zv6vbq1s.jpg)
+![create new repository](http://i.imgur.com/Zv6vbq1.png)
 
 Make sure it is public, like it is by default:
 
-![chose public profile](http://i.imgur.com/nB4lMCEs.jpg)
+![chose public profile](http://i.imgur.com/nB4lMCE.png)
 
 Give it a name and create a new repository. When it is all set up, clone it in your desktop:
 
-![clone in desktop](http://i.imgur.com/7LMZZHks.jpg)
+![clone in desktop](http://i.imgur.com/7LMZZHk.png)
 
 You may have to download something here to make this work; for me, it launches GitHub:
 
-![GitHub simble](http://i.imgur.com/7LMZZHks.jpg)
+![GitHub simble](http://i.imgur.com/h81Vya5.png)
 
 You then make the folder there, and then move your google app engine folder there. After you move it, make a comment under the description about what your current edit did, and then commit the changes:
 
-![Commit](http://i.imgur.com/fMompMKs.jpg)
+![Commit](http://i.imgur.com/fMompMK.png)
 
 This will save changes locally; now you need to 'push' (or publish) these requests to Github.  You can do this with the 'Publish' button:
 
-![Publish](http://i.imgur.com/37Cdvk0s.jpg)
+![Publish](http://i.imgur.com/37Cdvk0.png)
 
 Once it is on Github, you can sink Github with what is on your local machine by:
 
@@ -37,6 +37,6 @@ Once it is on Github, you can sink Github with what is on your local machine by:
 2.  Commit those changes
 3.  Press the 'Sync' button:
 
-![Sync](http://i.imgur.com/MOEGVqss.jpg)
+![Sync](http://i.imgur.com/MOEGVqs.png)
 
 This will upload everything to GitHub, which will allow us to more easily collaborate with you, since we'll be able to see both your code and the relative position of your files.
