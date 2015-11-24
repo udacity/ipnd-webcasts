@@ -17,7 +17,7 @@ Make sure it is public, like it is by default:
 
 Give it a name and create a new repository. When it is all set up, clone it in your desktop:
 
-![clone in desktop](http://i.imgur.com/7LMZZHks.jpg
+![clone in desktop](http://i.imgur.com/7LMZZHks.jpg)
 
 You may have to download something here to make this work; for me, it launches GitHub:
 
