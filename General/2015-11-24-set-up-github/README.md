@@ -1,3 +1,9 @@
+#Installing and Using Github
+The link to the video can be found [here](https://plus.google.com/u/0/events/cdf9bnh01bf71kvjad7ce2tdjug?authkey=CLHr-JbA6qfVuAE).
+
+
+As you go through the Intro to Programming Nanodegree, you may find times when you want to share all of the files you are working on with a coach or a fellow student.  The best way to do so is probably to use Github.  It will allow you to update what's online with what is currently on your computer. 
+
 Go to www.github.com, and create an account (or sign in if you already have one).  You can create an account by:
 
 - Go to GitHub's Plans & Pricing page.
