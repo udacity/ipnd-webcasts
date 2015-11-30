@@ -48,6 +48,8 @@ which happen every Tuesday at 4pm Pacific Time.
 - [T 10/27][37]: Rahul and Anthony explore what functional programming is in Python
 - [T 11/03][38]: Anthony and Jonah discuss sorting algorithms, a historical topic in computer science
 - [T 11/10][39]: Jonah and Anthony explain recursion in 10(ish) minutes
+- [T 11/17][40]: Luke and Jonah challenge each other in Python
+- [T 11/24][41]: Luke and Anthony go over using and installing Github
 
 [1]: https://plus.google.com/events/cpehpd7ehd414g5vkpc0g4ojkq8?authkey=CO262J255Kf2Iw
 [2]: Stage_1/2015-02-17-project-1/README.md
@@ -88,3 +90,5 @@ which happen every Tuesday at 4pm Pacific Time.
 [37]: Stage_3/2015-10-26-Functional_Programming
 [38]: Stage_2/2015-11-03-sorting_algorithms
 [39]: Stage_3/2015-11-10-Recursion
+[40]: Stage_2/
+[41]: General/2015-11-24-set-up-github/README.md
