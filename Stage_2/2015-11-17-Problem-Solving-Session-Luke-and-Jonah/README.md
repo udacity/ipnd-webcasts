@@ -320,7 +320,7 @@ grid = """
 # the same direction (up, down, left, right, or diagonally)
 # in the 20×20 grid?
 
-grid_rows = 0 #start at 0, since we have a newline befor first row
+grid_rows = 0 #start at 0, since we have a newline before the first row
 for char in grid:
     if char == '\n':
         grid_rows += 1
