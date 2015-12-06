@@ -342,7 +342,7 @@ new_grid.append(col)
 # for row in new_grid:
 #     print row
 
-max_sum = 0
+max_product = 0
 
 #check accross
 for row in range(len(new_grid)):
@@ -389,15 +389,14 @@ for row in range(len(new_grid)):
             except:
                 right = 0
 
-        for summ in [diag_up_right, diag_down_right,
+        for product in [diag_up_right, diag_down_right,
                       diag_down_left, diag_up_left,
                       left, right, up, down]:
-            if summ > max_sum:
-                max_sum = summ
+            if product > max_product:
+                max_product = product
                 #print new_grid[row][col], (row, col), max_sum
 
-print max_sum
+print max_product
 #70600674
 ```
-
 
