@@ -48,22 +48,22 @@ Give it a name and create a new repository. When it is all set up, clone it in y
 
 ![clone in desktop](http://i.imgur.com/7LMZZHk.png)
 
-It should launche GitHub:
+It should launch GitHub:
 
-![GitHub simble](http://i.imgur.com/h81Vya5.png)
+![GitHub symbol](http://i.imgur.com/h81Vya5.png)
 
 You then make the folder there, and then move whatever files you want to share with others (or us coaches) here. After you move your files, make a comment under the description about what your current edit did, and then commit the changes:
 
 ![Commit](http://i.imgur.com/fMompMK.png)
 
-This will save changes locally; now you need to 'push' (or publish) these requests to Github.  You can do this by sincing:
+This will save changes locally; now you need to 'push' (or publish) these requests to Github.  You can do this by syncing:
 ![Sync](http://i.imgur.com/MOEGVqs.png)
 
 
-Once it is on Github, anytime you want to update what is on Github, you can sinc Github with what is on your local machine by:
+Once it is on Github, anytime you want to update what is on Github, you can sync Github with what is on your local machine by:
 
 1.  Making changes on your local machine and saving them
-2.  Commiting those changes
+2.  Committing those changes
 3.  Pressing the 'Sync' button:
 
 ![Sync](http://i.imgur.com/MOEGVqs.png)
