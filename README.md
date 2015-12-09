@@ -51,6 +51,7 @@ which happen every Tuesday at 4pm Pacific Time.
 - [T 11/17][40]: Luke and Jonah challenge each other in Python
 - [T 11/24][41]: Luke and Anthony go over using and installing Github
 - [T 12/01][42]: Anthony and Jonah talk about the differences between major programming languages
+- [T 12/08][43]: Rahul and Jonah go over common reasons why submissions fail
 
 [1]: https://plus.google.com/events/cpehpd7ehd414g5vkpc0g4ojkq8?authkey=CO262J255Kf2Iw
 [2]: Stage_1/2015-02-17-project-1/README.md
@@ -94,3 +95,4 @@ which happen every Tuesday at 4pm Pacific Time.
 [40]: Stage_2/2015-11-17-Problem-Solving-Session-Luke-and-Jonah/README.md
 [41]: General/2015-11-24-set-up-github/README.md
 [42]: General/2015-12-01-programming-languages/README.md
+[43]: General/2015-12-08-submission-dos-and-donts/README.md
