@@ -10,8 +10,8 @@ Air Date: 2/16/2016
 - How to debug a webpage
 
 ###Files
-[error-filled file][oldfile]
-[validated file][newfile]
+[error-filled file](non-validating.html)
+[validated file](validating.html)
 
 ###Why is validating important
 HTML stands for HyperText Markup Language, and much like any other language, it has rules and guidelines to follow. A webpage that follows all of these rules and guidelines is said to be validated. Validation makes sure that your page will run properly on any system or browser used to view it and allows for a common set of standards for programmers to agree on. Oftentimes, a page that doesn't validate will still work exactly as expected, in this case, why does validation matter.
