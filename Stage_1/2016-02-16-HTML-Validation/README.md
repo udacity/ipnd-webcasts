@@ -27,6 +27,5 @@ Some highlights:
 - All opened div tags must be closed!
 - \<ul\> can only have \<li\> as a child, same goes for \<ol\>
 - Any angle brackets must be escaped as &lt; and &gt; for left and right brackets respectively
-- 
 
 [recording]: https://www.youtube.com/watch?v=vxe8LE0VgZY#t=17
