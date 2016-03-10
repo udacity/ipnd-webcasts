@@ -3,7 +3,7 @@
 You can find a link to the video [here](https://plus.google.com/u/0/events/cnla2rtg8bpkho19so48kskclu4)
 
 #The Problem
-For today's problem, Luke and Rahul will be creating an interactive [hangman game][https://en.wikipedia.org/wiki/Hangman_(game)].  
+For today's problem, Luke and Rahul will be creating an interactive [hangman game](https://en.wikipedia.org/wiki/Hangman_(game)).  
 
 Luke starts out by outlining what the program will need to do:
 
