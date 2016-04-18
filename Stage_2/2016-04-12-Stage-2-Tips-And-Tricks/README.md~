@@ -3,8 +3,6 @@ This webcast is intended to address some issues you guys have been having with t
 By the end of this webcast, you will have an idea of how to approach not only the programming problem posed by Stage 2,
 but all programming problems of varying difficulty.
 
-Here is the link to the [video][recording]
-
 ## Where do most students fail?
 Here are the top five reasons submissions don't pass for this project:
 
@@ -116,4 +114,3 @@ people drinking coke.
 - lines of code from this exercise add up -- try to use replace, which removes all instances of the words to be replaced
 inputs and outputs
 
-[recording]: https://www.youtube.com/watch?v=1GIrS0-tmxk
