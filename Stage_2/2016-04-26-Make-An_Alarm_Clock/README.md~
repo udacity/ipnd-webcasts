@@ -1,0 +1,21 @@
+## Intro
+This webcast is intended to show you all the ways you can use programming to think out of the box to solve your everyday needs.
+By the end of this webcast, you'll make your very own "alarm clock" that plays your favorite song at any time of the day. You'll learn
+a little about cron jobs -- tasks that run in the background on your computer at certain times of the day. You'll also learn how to
+open up files of different types on your computer using Python.
+
+Here is the link to the [video][recording]
+
+## A Story
+
+So I didn't wake up one day and decide to make this alarm clock -- it was driven out of necessity. Recently, I went on vacation and, oops, I dropped my phone in the ocean.
+I was out of a phone for the next week, argh. The real trouble came on the way back home. I had a 4am flight and really, really wanted to sleep -- but my alarm clock, like many things today, was on my now defunct phone. The airport I was at also did not have internet readily available for free, so I couldn't use online alarm clocks. How could I catch some z's while not missing my flight back home? Well, I had my 
+
+
+## Python Program
+
+## What's a cron job?
+
+## Use a cron job to run our program
+
+[recording]: 

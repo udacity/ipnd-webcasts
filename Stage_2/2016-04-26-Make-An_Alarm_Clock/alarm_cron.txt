@@ -1,0 +1,2 @@
+MAILTO=rahul@udacity.com
+30 7 * * * python /Users/rahul/alarm.py
