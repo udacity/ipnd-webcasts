@@ -65,4 +65,4 @@ And that's it! To see what cron jobs you have set, you can type in `crontab -l` 
 
 For more cool stuff and info about cron jobs, check out this page http://www.thesitewizard.com/general/set-cron-job.shtml
 
-[recording]: https://plus.google.com/u/0/110965457514018530372/posts/Kb5S1PYifZe?cfem=1
+[recording]: https://www.youtube.com/watch?v=FP6-B27xVQM
