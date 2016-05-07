@@ -85,9 +85,9 @@ def play_game():
     if player_choice == possible_choices[computer_choice]:
         return "Tie"
     elif player_choice == possible_choices[computer_choice - 1]:
-        return "Player wins"
-    else:
         return "Computer wins"
+    else:
+        return "Player wins"
 ```
 
 The leaves the full solution looking like this:
@@ -135,9 +135,9 @@ def play_game():
     if player_choice == possible_choices[computer_choice]:
         return "Tie"
     elif player_choice == possible_choices[computer_choice - 1]:
-        return "Player wins"
-    else:
         return "Computer wins"
+    else:
+        return "Player wins"
 
 print play_game()
 ```
