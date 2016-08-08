@@ -2,8 +2,7 @@
 
 ## Description
 
-Summaries and transcripts of Intro to Programming Nanodegree Webcasts,
-which happen every Tuesday at 4pm Pacific Time.
+Summaries and transcripts of Intro to Programming Nanodegree Webcasts.
 
 ## List
 
